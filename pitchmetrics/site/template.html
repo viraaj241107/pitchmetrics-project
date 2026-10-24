@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pitch Metrics</title>
+<link rel="icon" type="image/svg+xml" href="/*FAVICON*/">
+<!--OG-->
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Player value, measured on the pitch. Premier League market values predicted by machine learning from this season's form.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,700;112,800;112,900&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Pitch Metrics. Layout: a transfer-market board. Ticker tape of movers under the header, values set in a
+   mono "price" face, wide airy lists separated by hairlines instead of boxes. Saffron and navy come
+   from the logo; green/red only ever mean up/down. Dark header like the logo tile. Works light and dark. */
+:root{
+  --bg:#f4f5f2; --surface:#ffffff; --sunk:#eceee9; --line:#dfe2dc; --ink:#13171c; --muted:#5f6670; --faint:#9aa0a7;
+  --brand:#F28C28; --brand-ink:#A4560B; --brand-soft:#FDE9D3; --navy:#0F3D63; --hdr:#161616; --hdr2:#1f1f1f; --hdr-line:#2c2c2c; --hdr-muted:#b4b9bf; --up:#13914b; --down:#d63c3c;
+  --r-blue:#2563eb; --r-green:#16a34a; --r-amber:#e08a16; --r-red:#dc4040;
+  --pitch:#2f7a4c; --pitch2:#2a6f45; --pline:rgba(255,255,255,.35);
+  --gk:#c99312; --def:#2f6fdc; --mid:#1f9d5c; --fwd:#d8452f;
+  --display:"Archivo","Arial Black",system-ui,sans-serif;
+  --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1114; --surface:#161a1f; --sunk:#1d2228; --line:#272d34; --ink:#eef0f2; --muted:#9aa2ab; --faint:#666e77;
+  --brand:#F59A3E; --brand-ink:#F59A3E; --brand-soft:#3b2612; --navy:#1d4f7a; --up:#2fc070; --down:#f06464;
+  --pitch:#1f4d33; --pitch2:#1b462e; --pline:rgba(255,255,255,.18); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1114; --surface:#161a1f; --sunk:#1d2228; --line:#272d34; --ink:#eef0f2; --muted:#9aa2ab; --faint:#666e77;
+  --brand:#F59A3E; --brand-ink:#F59A3E; --brand-soft:#3b2612; --navy:#1d4f7a; --up:#2fc070; --down:#f06464;
+  --pitch:#1f4d33; --pitch2:#1b462e; --pline:rgba(255,255,255,.18); color-scheme:dark}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 15px/1.5 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--hdr)}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit;color:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:4px}
+[hidden]{display:none!important}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}.faint{color:var(--faint)}
+
+/* ---------- header (dark, like the logo tile) ---------- */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--hdr);color:#fff}
+.hbar{display:flex;align-items:center;gap:20px;height:62px}
+.logo{display:flex;align-items:center;flex:none}
+.logo svg{display:block;height:22px;width:auto}
+.logo .lg-icon{display:none}
+.logo .lg-icon svg{height:30px}
+nav.main{display:flex;gap:4px}
+nav.main a{padding:8px 12px;border-radius:8px;font-weight:600;color:var(--hdr-muted);white-space:nowrap}
+nav.main a:hover{color:#fff;background:var(--hdr2)}
+nav.main a[aria-current="page"]{color:#fff;background:var(--hdr2);box-shadow:inset 0 -2px 0 var(--brand)}
+.search{position:relative;margin-left:auto;width:280px;min-width:0}
+.search input{width:100%;height:38px;border-radius:10px;border:1px solid var(--hdr-line);background:var(--hdr2);color:#fff;padding:0 12px 0 36px}
+.search input::placeholder{color:#8a9097}
+.search svg{position:absolute;left:12px;top:11px;color:#8a9097}
+.dd{position:absolute;right:0;top:44px;width:min(400px,calc(100vw - 32px));background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.25);padding:6px;max-height:70vh;overflow:auto}
+.dd .g{font:600 11px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--faint);padding:8px 10px 2px}
+.dd a{display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:9px}
+.dd a:hover,.dd a.sel{background:var(--sunk)}
+.dd .v{margin-left:auto}
+.cur{display:flex;border:1px solid var(--hdr-line);border-radius:9px;overflow:hidden;flex:none}
+.cur button{border:0;background:none;width:34px;height:34px;cursor:pointer;color:var(--hdr-muted);font-weight:700}
+.cur button[aria-pressed="true"]{background:var(--brand);color:#161616}
+
+/* ticker */
+.ticker{overflow:hidden;border-top:1px solid var(--hdr-line);background:var(--hdr);color:#fff;white-space:nowrap;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.ticker .run{display:inline-flex;gap:28px;padding:8px 0;animation:tick 70s linear infinite}
+.ticker:hover .run{animation-play-state:paused}
+.ticker a{display:inline-flex;gap:8px;align-items:baseline;font-size:13px}
+.ticker b{font-weight:600}
+.ticker .chg.up{color:#3fd17f}.ticker .chg.down{color:#ff7b74}
+@keyframes tick{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.ticker{overflow-x:auto}.ticker .run{animation:none}}
+
+/* ---------- page bits ---------- */
+main{padding-block:28px 72px;display:grid;gap:40px}
+main > *,.hero > *,.grid2 > *,.grid3 > *,.calc > *{min-width:0}
+h1,h2{font-family:var(--display);font-stretch:112%;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(32px,5vw,54px);line-height:1.02;font-weight:900}
+h2{font-size:22px;font-weight:800;line-height:1.15}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.sec-head p{margin:2px 0 0;color:var(--muted);font-size:14px}
+.sec-head a{color:var(--brand-ink);font-weight:600;font-size:14px}
+.eyebrow{font:600 12px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--brand-ink)}
+.lead{color:var(--muted);font-size:17px;max-width:56ch;margin:12px 0 0}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}
+.grid3{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:40px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;min-width:0}
+.panel.pad{padding:20px 22px}
+.col{display:grid;gap:28px;min-width:0;align-content:start}
+
+/* atoms */
+.pic{flex:none;width:38px;height:38px;border-radius:50%;object-fit:cover;object-position:top;background:var(--sunk)}
+.pic.lg{width:120px;height:120px;border-radius:22px}
+.crest{flex:none;width:22px;height:22px;object-fit:contain}
+.crest.md{width:34px;height:34px}.crest.lg{width:84px;height:84px}
+.who{display:flex;align-items:center;gap:12px;min-width:0}
+.who > div{min-width:0}
+.nm{font-weight:600;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb{color:var(--muted);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3}
+.val{font:700 15px var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chg{font:700 12px var(--mono);white-space:nowrap}
+.chg.up{color:var(--up)}.chg.down{color:var(--down)}.chg.flat{color:var(--faint)}
+.rt{display:inline-grid;place-items:center;min-width:34px;height:21px;padding:0 6px;border-radius:6px;font:700 12px var(--mono);color:#fff}
+.rt.b{background:var(--r-blue)}.rt.g{background:var(--r-green)}.rt.a{background:var(--r-amber)}.rt.r{background:var(--r-red)}
+.pos{display:inline-block;font:700 10px var(--body);letter-spacing:.06em;padding:2px 6px;border-radius:4px;color:#fff;vertical-align:1px}
+.pos.GK{background:var(--gk)}.pos.DEF{background:var(--def)}.pos.MID{background:var(--mid)}.pos.FWD{background:var(--fwd)}
+.role{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--brand-soft);color:var(--brand-ink);white-space:nowrap}
+.empty{color:var(--muted);background:var(--sunk);border-radius:12px;padding:16px;font-size:14px}
+
+/* list rows (hairlines, no boxes) */
+.list{display:grid}
+.row{display:flex;align-items:center;gap:14px;padding:11px 4px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row:hover{background:var(--sunk)}
+.row .n{width:22px;flex:none;font:600 13px var(--mono);color:var(--faint);text-align:right}
+.row .end{margin-left:auto;display:grid;justify-items:end;flex:none}
+
+/* home */
+.hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:40px;align-items:center}
+.bigsearch{margin-top:22px;position:relative;max-width:520px}
+.bigsearch input{width:100%;height:54px;border-radius:14px;border:1.5px solid var(--ink);background:var(--surface);padding:0 18px 0 48px;font-size:17px}
+.bigsearch svg{position:absolute;left:17px;top:18px}
+.bigsearch .dd{left:0;right:auto;top:60px}
+.facts{display:flex;gap:32px;flex-wrap:wrap;margin-top:22px}
+.facts b{display:block;font:700 22px var(--mono)}
+.facts span{font-size:13px;color:var(--muted)}
+.potw{position:relative;overflow:hidden;border-radius:20px;background:var(--navy);color:#fff;padding:24px;display:grid;gap:14px}
+.potw .eyebrow{color:var(--brand)}
+.potw .top{display:flex;gap:16px;align-items:center}
+.potw .pic{width:76px;height:76px;border-radius:16px}
+.potw .big{font:700 46px/1 var(--mono);letter-spacing:-.03em}
+.potw .sb{color:rgba(255,255,255,.7)}
+.potw .line{display:flex;gap:18px;flex-wrap:wrap;font-size:13px}
+.potw::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;border:28px solid var(--brand);opacity:.18}
+.cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.card{display:grid;gap:8px;justify-items:start;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.card:hover{border-color:var(--ink)}
+.card .pic{width:56px;height:56px;border-radius:14px}
+.results{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+.res{flex:none;display:grid;grid-template-columns:auto auto auto;gap:6px 10px;align-items:center;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:13px}
+.res .s{font:700 14px var(--mono)}
+.res .t{display:flex;align-items:center;gap:6px;font-weight:600}
+.bars{display:grid;gap:10px}
+.cbar{display:grid;grid-template-columns:150px minmax(0,1fr) 90px;gap:12px;align-items:center}
+.cbar .track{height:10px;border-radius:5px;background:var(--sunk);overflow:hidden}
+.cbar .track b{display:block;height:100%;background:var(--navy);border-radius:5px}
+.cbar:hover .track b{background:var(--brand)}
+
+/* tables */
+.tbox{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th{font:600 12px var(--body);color:var(--muted);text-align:left;padding:10px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{padding-left:4px}th:last-child,td:last-child{padding-right:4px}
+tbody tr:last-child td{border-bottom:0}
+.r{text-align:right}.c{text-align:center}
+th[data-k]{cursor:pointer}th[aria-sort]{color:var(--ink)}
+th[aria-sort="descending"]::after{content:" ↓";color:var(--brand-ink)}th[aria-sort="ascending"]::after{content:" ↑";color:var(--brand-ink)}
+tr[data-href]{cursor:pointer}tr[data-href]:hover td{background:var(--sunk)}
+tr.grp td{font:700 13px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:22px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.filters input,.filters select{height:38px;border-radius:10px;border:1px solid var(--line);background:var(--surface);padding:0 12px}
+.filters input{flex:1 1 200px;min-width:0}
+.chip{height:38px;padding:0 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-weight:600}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.more{display:block;margin:18px auto 0;height:40px;padding:0 22px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-weight:600;cursor:pointer}
+
+/* entity header */
+.ent{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:26px;align-items:center}
+.ent .meta{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:12px;color:var(--muted);font-size:14px}
+.ent .meta b{color:var(--ink);font-weight:600}
+.pricebox{text-align:right}
+.pricebox .big{font:700 clamp(40px,6vw,60px)/1 var(--mono);letter-spacing:-.04em}
+.pricebox .sub{display:flex;gap:10px;justify-content:flex-end;align-items:baseline;margin-top:8px;font-size:13px;color:var(--muted)}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.tabs button{border:0;background:none;padding:10px 14px;font-weight:600;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--brand)}
+
+/* value panel */
+.range{position:relative;height:8px;border-radius:4px;background:var(--sunk);margin:14px 0 8px}
+.range b{position:absolute;top:0;bottom:0;border-radius:4px;background:var(--brand-soft)}
+.range i{position:absolute;top:-5px;width:18px;height:18px;border-radius:50%;background:var(--brand);border:3px solid var(--surface);margin-left:-9px}
+.rlab{display:flex;justify-content:space-between;font:500 12px var(--mono);color:var(--muted)}
+.ranks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}
+.ranks div{border-top:2px solid var(--ink);padding-top:8px}
+.ranks b{display:block;font:700 22px var(--mono)}
+.ranks span{font-size:12px;color:var(--muted)}
+.why{display:grid;gap:12px}
+.why .w{display:grid;grid-template-columns:minmax(0,1fr) 60px;gap:4px 12px;align-items:center}
+.why .l{font-weight:600;font-size:14px}
+.why .l em{font-style:normal;color:var(--muted);font-weight:500;margin-left:6px;font-size:13px}
+.why .p{grid-row:span 2;text-align:right;font:700 13px var(--mono)}
+.trk{position:relative;height:6px;border-radius:3px;background:var(--sunk)}
+.trk b{position:absolute;top:0;bottom:0;border-radius:3px}
+.trk .mid{position:absolute;left:50%;top:-4px;bottom:-4px;width:2px;background:var(--faint)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 14px}
+.stats b{display:block;font:700 24px var(--mono);line-height:1.1}
+.stats span{font-size:12px;color:var(--muted)}
+.chart{width:100%;height:auto;display:block}
+.chart text{fill:var(--muted);font:500 11px var(--mono)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:10px;background:var(--ink);color:var(--surface);font-weight:600;border:0;cursor:pointer}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line)}
+
+/* club */
+.form{display:flex;gap:10px;flex-wrap:wrap}
+.form a{display:grid;justify-items:center;gap:6px}
+.sc{display:inline-block;min-width:44px;text-align:center;padding:3px 6px;border-radius:7px;font:700 13px var(--mono);color:#fff}
+.sc.W{background:var(--up)}.sc.D{background:var(--faint)}.sc.L{background:var(--down)}
+.nextm{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;text-align:center}
+.nextm a{display:grid;justify-items:center;gap:8px;font-weight:600}
+.nextm b{display:block;font:700 22px var(--mono)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{border:0;background:none;height:32px;padding:0 12px;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+.pitch{position:relative;border-radius:16px;padding:26px 6px 20px;display:grid;gap:18px;overflow:hidden;
+  background:repeating-linear-gradient(180deg,var(--pitch) 0 46px,var(--pitch2) 46px 92px)}
+.pitch::before{content:"";position:absolute;left:25%;right:25%;bottom:0;height:13%;border:2px solid var(--pline);border-bottom:0}
+.pitch::after{content:"";position:absolute;left:50%;top:-64px;width:128px;height:128px;margin-left:-64px;border:2px solid var(--pline);border-radius:50%}
+.pline{display:flex;justify-content:space-evenly;position:relative;z-index:1}
+.pp{display:grid;justify-items:center;gap:4px;width:92px;position:relative;color:#fff}
+.pp .pic{width:52px;height:52px;border:2px solid rgba(255,255,255,.85)}
+.pp .rt{position:absolute;top:-6px;left:56px}
+.pp .ev{display:flex;gap:4px;min-height:18px}
+.pp .ev span{display:inline-flex;align-items:center;gap:3px;background:rgba(0,0,0,.45);border-radius:999px;padding:1px 6px;font:700 11px var(--mono)}
+.pp .pn{font-size:12px;font-weight:600;max-width:92px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,.5)}
+.pp:hover .pn{text-decoration:underline}
+
+/* calculator */
+.calc{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:start}
+.sl{display:grid;gap:4px;padding:12px 0;border-top:1px solid var(--line)}
+.sl label{display:flex;justify-content:space-between;font-weight:600;font-size:14px}
+.sl label span{font:700 14px var(--mono)}
+.sl input[type=range]{width:100%;accent-color:var(--brand)}
+.sl select{height:38px;border-radius:10px;border:1px solid var(--line);background:var(--surface);padding:0 10px}
+.calcout{position:sticky;top:120px}
+.calcout .big{font:700 clamp(44px,7vw,68px)/1 var(--mono);letter-spacing:-.04em;color:var(--brand-ink)}
+
+/* roles */
+.rolegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.rolecard{padding:16px;border:1px solid var(--line);border-radius:14px;background:var(--surface);display:grid;gap:6px;text-align:left;cursor:pointer}
+.rolecard[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.rolecard .dot{width:12px;height:12px;border-radius:50%}
+.builtby{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;padding:28px;border-radius:20px;background:var(--surface);border:1px solid var(--line)}
+.builtby .links{display:flex;gap:10px}
+.prose{max-width:70ch}
+.prose h3{font:700 18px var(--display);margin:26px 0 6px}
+.prose p,.prose li{color:var(--muted)}
+footer{border-top:1px solid var(--line);color:var(--faint);font-size:12px;padding-block:20px 40px}
+footer p{margin:0 0 6px;max-width:100ch}
+
+@media (max-width:980px){
+  nav.main{display:none}
+  .mobnav{display:flex!important}
+  .hero,.grid2,.grid3,.calc{grid-template-columns:minmax(0,1fr)}
+  .cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .calcout{position:static}
+}
+.mobnav{display:none;gap:6px;overflow-x:auto;padding-block:0 10px;scrollbar-width:none}
+.mobnav a{flex:none;padding:6px 12px;border-radius:8px;background:var(--hdr2);color:var(--hdr-muted);font-weight:600;font-size:13px}
+.mobnav a[aria-current="page"]{background:var(--brand);color:#161616}
+@media (max-width:640px){
+  .logo .lg-full{display:none}
+  .logo .lg-icon{display:block}
+  .search{width:auto;flex:1}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ent{grid-template-columns:auto minmax(0,1fr)}
+  .ent .pricebox{grid-column:1/-1;text-align:left}.pricebox .sub{justify-content:flex-start}
+  .pic.lg{width:84px;height:84px;border-radius:18px}.crest.lg{width:60px;height:60px}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cbar{grid-template-columns:110px minmax(0,1fr) 72px}
+  .pp{width:66px}.pp .pic{width:40px;height:40px}.pp .rt{left:40px;min-width:30px}.pp .pn{font-size:11px;max-width:66px}
+  .facts{gap:20px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="#home" aria-label="Pitch Metrics home"><span class="lg-full">/*LOGO*/</span><span class="lg-icon">/*ICON*/</span></a>
+    <nav class="main" aria-label="Sections">
+      <a href="#market" data-v="market">Market</a><a href="#clubs" data-v="clubs">Clubs</a><a href="#roles" data-v="roles">Roles</a><a href="#calc" data-v="calc">Value calculator</a><a href="#about" data-v="about">How it works</a>
+    </nav>
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input id="q" type="search" autocomplete="off" placeholder="Search players or clubs" aria-label="Search players or clubs">
+      <div class="dd" id="dd" hidden></div>
+    </div>
+    <div class="cur" role="group" aria-label="Currency"><button data-cur="eur">€</button><button data-cur="inr">₹</button></div>
+  </div>
+  <nav class="wrap mobnav" aria-label="Sections">
+    <a href="#home" data-v="home">Home</a><a href="#market" data-v="market">Market</a><a href="#clubs" data-v="clubs">Clubs</a><a href="#roles" data-v="roles">Roles</a><a href="#calc" data-v="calc">Calculator</a><a href="#about" data-v="about">How it works</a>
+  </nav>
+  <div class="ticker" id="ticker" aria-label="Biggest value changes"></div>
+</header>
+
+<main class="wrap" id="app"></main>
+<footer class="wrap" id="foot"></footer>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const META = D.meta, P = D.players, C = D.clubs, FX = D.fixtures, ROLES = D.roles, M = D.metrics, CRESTS = D.crests;
+const GW = META.gameweeks;
+const byId = new Map(P.map(p => [p.id, p]));
+const clubByName = new Map(C.map(c => [c.name, c]));
+const clubById = new Map(C.map(c => [c.id, c]));
+const valued = P.filter(p => p.value).sort((a, b) => b.value - a.value);
+const rank = new Map(valued.map((p, i) => [p.id, i + 1]));
+const roleOf = p => (ROLES.players[p.id] || {}).role;
+const app = document.getElementById('app');
+const POS = {GK:'Goalkeeper', DEF:'Defender', MID:'Midfielder', FWD:'Forward'};
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let CUR = 'eur';
+try { CUR = localStorage.getItem('pm-cur') || 'eur'; } catch (e) {}
+
+/* ---------- formatting ---------- */
+function money(v){
+  if (v == null) return '–';
+  if (CUR === 'inr'){ const cr = v * META.eur_inr / 1e7; return '₹' + (cr >= 100 ? Math.round(cr).toLocaleString('en-IN') : cr.toFixed(1).replace(/\.0$/,'')) + ' Cr'; }
+  if (v >= 1e9) return '€' + (v/1e9).toFixed(2) + 'bn';
+  return v >= 1e6 ? '€' + (v/1e6).toFixed(1).replace(/\.0$/,'') + 'm' : '€' + Math.round(v/1e3) + 'k';
+}
+const SIL = 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#c9cdd2"/><circle cx="32" cy="25" r="11" fill="#9aa0a7"/><path d="M10 64c2-14 11-20 22-20s20 6 22 20z" fill="#9aa0a7"/></svg>');
+const PHOTO_URLS = id => [`https://resources.premierleague.com/premierleague25/photos/players/110x140/${id}.png`, `https://resources.premierleague.com/premierleague/photos/players/110x140/p${id}.png`];
+function pic(p, cls = ''){
+  if (!META.remote_photos) return `<img class="pic ${cls}" src="${SIL}" alt="">`;
+  const [a, b] = PHOTO_URLS(p.id);
+  return `<img class="pic ${cls}" src="${a}" data-alt="${b}" alt="" loading="lazy" onerror="if(this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt=''}else{this.onerror=null;this.src='${SIL}'}">`;
+}
+const crest = (name, cls = '') => CRESTS[name] ? `<img class="crest ${cls}" src="${CRESTS[name]}" alt="">` : `<span class="crest ${cls}"></span>`;
+function rt(r){ if (r == null) return ''; const c = r >= 9 ? 'b' : r >= 7 ? 'g' : r >= 6 ? 'a' : 'r'; return `<span class="rt ${c}">${r.toFixed(1)}</span>`; }
+const summer = p => (p.seasons.find(s => s.season !== META.season && s.season === prevSeason()) || {}).model_value;
+function prevSeason(){ const y = +META.season.slice(0,4) - 1; return `${y}-${String(y+1).slice(2)}`; }
+function change(p){ const s = summer(p); return p.value && s ? (p.value / s - 1) * 100 : null; }
+function chg(p){ const c = change(p); if (c == null) return ''; if (Math.abs(c) < 1) return '<span class="chg flat">0%</span>';
+  return `<span class="chg ${c > 0 ? 'up' : 'down'}">${c > 0 ? '▲' : '▼'}${Math.abs(c).toFixed(0)}%</span>`; }
+const ord = n => { const s = ['th','st','nd','rd'], v = n % 100; return n + (s[(v-20)%10] || s[v] || s[0]); };
+const who = (p, sub) => `<span class="who">${pic(p)}<div><div class="nm">${esc(p.name)}</div><div class="sb">${sub ?? esc(p.team)}</div></div></span>`;
+const subline = p => `${roleOf(p) || POS[p.pos]} · ${esc(p.team)}`;
+const BALL = '<svg width="10" height="10" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#fff"/><path d="M12 6.5l4 3-1.5 4.8h-5L8 9.5z" fill="#111"/></svg>';
+const BOOT = '<svg width="11" height="9" viewBox="0 0 24 20" aria-hidden="true"><path d="M3 3h7l1.2 5.5 8.8 3c2.2.7 2 4.5-.3 4.5H4c-1.6 0-2.4-1-2.4-2.2z" fill="#fff"/></svg>';
+const kick = iso => new Date(iso);
+const when = d => d.toLocaleDateString(undefined, {weekday:'short', day:'numeric', month:'short'}) + ' · ' + d.toLocaleTimeString(undefined, {hour:'numeric', minute:'2-digit'});
+
+document.getElementById('foot').innerHTML = `<p><b style="color:var(--ink)">Pitch Metrics</b> · ${esc(META.tagline)}</p><p>Values are predictions from a machine-learning model trained on Transfermarkt market values (via eordo/transfermarkt-data). Stats come from the official Fantasy Premier League feed (via vaastav/Fantasy-Premier-League), up to gameweek ${GW} of ${META.season}. Club crests: luukhopman/football-logos. Player photos: Premier League. Ratings are worked out from FPL's Bonus Points System.</p><p>₹ values use €1 = ₹${META.eur_inr}. Last updated ${META.generated}. Built by ${esc(META.builder.name)}. Not affiliated with the Premier League or Transfermarkt.</p>`;
+
+/* ---------- currency ---------- */
+function syncCur(){ document.querySelectorAll('[data-cur]').forEach(b => b.setAttribute('aria-pressed', b.dataset.cur === CUR)); }
+document.querySelectorAll('[data-cur]').forEach(b => b.onclick = () => { CUR = b.dataset.cur; try { localStorage.setItem('pm-cur', CUR); } catch (e) {} syncCur(); ticker(); route(true); });
+syncCur();
+
+/* ---------- ticker ---------- */
+function ticker(){
+  const moves = valued.filter(p => change(p) != null && p.minutes >= 360).sort((a, b) => Math.abs(change(b)) - Math.abs(change(a))).slice(0, 24);
+  const items = moves.map(p => `<a href="#p${p.id}"><b>${esc(p.short)}</b><span class="mono">${money(p.value)}</span>${chg(p)}</a>`).join('');
+  document.getElementById('ticker').innerHTML = `<div class="run">${items}${items.replace(/<a /g, '<a aria-hidden="true" tabindex="-1" ')}</div>`;
+}
+ticker();
+
+/* ---------- search (header and home) ---------- */
+const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+function attachSearch(input, box){
+  let sel = -1;
+  const run = () => {
+    const q = norm(input.value.trim()); sel = -1;
+    if (q.length < 2) { box.hidden = true; return; }
+    const cl = C.filter(c => norm(c.name).includes(q)).slice(0, 3);
+    const pl = P.filter(p => norm(p.name).includes(q) || norm(p.short).includes(q)).sort((a, b) => (b.value || 0) - (a.value || 0)).slice(0, 7);
+    box.innerHTML = (!cl.length && !pl.length) ? `<div class="g">No player or club called "${esc(input.value)}"</div>` :
+      (cl.length ? '<div class="g">Clubs</div>' + cl.map(c => `<a href="#t${c.id}">${crest(c.name)}<span class="nm">${esc(c.name)}</span><span class="v val">${money(c.squad_value)}</span></a>`).join('') : '') +
+      (pl.length ? '<div class="g">Players</div>' + pl.map(p => `<a href="#p${p.id}">${who(p)}<span class="v val">${money(p.value)}</span></a>`).join('') : '');
+    box.hidden = false;
+  };
+  input.addEventListener('input', run); input.addEventListener('focus', run);
+  input.addEventListener('keydown', e => { const it = [...box.querySelectorAll('a')];
+    if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && it.length) { e.preventDefault(); sel = (sel + (e.key === 'ArrowDown' ? 1 : -1) + it.length) % it.length; it.forEach((a, i) => a.classList.toggle('sel', i === sel)); }
+    if (e.key === 'Enter' && it.length) { location.hash = (it[sel] || it[0]).getAttribute('href'); box.hidden = true; input.value = ''; input.blur(); }
+    if (e.key === 'Escape') { box.hidden = true; input.blur(); } });
+  box.addEventListener('click', e => { if (e.target.closest('a')) { box.hidden = true; input.value = ''; } });
+}
+attachSearch(document.getElementById('q'), document.getElementById('dd'));
+document.addEventListener('click', e => { if (!e.target.closest('.search,.bigsearch')) document.querySelectorAll('.dd').forEach(d => d.hidden = true); });
+
+/* ---------- router ---------- */
+function nav(v){ document.querySelectorAll('[data-v]').forEach(a => a.dataset.v === v ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')); }
+function route(keepScroll){
+  const h = location.hash.slice(1) || 'home'; let m;
+  if ((m = h.match(/^p(\d+)$/)) && byId.has(+m[1])) playerPage(byId.get(+m[1]));
+  else if ((m = h.match(/^t(\d+)$/)) && clubById.has(+m[1])) clubPage(clubById.get(+m[1]));
+  else if ((m = h.match(/^calc(\d+)$/)) && byId.has(+m[1])) calcPage(byId.get(+m[1]));
+  else ({market: marketPage, clubs: clubsPage, roles: rolesPage, calc: () => calcPage(null), about: aboutPage}[h] || home)();
+  if (!keepScroll) window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', () => route());
+app.addEventListener('click', e => { const tr = e.target.closest('tr[data-href]'); if (tr && !e.target.closest('a')) location.hash = tr.dataset.href; });
+app.addEventListener('keydown', e => { const tr = e.target.closest('tr[data-href]'); if (tr && e.key === 'Enter') location.hash = tr.dataset.href; });
+
+/* ================= HOME ================= */
+function home(){
+  nav('home');
+  const lastGW = FX.filter(f => f.gw === GW);
+  const potw = valued.map(p => [p, (p.matches.find(m => m.gw === GW) || {}).r]).filter(x => x[1] != null).sort((a, b) => b[1] - a[1])[0];
+  const pw = potw && potw[0], pwm = pw && pw.matches.find(m => m.gw === GW);
+  const total = valued.reduce((s, p) => s + p.value, 0);
+  const wonder = valued.filter(p => p.age < 21).slice(0, 5);
+  const moves = valued.filter(p => change(p) != null && p.minutes >= 360);
+  const up = moves.slice().sort((a, b) => change(b) - change(a)).slice(0, 6);
+  const down = moves.slice().sort((a, b) => change(a) - change(b)).slice(0, 6);
+  const clubs = C.slice().sort((a, b) => b.squad_value - a.squad_value);
+  app.innerHTML = `
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Premier League ${META.season} · after gameweek ${GW}</div>
+      <h1 style="margin-top:12px">${esc(META.tagline)}</h1>
+      <p class="lead">What is every Premier League player worth right now? A machine-learning model prices each one using only how he is playing this season.</p>
+      <div class="bigsearch"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="q2" type="search" autocomplete="off" placeholder="Try Saka, Palmer or Arsenal" aria-label="Search players or clubs"><div class="dd" id="dd2" hidden></div></div>
+      <div class="facts"><div><b>${money(total)}</b><span>Total league value</span></div><div><b>${valued.length}</b><span>Players priced</span></div><div><b>${(M.time_test.blend.within_50pct).toFixed(0)}%</b><span>Within ±50% when tested</span></div></div>
+    </div>
+    ${pw ? `<a class="potw" href="#p${pw.id}">
+      <div class="eyebrow">Player of gameweek ${GW}</div>
+      <div class="top">${pic(pw)}<div style="min-width:0"><div class="nm" style="font-size:20px">${esc(pw.name)}</div><div class="sb">${esc(pw.team)} · ${roleOf(pw) || POS[pw.pos]}</div></div></div>
+      <div class="line"><span>${rt(pwm.r)} rating</span><span>${pwm.g} goals</span><span>${pwm.a} assists</span><span>${pwm.min}' played</span></div>
+      <div><div class="sb">Value now</div><div class="big">${money(pw.value)}</div><div style="margin-top:6px">${chg(pw)} <span class="sb">since summer</span></div></div>
+    </a>` : ''}
+  </section>
+
+  <section>
+    <div class="sec-head"><div><h2>Gameweek ${GW} results</h2></div><a href="#clubs">League table</a></div>
+    <div class="results">${lastGW.map(f => `<a class="res" href="#t${clubByName.get(f.h).id}"><span class="t">${crest(f.h)}${esc(clubByName.get(f.h).short)}</span><span class="s">${f.hs}–${f.as}</span><span class="t">${esc(clubByName.get(f.a).short)}${crest(f.a)}</span></a>`).join('')}</div>
+  </section>
+
+  <section class="grid3">
+    <div>
+      <div class="sec-head"><div><h2>Most valuable players</h2><p>Predicted from ${META.season} form</p></div><a href="#market">Full market</a></div>
+      <div class="list">${valued.slice(0, 10).map((p, i) => `<a class="row" href="#p${p.id}"><span class="n">${i + 1}</span>${who(p, subline(p))}<div class="end"><span class="val">${money(p.value)}</span>${chg(p)}</div></a>`).join('')}</div>
+    </div>
+    <div class="col">
+      <div><div class="sec-head"><h2>Rising</h2></div><div class="list">${up.map(p => `<a class="row" href="#p${p.id}">${who(p)}<div class="end"><span class="val">${money(p.value)}</span>${chg(p)}</div></a>`).join('')}</div></div>
+      <div><div class="sec-head"><h2>Falling</h2></div><div class="list">${down.map(p => `<a class="row" href="#p${p.id}">${who(p)}<div class="end"><span class="val">${money(p.value)}</span>${chg(p)}</div></a>`).join('')}</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><div><h2>Under-21s to watch</h2><p>Highest-valued players aged 20 or younger</p></div><a href="#market" onclick="S.age='U21'">See all</a></div>
+    <div class="cards">${wonder.map(p => `<a class="card" href="#p${p.id}">${pic(p)}<div class="nm" style="max-width:100%">${esc(p.name)}</div><div class="sb">${esc(p.team)} · ${Math.floor(p.age)}</div><span class="role">${roleOf(p) || POS[p.pos]}</span><span class="val" style="font-size:18px">${money(p.value)}</span></a>`).join('')}</div>
+  </section>
+
+  <section>
+    <div class="sec-head"><div><h2>Squad values</h2><p>Sum of every player's predicted value</p></div><a href="#clubs">All clubs</a></div>
+    <div class="bars">${clubs.map(c => `<a class="cbar" href="#t${c.id}"><span class="who">${crest(c.name)}<span class="nm">${esc(c.name)}</span></span><span class="track"><b style="width:${c.squad_value / clubs[0].squad_value * 100}%"></b></span><span class="val r">${money(c.squad_value)}</span></a>`).join('')}</div>
+  </section>`;
+  attachSearch(document.getElementById('q2'), document.getElementById('dd2'));
+}
+
+/* ================= MARKET (all players) ================= */
+const S = {q: '', pos: 'ALL', club: 'ALL', age: 'ALL', role: 'ALL', sort: 'value', dir: -1, shown: 50};
+const ageOk = p => S.age === 'ALL' || (p.age != null && (S.age === 'U21' ? p.age < 21 : S.age === 'U23' ? p.age < 23 : S.age === '23-27' ? p.age >= 23 && p.age < 28 : p.age >= 28));
+const SORT = {value: p => p.value ?? -1, name: p => p.name, age: p => p.age ?? 99, apps: p => p.apps, ga: p => p.s_goals + p.s_assists, rating: p => p.avg_r ?? 0, chg: p => change(p) ?? -999};
+function marketPage(){
+  nav('market');
+  const q = norm(S.q.trim());
+  const list = P.filter(p => (S.pos === 'ALL' || p.pos === S.pos) && (S.club === 'ALL' || p.team === S.club) && (S.role === 'ALL' || roleOf(p) === S.role) && ageOk(p) && (!q || norm(p.name).includes(q)))
+    .sort((a, b) => { const x = SORT[S.sort](a), y = SORT[S.sort](b); return (x > y ? 1 : x < y ? -1 : 0) * S.dir; });
+  const allRoles = [...new Set(Object.values(ROLES.players).map(r => r.role))].sort();
+  const cols = [['#'], ['Player', 'name'], ['Age', 'age', 'c'], ['Club'], ['Apps', 'apps', 'c'], ['G+A', 'ga', 'c'], ['Rating', 'rating', 'c'], ['Since summer', 'chg', 'r'], ['Value', 'value', 'r']];
+  app.innerHTML = `<section>
+    <div class="sec-head"><div><h1 style="font-size:40px">Market</h1><p>${list.length} players · apps, goals, assists and rating are for ${META.season}</p></div></div>
+    <div class="filters">
+      <input id="f" type="search" placeholder="Filter by name" value="${esc(S.q)}" aria-label="Filter by name">
+      ${['ALL', 'GK', 'DEF', 'MID', 'FWD'].map(k => `<button class="chip" data-pos="${k}" aria-pressed="${S.pos === k}">${k === 'ALL' ? 'All' : k}</button>`).join('')}
+      <select id="fc" aria-label="Club"><option value="ALL">All clubs</option>${C.map(c => c.name).sort().map(n => `<option ${S.club === n ? 'selected' : ''}>${esc(n)}</option>`).join('')}</select>
+      <select id="fa" aria-label="Age"><option value="ALL">Any age</option>${[['U21', 'Under 21'], ['U23', 'Under 23'], ['23-27', '23–27'], ['28+', '28 and over']].map(([k, l]) => `<option value="${k}" ${S.age === k ? 'selected' : ''}>${l}</option>`).join('')}</select>
+      <select id="fr" aria-label="Role"><option value="ALL">Any role</option>${allRoles.map(r => `<option ${S.role === r ? 'selected' : ''}>${esc(r)}</option>`).join('')}</select>
+    </div>
+    <div class="tbox"><table><thead><tr>${cols.map(([l, k, c]) => `<th class="${c || ''}" ${k ? `data-k="${k}"` : ''} ${k === S.sort ? `aria-sort="${S.dir < 0 ? 'descending' : 'ascending'}"` : ''}>${l}</th>`).join('')}</tr></thead><tbody>
+    ${list.slice(0, S.shown).map((p, i) => `<tr data-href="p${p.id}" tabindex="0"><td class="mono faint">${i + 1}</td><td>${who(p, roleOf(p) || POS[p.pos])}</td><td class="c mono">${p.age ? Math.floor(p.age) : '–'}</td><td>${crest(p.team)}</td>
+      <td class="c mono">${p.apps}</td><td class="c mono">${p.s_goals + p.s_assists}</td><td class="c">${rt(p.avg_r)}</td><td class="r">${chg(p)}</td>
+      <td class="r val">${p.value ? money(p.value) : `<span class="faint" style="font:500 12px var(--body)" title="Fewer than 270 minutes this season">Too few minutes</span>`}</td></tr>`).join('')}
+    </tbody></table></div>
+    ${list.length > S.shown ? '<button class="more" id="more">Show more</button>' : ''}
+  </section>`;
+  const f = document.getElementById('f');
+  f.oninput = () => { S.q = f.value; S.shown = 50; marketPage(); const n = document.getElementById('f'); n.focus(); n.setSelectionRange(n.value.length, n.value.length); };
+  app.querySelectorAll('[data-pos]').forEach(b => b.onclick = () => { S.pos = b.dataset.pos; marketPage(); });
+  document.getElementById('fc').onchange = e => { S.club = e.target.value; marketPage(); };
+  document.getElementById('fa').onchange = e => { S.age = e.target.value; marketPage(); };
+  document.getElementById('fr').onchange = e => { S.role = e.target.value; marketPage(); };
+  app.querySelectorAll('th[data-k]').forEach(th => th.onclick = () => { const k = th.dataset.k; S.dir = S.sort === k ? -S.dir : (k === 'name' || k === 'age' ? 1 : -1); S.sort = k; marketPage(); });
+  const more = document.getElementById('more'); if (more) more.onclick = () => { S.shown += 50; marketPage(); };
+}
+
+/* ================= PLAYER ================= */
+function playerPage(p){
+  nav('market');
+  const c = clubByName.get(p.team), cur = p.seasons.find(s => s.season === META.season) || {};
+  const R = ROLES.players[p.id];
+  const similar = R ? R.similar.map(id => byId.get(id)).filter(Boolean) : [];
+  const posRank = valued.filter(q => q.pos === p.pos).findIndex(q => q.id === p.id) + 1;
+  const clubRank = valued.filter(q => q.team === p.team).findIndex(q => q.id === p.id) + 1;
+  const lastTM = p.tm.slice().sort((a, b) => b.year - a.year)[0];
+  const n1 = v => v == null ? '–' : (+v).toFixed(1);
+  const stats = {
+    FWD: [['Goals', p.s_goals], ['Assists', p.s_assists], ['xG', n1(cur.expected_goals)], ['xA', n1(cur.expected_assists)]],
+    MID: [['Goals', p.s_goals], ['Assists', p.s_assists], ['xA', n1(cur.expected_assists)], ['Ball recoveries', cur.recoveries ?? '–']],
+    DEF: [['Clean sheets', cur.clean_sheets ?? '–'], ['Tackles', cur.tackles ?? '–'], ['Blocks, clearances, interceptions', cur.clearances_blocks_interceptions ?? '–'], ['Goals + assists', p.s_goals + p.s_assists]],
+    GK: [['Clean sheets', cur.clean_sheets ?? '–'], ['Saves', cur.saves ?? '–'], ['Goals conceded', cur.goals_conceded ?? '–'], ['Penalties saved', cur.penalties_saved ?? '–']]}[p.pos];
+  app.innerHTML = `
+  <section class="ent">
+    ${pic(p, 'lg')}
+    <div style="min-width:0">
+      <a href="#t${c.id}" class="who" style="gap:8px">${crest(c.name)}<span class="sb" style="font-weight:600">${esc(c.name)}</span></a>
+      <h1 style="font-size:clamp(32px,5vw,48px);margin-top:6px">${esc(p.name)}</h1>
+      <div class="meta"><span><span class="pos ${p.pos}">${p.pos}</span> <b>${p.detail ? esc(p.detail) : POS[p.pos]}</b></span>
+        ${R ? `<span>Role <span class="role">${esc(R.role)}</span></span>` : ''}
+        <span>Age <b>${p.age ? Math.floor(p.age) : '–'}</b></span>${p.nat ? `<span>Country <b>${esc(p.nat)}</b></span>` : ''}</div>
+    </div>
+    <div class="pricebox"><div class="eyebrow">Market value</div><div class="big">${money(p.value)}</div>
+      ${p.value ? `<div class="sub">${chg(p)}<span>since summer</span></div>` : `<div class="sub">Fewer than 270 minutes this season</div>`}</div>
+  </section>
+
+  <section class="grid2">
+    <div class="col">
+      ${p.value ? `<div>
+        <div class="sec-head"><h2>Price check</h2><a href="#calc${p.id}">Try the value calculator →</a></div>
+        <div class="range"><b style="left:${rangePos(p, p.low)}%;width:${rangePos(p, p.high) - rangePos(p, p.low)}%"></b><i style="left:${rangePos(p, p.value)}%"></i></div>
+        <div class="rlab"><span>${money(p.low)}</span><span>likely range</span><span>${money(p.high)}</span></div>
+        <div class="ranks"><div><b>#${rank.get(p.id)}</b><span>in the league</span></div><div><b>#${posRank}</b><span>among ${POS[p.pos].toLowerCase()}s</span></div><div><b>#${clubRank}</b><span>at ${esc(c.name)}</span></div></div>
+        ${lastTM ? `<p class="muted" style="font-size:13px;margin:14px 0 0">Transfermarkt valued him at <b class="mono" style="color:var(--ink)">${money(lastTM.value)}</b> when he last moved clubs (summer ${lastTM.year}).</p>` : ''}
+      </div>` : ''}
+      <div>
+        <div class="sec-head"><h2>Why this price</h2></div>
+        ${p.why.length ? `<p class="muted" style="font-size:13px;margin:-6px 0 14px">How much each part of his game moves him from an average Premier League player (${money(META.average_value)}).</p>
+          <div class="why">${p.why.map(w => { const mag = Math.min(50, Math.abs(Math.log(1 + w.pct / 100)) / Math.log(3) * 50), col = w.pct >= 0 ? 'var(--up)' : 'var(--down)';
+            return `<div class="w"><div class="l">${esc(w.f)}<em>${esc(w.x)}</em></div><div class="p" style="color:${col}">${w.pct >= 0 ? '+' : ''}${w.pct.toFixed(0)}%</div><div class="trk"><div class="mid"></div><b style="${w.pct >= 0 ? 'left:50%' : `left:${50 - mag}%`};width:${mag}%;background:${col}"></b></div></div>`; }).join('')}</div>`
+          : '<div class="empty">Shows once he has played 270 minutes this season.</div>'}
+      </div>
+    </div>
+    <div class="col">
+      <div><div class="sec-head"><h2>${META.season} season</h2><span class="muted" style="font-size:13px">${p.apps} of ${GW} matches</span></div>
+        <div class="stats"><div><b>${p.avg_r ? rt(p.avg_r) : '–'}</b><span>Average rating</span></div><div><b>${(cur.minutes ?? 0).toLocaleString()}</b><span>Minutes</span></div>
+          ${stats.map(([l, v]) => `<div><b>${v}</b><span>${l}</span></div>`).join('')}<div><b>${cur.yellow_cards ?? 0}</b><span>Yellow cards</span></div><div><b>${cur.red_cards ?? 0}</b><span>Red cards</span></div></div></div>
+      <div><div class="sec-head"><h2>Value history</h2></div>${history(p)}</div>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div><div class="sec-head"><h2>Matches</h2></div>
+      ${p.matches.length ? `<div class="tbox"><table><thead><tr><th>GW</th><th>Opponent</th><th class="c">Score</th><th class="c">Mins</th><th class="c">G</th><th class="c">A</th><th class="r">Rating</th></tr></thead><tbody>
+        ${p.matches.slice().reverse().map(m => { const o = C.find(x => x.short === m.opp);
+          return `<tr ${o ? `data-href="t${o.id}" tabindex="0"` : ''}><td class="mono faint">${m.gw}</td><td><span class="who" style="gap:8px">${o ? crest(o.name) : ''}<span>${m.home ? 'vs' : 'at'} ${o ? esc(o.name) : m.opp}</span></span></td><td class="c mono">${m.score}</td>
+          <td class="c mono">${m.min || '<span class="faint" style="font-family:var(--body)">Bench</span>'}</td><td class="c mono">${m.g || ''}</td><td class="c mono">${m.a || ''}</td><td class="r">${rt(m.r)}</td></tr>`; }).join('')}
+      </tbody></table></div>` : '<div class="empty">No Premier League matches yet this season.</div>'}
+    </div>
+    <div class="col">
+      <div><div class="sec-head"><h2>Against other ${POS[p.pos].toLowerCase()}s</h2><span class="muted" style="font-size:13px">percentile</span></div>
+        ${p.pct.length ? `<div class="why">${p.pct.map(x => { const col = x.p >= 75 ? 'var(--up)' : x.p <= 25 ? 'var(--down)' : 'var(--brand)';
+          return `<div class="w"><div class="l">${esc(x.f)}</div><div class="p">${x.p ?? '–'}</div><div class="trk"><b style="left:0;width:${x.p ?? 0}%;background:${col}"></b></div></div>`; }).join('')}</div>`
+        : '<div class="empty">Shows once he has played 270 minutes this season.</div>'}</div>
+      ${similar.length ? `<div><div class="sec-head"><div><h2>Plays like</h2><p>Closest stat profiles (from the role clustering)</p></div></div>
+        <div class="list">${similar.map(q => `<a class="row" href="#p${q.id}">${who(q, subline(q))}<div class="end"><span class="val">${money(q.value)}</span>${chg(q)}</div></a>`).join('')}</div></div>` : ''}
+    </div>
+  </section>
+
+  <section><div class="sec-head"><h2>Premier League career</h2></div>${career(p)}</section>`;
+}
+function rangePos(p, v){ const a = Math.log(p.low * 0.85), b = Math.log(p.high * 1.1); return (Math.log(v) - a) / (b - a) * 100; }
+function career(p){
+  const cols = {FWD: [['goals_scored', 'Goals'], ['assists', 'Assists'], ['expected_goals', 'xG']], MID: [['goals_scored', 'Goals'], ['assists', 'Assists'], ['expected_assists', 'xA']],
+    DEF: [['clean_sheets', 'Clean sheets'], ['goals_scored', 'Goals'], ['assists', 'Assists']], GK: [['clean_sheets', 'Clean sheets'], ['saves', 'Saves'], ['goals_conceded', 'Conceded']]}[p.pos];
+  const f = (v, k) => v == null ? '–' : k.startsWith('expected') ? v.toFixed(1) : Math.round(v);
+  const rows = p.seasons.slice().reverse().filter(s => s.minutes > 0 || s.season === META.season);
+  return `<div class="tbox"><table><thead><tr><th>Season</th><th>Club</th><th class="c">Minutes</th>${cols.map(c => `<th class="c">${c[1]}</th>`).join('')}<th class="r">Model value</th></tr></thead><tbody>
+    ${rows.map(s => `<tr><td class="mono">${s.season}</td><td><span class="who" style="gap:8px">${crest(s.team)}<span>${esc(s.team)}</span></span></td><td class="c mono">${Math.round(s.minutes).toLocaleString()}</td>
+      ${cols.map(c => `<td class="c mono">${f(s[c[0]], c[0])}</td>`).join('')}<td class="r val">${s.model_value ? money(s.model_value) : '<span class="faint">–</span>'}</td></tr>`).join('')}
+  </tbody></table></div>`;
+}
+function history(p){
+  const pts = p.seasons.filter(s => s.model_value && s.season !== META.season).map(s => ({x: +s.season.slice(0, 4) + 1, y: s.model_value, l: 'After ' + s.season}));
+  if (p.value) pts.push({x: +META.season.slice(0, 4) + 0.8, y: p.value, l: 'Now', now: true});
+  const tm = p.tm.map(t => ({x: t.year, y: t.value}));
+  if (pts.length < 2) return '<div class="empty">The chart fills in as he plays more Premier League seasons (300+ minutes each).</div>';
+  const W = 560, H = 210, L = 64, R = 14, T = 12, B = 26;
+  const xs = [...pts, ...tm].map(d => d.x), ys = [...pts, ...tm].map(d => d.y);
+  const x0 = Math.min(...xs) - .3, x1 = Math.max(...xs) + .3;
+  const yMax = [5, 10, 20, 30, 40, 50, 60, 80, 100, 120, 150, 200].map(v => v * 1e6).find(v => v >= Math.max(...ys) * 1.08) || 2.5e8;
+  const X = x => L + (x - x0) / (x1 - x0) * (W - L - R), Y = y => T + (1 - y / yMax) * (H - T - B);
+  const years = []; for (let y = Math.ceil(x0); y <= Math.floor(x1); y++) years.push(y);
+  const line = pts.map((d, i) => `${i ? 'L' : 'M'}${X(d.x).toFixed(1)},${Y(d.y).toFixed(1)}`).join('');
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Value history">
+    ${[0, .5, 1].map(f => `<line x1="${L}" x2="${W - R}" y1="${Y(f * yMax)}" y2="${Y(f * yMax)}" stroke="var(--line)"/><text x="${L - 8}" y="${Y(f * yMax) + 4}" text-anchor="end">${f ? money(f * yMax) : '0'}</text>`).join('')}
+    ${years.map(y => `<text x="${X(y)}" y="${H - 6}" text-anchor="middle">${y}</text>`).join('')}
+    <path d="${line}" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+    ${pts.map(d => `<circle cx="${X(d.x)}" cy="${Y(d.y)}" r="${d.now ? 7 : 4}" fill="${d.now ? 'var(--brand)' : 'var(--surface)'}" stroke="${d.now ? 'var(--brand)' : 'var(--ink)'}" stroke-width="2"><title>${d.l}: ${money(d.y)}</title></circle>`).join('')}
+    ${tm.map(d => `<rect x="${X(d.x) - 5}" y="${Y(d.y) - 5}" width="10" height="10" transform="rotate(45 ${X(d.x)} ${Y(d.y)})" fill="var(--muted)"><title>Transfermarkt, summer ${d.x}: ${money(d.y)}</title></rect>`).join('')}
+  </svg><div class="legend"><span><i style="background:var(--ink)"></i>Model value after each season</span><span><i style="background:var(--brand)"></i>Now</span>${tm.length ? '<span><i style="background:var(--muted);border-radius:2px"></i>Transfermarkt at a transfer</span>' : ''}</div>`;
+}
+
+/* ================= CLUBS ================= */
+function clubsPage(){
+  nav('clubs');
+  app.innerHTML = `<section>
+    <div class="sec-head"><div><h1 style="font-size:40px">Clubs</h1><p>League table after gameweek ${GW}, with each squad's total predicted value</p></div></div>
+    <div class="tbox"><table><thead><tr><th>#</th><th>Club</th><th class="c">P</th><th class="c">W</th><th class="c">D</th><th class="c">L</th><th class="c">GD</th><th class="c">Pts</th><th>Form</th><th class="r">Squad value</th></tr></thead><tbody>
+    ${C.map(c => `<tr data-href="t${c.id}" tabindex="0"><td class="mono faint">${c.pos}</td><td><span class="who" style="gap:10px">${crest(c.name, 'md')}<b>${esc(c.name)}</b></span></td>
+      <td class="c mono">${c.p}</td><td class="c mono">${c.w}</td><td class="c mono">${c.d}</td><td class="c mono">${c.l}</td><td class="c mono">${c.gf - c.ga > 0 ? '+' : ''}${c.gf - c.ga}</td><td class="c mono"><b>${c.pts}</b></td>
+      <td><span style="display:inline-flex;gap:4px">${c.form.map(f => `<span class="sc ${f}" style="min-width:22px;padding:2px 0">${f}</span>`).join('')}</span></td><td class="r val">${money(c.squad_value)}</td></tr>`).join('')}
+    </tbody></table></div></section>`;
+}
+
+let clubTab = 'overview', pitchMode = 'match';
+function clubPage(c){
+  nav('clubs');
+  const squad = c.squad.map(id => byId.get(id));
+  app.innerHTML = `
+  <section class="ent">${crest(c.name, 'lg')}
+    <div><div class="sb" style="font-weight:600">Premier League · ${ord(c.pos)} with ${c.pts} points</div><h1 style="font-size:clamp(32px,5vw,48px);margin-top:6px">${esc(c.name)}</h1>
+      <div class="meta"><span><b>${c.w}</b> won</span><span><b>${c.d}</b> drawn</span><span><b>${c.l}</b> lost</span><span>Goals <b>${c.gf}–${c.ga}</b></span><span><b>${squad.length}</b> players</span></div></div>
+    <div class="pricebox"><div class="eyebrow">Squad value</div><div class="big">${money(c.squad_value)}</div></div>
+  </section>
+  <div class="tabs" role="tablist">${[['overview', 'Overview'], ['squad', 'Squad'], ['fixtures', 'Fixtures']].map(([k, l]) => `<button role="tab" data-tab="${k}" aria-selected="${clubTab === k}">${l}</button>`).join('')}</div>
+  <div id="cb"></div>`;
+  app.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => { clubTab = b.dataset.tab; clubPage(c); });
+  const cb = document.getElementById('cb');
+  if (clubTab === 'squad') cb.innerHTML = squadTable(squad);
+  else if (clubTab === 'fixtures') cb.innerHTML = fixtures(c);
+  else {
+    const top = squad.filter(p => p.value).sort((a, b) => b.value - a.value).slice(0, 6);
+    const o = c.next && clubByName.get(c.next.opp), [h, a] = c.next ? (c.next.home ? [c, o] : [o, c]) : [];
+    cb.innerHTML = `<section class="grid3" style="margin-top:26px">
+      <div>${lineup(c)}</div>
+      <div class="col">
+        ${c.next ? `<div><div class="sec-head"><h2>Next match</h2><span class="muted" style="font-size:13px">Gameweek ${c.next.gw}</span></div>
+          <div class="nextm"><a href="#t${h.id}">${crest(h.name, 'md')}${esc(h.name)}</a><div><b>${kick(c.next.kickoff).toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'})}</b><span class="sb">${kick(c.next.kickoff).toLocaleDateString(undefined, {weekday: 'short', day: 'numeric', month: 'short'})}</span></div><a href="#t${a.id}">${crest(a.name, 'md')}${esc(a.name)}</a></div></div>` : ''}
+        <div><div class="sec-head"><h2>Form</h2></div><div class="form">${c.results.slice(-5).map(r => { const k = r.gf > r.ga ? 'W' : r.gf === r.ga ? 'D' : 'L';
+          return `<a href="#t${clubByName.get(r.opp).id}" title="${r.home ? 'vs' : 'at'} ${esc(r.opp)}"><span class="sc ${k}">${r.gf}–${r.ga}</span>${crest(r.opp, 'md')}</a>`; }).join('')}</div></div>
+        <div><div class="sec-head"><h2>Most valuable</h2></div><div class="list">${top.map(p => `<a class="row" href="#p${p.id}">${who(p, roleOf(p) || POS[p.pos])}<div class="end"><span class="val">${money(p.value)}</span>${chg(p)}</div></a>`).join('')}</div></div>
+      </div></section>`;
+    cb.querySelectorAll('[data-mode]').forEach(b => b.onclick = () => { pitchMode = b.dataset.mode; clubPage(c); });
+  }
+}
+function lineup(c){
+  if (!c.xi) return '<div class="empty">No lineup yet.</div>';
+  const season = pitchMode === 'season';
+  const one = x => { const p = byId.get(x.id); if (!p) return '';
+    const r = season ? p.avg_r : x.r, g = season ? p.s_goals : x.g, a = season ? p.s_assists : x.a;
+    return `<a class="pp" href="#p${p.id}" title="${esc(p.name)}">${pic(p)}${rt(r)}<span class="ev">${g ? `<span>${BALL}${g}</span>` : ''}${a ? `<span>${BOOT}${a}</span>` : ''}</span><span class="pn">${esc(p.short)}</span></a>`; };
+  return `<div class="sec-head"><div><h2>${season ? 'Season so far' : 'Last starting XI'}</h2><p>${season ? `Average rating, goals and assists, gameweeks 1–${GW}` : `${c.xi.formation} · gameweek ${c.xi.gw} ${c.xi.home ? 'vs' : 'at'} ${esc(c.xi.opp)}`}</p></div>
+      <span class="seg" role="group" aria-label="Lineup view"><button data-mode="match" aria-pressed="${!season}">Last match</button><button data-mode="season" aria-pressed="${season}">Season</button></span></div>
+    <div class="pitch">${c.xi.lines.slice().reverse().map(l => `<div class="pline">${l.map(one).join('')}</div>`).join('')}</div>
+    <p class="muted" style="font-size:12px;margin:8px 0 0">Shape estimated from each player's listed position.</p>`;
+}
+function squadTable(squad){
+  const groups = ['GK', 'DEF', 'MID', 'FWD'].map(k => [k, squad.filter(p => p.pos === k).sort((a, b) => (b.value || 0) - (a.value || 0) || b.minutes - a.minutes)]);
+  return `<div class="tbox" style="margin-top:10px"><table><thead><tr><th>Player</th><th>Role</th><th>Country</th><th class="c">Age</th><th class="c">Apps</th><th class="c">G</th><th class="c">A</th><th class="c">Rating</th><th class="r">Value</th></tr></thead><tbody>
+    ${groups.map(([k, list]) => `<tr class="grp"><td colspan="9">${POS[k]}s</td></tr>` + list.map(p => `<tr data-href="p${p.id}" tabindex="0"><td>${who(p, p.detail ? esc(p.detail) : POS[p.pos])}</td>
+      <td>${roleOf(p) ? `<span class="role">${esc(roleOf(p))}</span>` : '<span class="faint">–</span>'}</td><td>${p.nat ? esc(p.nat) : '<span class="faint">–</span>'}</td><td class="c mono">${p.age ? Math.floor(p.age) : '–'}</td>
+      <td class="c mono">${p.apps}</td><td class="c mono">${p.s_goals}</td><td class="c mono">${p.s_assists}</td><td class="c">${rt(p.avg_r)}</td><td class="r val">${p.value ? money(p.value) : '<span class="faint">–</span>'}</td></tr>`).join('')).join('')}
+  </tbody></table></div>`;
+}
+function fixtures(c){
+  const list = FX.filter(f => f.h === c.name || f.a === c.name);
+  return `<div class="tbox" style="margin-top:10px"><table><thead><tr><th>GW</th><th>Date</th><th class="r">Home</th><th class="c">Score</th><th>Away</th></tr></thead><tbody>
+    ${list.map(f => `<tr><td class="mono faint">${f.gw}</td><td class="sb">${when(kick(f.ko))}</td><td class="r"><a href="#t${clubByName.get(f.h).id}" class="who" style="justify-content:flex-end;gap:8px"><span>${esc(f.h)}</span>${crest(f.h)}</a></td>
+      <td class="c mono"><b>${f.done ? `${f.hs}–${f.as}` : '–'}</b></td><td><a href="#t${clubByName.get(f.a).id}" class="who" style="gap:8px">${crest(f.a)}<span>${esc(f.a)}</span></a></td></tr>`).join('')}
+  </tbody></table></div>`;
+}
+
+/* ================= ROLES ================= */
+let rolePos = 'MID', roleSel = null;
+const ROLE_COLORS = ['#e8501c', '#2f6fdc', '#1f9d5c', '#c99312', '#8b5cf6'];
+const STAT_WORDS = {goals: 'goals', xg: 'xG', assists: 'assists', xa: 'xA', threat: 'attacking threat', creativity: 'chance creation', influence: 'match influence', clean_sheets: 'clean sheets', conceded: 'few goals conceded', saves: 'saves', defending: 'defensive actions'};
+function rolesPage(){
+  nav('roles');
+  const roles = ROLES.roles[rolePos];
+  const color = Object.fromEntries(roles.map((r, i) => [r.name, ROLE_COLORS[i % ROLE_COLORS.length]]));
+  const members = Object.entries(ROLES.players).map(([id, r]) => [byId.get(+id), r]).filter(([p]) => p && p.pos === rolePos);
+  const shown = members.filter(([, r]) => !roleSel || r.role === roleSel).map(([p]) => p).sort((a, b) => (b.value || 0) - (a.value || 0));
+  app.innerHTML = `<section>
+    <div class="sec-head"><div><h1 style="font-size:40px">Player roles</h1><p class="lead" style="font-size:15px">K-means clustering groups players with similar per-90 stats over the last 12 months (900+ minutes). Nobody told the model what the roles are; we named each group after what it does most.</p></div></div>
+    <div class="filters">${['GK', 'DEF', 'MID', 'FWD'].map(k => `<button class="chip" data-rp="${k}" aria-pressed="${rolePos === k}">${POS[k]}s</button>`).join('')}</div>
+    <div class="rolegrid">${roles.map(r => `<button class="rolecard" data-role="${esc(r.name)}" aria-pressed="${roleSel === r.name}">
+      <span class="who" style="gap:8px"><span class="dot" style="background:${color[r.name]}"></span><b>${esc(r.name)}</b></span>
+      <span class="sb">${r.count} players</span><span style="font-size:13px">${r.strong.length ? 'Strong in ' + r.strong.map(s => STAT_WORDS[s]).join(', ') : 'No standout strength'}</span></button>`).join('')}</div>
+  </section>
+  <section class="grid3">
+    <div><div class="sec-head"><div><h2>Role map</h2><p>Each dot is a player. PCA squeezes all the stats into two directions, so players close together play alike.</p></div></div>${roleMap(members, color)}</div>
+    <div><div class="sec-head"><h2>${roleSel ? esc(roleSel) + 's' : 'All ' + POS[rolePos].toLowerCase() + 's'}</h2>${roleSel ? '<a href="#roles" id="clr">Show all</a>' : ''}</div>
+      <div class="list">${shown.slice(0, 12).map(p => `<a class="row" href="#p${p.id}">${who(p, `${esc(p.team)} · ${roleOf(p)}`)}<div class="end"><span class="val">${money(p.value)}</span></div></a>`).join('')}</div></div>
+  </section>`;
+  app.querySelectorAll('[data-rp]').forEach(b => b.onclick = () => { rolePos = b.dataset.rp; roleSel = null; rolesPage(); });
+  app.querySelectorAll('[data-role]').forEach(b => b.onclick = () => { roleSel = roleSel === b.dataset.role ? null : b.dataset.role; rolesPage(); });
+  const clr = document.getElementById('clr'); if (clr) clr.onclick = e => { e.preventDefault(); roleSel = null; rolesPage(); };
+}
+function roleMap(members, color){
+  const W = 640, H = 420, pad = 24;
+  const xs = members.map(([, r]) => r.x), ys = members.map(([, r]) => r.y);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const X = v => pad + (v - x0) / (x1 - x0 || 1) * (W - 2 * pad), Y = v => H - pad - (v - y0) / (y1 - y0 || 1) * (H - 2 * pad);
+  const labelled = new Set(members.filter(([p]) => p.value).sort((a, b) => b[0].value - a[0].value).slice(0, 8).map(([p]) => p.id));
+  return `<div class="panel" style="padding:8px"><svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Role map">
+    <line x1="${pad}" x2="${W - pad}" y1="${H / 2}" y2="${H / 2}" stroke="var(--line)"/><line x1="${W / 2}" x2="${W / 2}" y1="${pad}" y2="${H - pad}" stroke="var(--line)"/>
+    ${members.map(([p, r]) => { const dim = roleSel && r.role !== roleSel;
+      return `<a href="#p${p.id}"><circle cx="${X(r.x).toFixed(1)}" cy="${Y(r.y).toFixed(1)}" r="${labelled.has(p.id) ? 7 : 5}" fill="${color[r.role]}" opacity="${dim ? .15 : .9}" stroke="var(--surface)" stroke-width="1.5"><title>${esc(p.name)} · ${esc(r.role)} · ${money(p.value)}</title></circle></a>`; }).join('')}
+    ${members.filter(([p, r]) => labelled.has(p.id) && (!roleSel || r.role === roleSel)).map(([p, r]) => `<text x="${(X(r.x) + 9).toFixed(1)}" y="${(Y(r.y) + 4).toFixed(1)}" style="fill:var(--ink);font-family:var(--body);font-weight:600">${esc(p.short)}</text>`).join('')}
+  </svg></div><div class="legend">${Object.entries(color).map(([n, c]) => `<span><i style="background:${c}"></i>${esc(n)}</span>`).join('')}</div>`;
+}
+
+/* ================= VALUE CALCULATOR ================= */
+// The trained model runs right here in the browser: XGBoost trees + linear model, mixed 60/40.
+const MODEL = D.model;
+MODEL.xgb_trees.forEach(function index(node){ if (node.children){ node.kids = {}; node.children.forEach(k => { node.kids[k.nodeid] = k; index(k); }); } });
+function treeValue(node, x){
+  while (node.leaf === undefined){
+    const v = x[MODEL.features.indexOf(node.split)];
+    const next = (v === null || Number.isNaN(v)) ? node.missing : (v < node.split_condition ? node.yes : node.no);
+    node = node.kids[next];
+  }
+  return node.leaf;
+}
+function predict(features){
+  const x = MODEL.features.map(f => features[f]);
+  let xgb = MODEL.xgb_base; for (const t of MODEL.xgb_trees) xgb += treeValue(t, x);
+  let lin = MODEL.lin_intercept;
+  x.forEach((v, i) => { const filled = (v === null || Number.isNaN(v)) ? MODEL.lin_fill[i] : v; lin += MODEL.lin_coef[i] * (filled - MODEL.lin_mean[i]) / MODEL.lin_std[i]; });
+  return Math.exp(MODEL.xgb_weight * xgb + (1 - MODEL.xgb_weight) * lin);
+}
+let calcState = null;
+function calcPage(p){
+  nav('calc');
+  if (!p) p = valued.find(q => q.name === 'João Pedro') || valued[0];
+  const base = p.calc, full = 38 * 90;
+  const mins = Math.round(base.minutes_share * full);
+  calcState = {
+    p, base,
+    age: Math.round(base.age), minutes: mins, club: p.team,
+    goals: Math.round(base.goals_p90 * mins / 90), assists: Math.round(base.assists_p90 * mins / 90),
+    xg: +(base.xg_p90 * mins / 90).toFixed(1), xa: +(base.xa_p90 * mins / 90).toFixed(1),
+    cs: Math.round(base.clean_sheets_p90 * mins / 90), saves: Math.round(base.saves_p90 * mins / 90),
+  };
+  const s = calcState;
+  const slider = (key, label, min, max, step) => `<div class="sl"><label for="s-${key}">${label}<span id="o-${key}">${s[key]}</span></label><input type="range" id="s-${key}" min="${min}" max="${max}" step="${step}" value="${s[key]}"></div>`;
+  app.innerHTML = `<section>
+    <div class="sec-head"><div><h1 style="font-size:40px">Value calculator</h1><p class="lead" style="font-size:15px">Change a player's season and watch the model re-price him instantly. This is the same trained model that sets every value on the site, running in your browser.</p></div></div>
+  </section>
+  <section class="calc">
+    <div>
+      <div class="sl"><label for="pick">Start from a player</label><select id="pick">${valued.map(q => `<option value="${q.id}" ${q.id === p.id ? 'selected' : ''}>${esc(q.name)} (${esc(q.team)})</option>`).join('')}</select></div>
+      <p class="muted" style="font-size:13px;margin:4px 0 6px">Numbers below are for a full 38-game season, projected from his form so far.</p>
+      ${slider('age', 'Age', 16, 38, 1)}
+      ${slider('minutes', 'Minutes played', 0, full, 30)}
+      ${p.pos !== 'GK' ? slider('goals', 'Goals', 0, 40, 1) + slider('assists', 'Assists', 0, 25, 1) + slider('xg', 'Expected goals (xG)', 0, 35, 0.5) + slider('xa', 'Expected assists (xA)', 0, 20, 0.5) : ''}
+      ${p.pos === 'GK' || p.pos === 'DEF' ? slider('cs', 'Clean sheets', 0, 25, 1) : ''}
+      ${p.pos === 'GK' ? slider('saves', 'Saves', 0, 160, 1) : ''}
+      <div class="sl"><label for="s-club">Club</label><select id="s-club">${C.map(c => `<option ${c.name === s.club ? 'selected' : ''}>${esc(c.name)}</option>`).join('')}</select></div>
+    </div>
+    <div class="calcout panel pad">
+      <span class="who">${pic(p)}<div><div class="nm">${esc(p.name)}</div><div class="sb">${POS[p.pos]} · ${esc(p.team)}</div></div></span>
+      <div class="eyebrow" style="margin-top:20px">Predicted value</div>
+      <div class="big" id="out">–</div>
+      <div id="diff" class="muted" style="margin-top:8px;font-size:14px"></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:20px"><button class="btn ghost" id="reset">Reset</button><a class="btn" href="#p${p.id}">Open player page</a></div>
+      <p class="muted" style="font-size:12px;margin:18px 0 0">Stats you can't move here (threat, creativity, match ratings) stay at his current per-90 levels.</p>
+    </div>
+  </section>`;
+  ['age', 'minutes', 'goals', 'assists', 'xg', 'xa', 'cs', 'saves'].forEach(k => { const el = document.getElementById('s-' + k); if (el) el.oninput = () => { s[k] = +el.value; document.getElementById('o-' + k).textContent = k === 'minutes' ? (+el.value).toLocaleString() : el.value; reprice(); }; });
+  document.getElementById('s-club').onchange = e => { s.club = e.target.value; reprice(); };
+  document.getElementById('pick').onchange = e => { location.hash = 'calc' + e.target.value; };
+  document.getElementById('reset').onclick = () => calcPage(p);
+  document.getElementById('o-minutes').textContent = s.minutes.toLocaleString();
+  reprice();
+}
+function reprice(){
+  const s = calcState, b = s.base, f = {...b}, full = 38 * 90, m = Math.max(s.minutes, 1);
+  const club = clubByName.get(s.club);
+  f.age = s.age;
+  f.minutes_share = s.minutes / full;
+  f.starts_share = Math.min(b.starts_share / Math.max(b.minutes_share, .01) * f.minutes_share, 1);
+  f.team_pos = club.pos;
+  f.big_club = ['Arsenal', 'Chelsea', 'Liverpool', 'Man City', 'Man Utd', 'Spurs'].includes(s.club) ? 1 : 0;
+  f.goals = s.goals; f.assists = s.assists;
+  f.goals_p90 = s.goals / m * 90; f.assists_p90 = s.assists / m * 90; f.xg_p90 = s.xg / m * 90; f.xa_p90 = s.xa / m * 90;
+  f.clean_sheets_p90 = s.cs / m * 90; f.saves_p90 = s.saves / m * 90;
+  const v = predict(f), now = s.p.value;
+  document.getElementById('out').textContent = money(v);
+  const d = now ? (v / now - 1) * 100 : null;
+  document.getElementById('diff').innerHTML = now ? `His real value now is <b class="mono" style="color:var(--ink)">${money(now)}</b>${Math.abs(d) >= 1 ? ` · this season would make him <b style="color:${d > 0 ? 'var(--up)' : 'var(--down)'}">${d > 0 ? '+' : ''}${d.toFixed(0)}%</b>` : ''}` : '';
+}
+
+/* ================= HOW IT WORKS ================= */
+function aboutPage(){
+  nav('about');
+  const cv = M.cross_validation, tt = M.time_test, pct = v => v.toFixed(0) + '%';
+  const steps = [
+    ['Collect', 'Fantasy Premier League stats for every player since 2019-20, plus Transfermarkt values for players who joined or left a Premier League club each summer.'],
+    ['Match', `Join the two by player name and age, so each season has a price tag. ${M.n_train} player-seasons with 300+ minutes are used for training.`],
+    ['Features', 'Turn counts into per-90-minute rates (goals, xG, xA, chance creation, clean sheets, saves…) and add age, playing time and club.'],
+    ['Train', 'XGBoost (decision trees) and a linear regression both learn to predict the log of the value. The final price is 60% one, 40% the other.'],
+    ['Price', 'Apply the model to this season only. Early numbers are pulled toward the position average until a player has played enough.'],
+    ['Explain', 'SHAP splits each price into reasons: how much age, goals, minutes and club each add or take away.'],
+  ];
+  app.innerHTML = `<section>
+    <div class="sec-head"><div><h1 style="font-size:40px">How it works</h1><p class="lead" style="font-size:15px">A Python machine-learning pipeline that runs every week and rebuilds this site.</p></div></div>
+    <div class="cards" style="grid-template-columns:repeat(3,minmax(0,1fr))">${steps.map(([t, d], i) => `<div class="card" style="cursor:default"><span class="mono" style="color:var(--brand-ink);font-weight:700">Step ${i + 1}</span><b style="font-family:var(--display);font-size:20px">${t}</b><span class="muted" style="font-size:14px">${d}</span></div>`).join('')}</div>
+  </section>
+  <section class="grid2">
+    <div><div class="sec-head"><div><h2>How accurate is it?</h2><p>Tested on players the model never saw</p></div></div>
+      <div class="tbox"><table><thead><tr><th>Test</th><th>Model</th><th class="c">R²</th><th class="c">Typical miss</th><th class="r">Within ±50%</th></tr></thead><tbody>
+      ${[['5-fold cross-validation', cv], [`Trained on earlier seasons, tested on ${M.time_test_season}`, tt]].map(([n, m]) => [['blend', 'Final model (blend)'], ['xgboost', 'XGBoost only'], ['linear_baseline', 'Linear only']].map(([k, l], i) => `<tr><td style="white-space:normal">${i ? '' : n}</td><td>${i ? l : `<b>${l}</b>`}</td><td class="c mono">${m[k].r2_log.toFixed(2)}</td><td class="c mono">${pct(m[k].median_pct_error)}</td><td class="r mono">${pct(m[k].within_50pct)}</td></tr>`).join('')).join('')}
+      </tbody></table></div>
+      <div class="prose"><h3>Known limits</h3><ul>
+        <li>Superstars run low: few €100m+ players changed clubs in the training years.</li>
+        <li>Early in a season values move a lot from week to week.</li>
+        <li>Free data has no dribbles or progressive passes; contracts, injuries and reputation are not included.</li></ul></div>
+    </div>
+    <div><div class="sec-head"><div><h2>Predicted vs real</h2><p>Each dot is a held-out player-season</p></div></div>${scatter()}</div>
+  </section>
+  <section class="builtby">
+    <div><div class="eyebrow">Built by</div><h2 style="margin-top:8px">${esc(META.builder.name)}</h2>
+      <p class="muted" style="margin:6px 0 0">${esc(META.builder.role)}</p>
+      <p style="margin:14px 0 0;max-width:62ch">Pitch Metrics is my end-to-end machine-learning project: it collects real football data, trains and tests the models, explains every prediction, and rebuilds this website by itself every week.</p></div>
+    ${META.builder.github || META.builder.linkedin ? `<div class="links">${META.builder.github ? `<a class="btn ghost" href="${esc(META.builder.github)}" target="_blank" rel="noopener">GitHub</a>` : ''}${META.builder.linkedin ? `<a class="btn" href="${esc(META.builder.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>` : ''}</div>` : ''}
+  </section>`;
+}
+function scatter(){
+  const W = 560, H = 420, L = 58, R = 12, T = 10, B = 38, lo = Math.log(3e5), hi = Math.log(1.6e8);
+  const X = v => L + (Math.log(v) - lo) / (hi - lo) * (W - L - R), Y = v => T + (1 - (Math.log(Math.max(v, 3e5)) - lo) / (hi - lo)) * (H - T - B);
+  const col = {GK: 'var(--gk)', DEF: 'var(--def)', MID: 'var(--mid)', FWD: 'var(--fwd)'};
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Predicted versus real value">
+    ${[1e6, 1e7, 1e8].map(v => `<line x1="${X(v)}" x2="${X(v)}" y1="${T}" y2="${H - B}" stroke="var(--line)"/><line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${X(v)}" y="${H - B + 16}" text-anchor="middle">${money(v)}</text><text x="${L - 8}" y="${Y(v) + 4}" text-anchor="end">${money(v)}</text>`).join('')}
+    <line x1="${X(3e5)}" y1="${Y(3e5)}" x2="${X(1.6e8)}" y2="${Y(1.6e8)}" stroke="var(--ink)" stroke-dasharray="5 4" opacity=".5"/>
+    ${D.tests.map(d => `<circle cx="${X(d.a).toFixed(1)}" cy="${Y(d.m).toFixed(1)}" r="3.5" fill="${col[d.p]}" opacity=".75"><title>${esc(d.n)} (${d.s}): real ${money(d.a)}, predicted ${money(d.m)}</title></circle>`).join('')}
+    <text x="${(L + W - R) / 2}" y="${H - 4}" text-anchor="middle">Real Transfermarkt value</text><text x="14" y="${(T + H - B) / 2}" text-anchor="middle" transform="rotate(-90 14 ${(T + H - B) / 2})">Predicted</text>
+  </svg><div class="legend">${Object.entries(col).map(([k, c]) => `<span><i style="background:${c}"></i>${POS[k]}</span>`).join('')}<span>Dashed line = perfect guess</span></div>`;
+}
+
+route();
+</script>
+</body>
+</html>

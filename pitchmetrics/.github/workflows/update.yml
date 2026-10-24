@@ -1,0 +1,41 @@
+# Rebuilds the website automatically.
+# Runs every Tuesday morning (after the weekend and Monday matches), and you can
+# also start it by hand: GitHub repo -> Actions -> "Update Pitch Metrics" -> Run workflow.
+
+name: Update Pitch Metrics
+
+on:
+  schedule:
+    - cron: "30 4 * * 2"     # every Tuesday 04:30 UTC (10:00 in India)
+  workflow_dispatch:          # the "Run workflow" button
+
+permissions:
+  contents: write             # lets the job save the new website back to the repo
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install libraries
+        run: pip install -r requirements.txt
+
+      - name: Run the pipeline (download, train, predict, build site)
+        working-directory: src
+        run: python run_all.py
+
+      - name: Save the new website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs models data/processed
+          git diff --cached --quiet || git commit -m "Weekly update $(date +'%Y-%m-%d')"
+          git push

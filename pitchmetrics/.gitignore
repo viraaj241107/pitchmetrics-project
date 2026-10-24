@@ -1,0 +1,6 @@
+# downloaded every run, no need to store
+data/raw/
+# preview copy for places that block outside images
+site/preview.html
+__pycache__/
+.venv/

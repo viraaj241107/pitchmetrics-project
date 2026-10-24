@@ -1,0 +1,1105 @@
+season,code,name,web_name,first_name,second_name,birth_date,position,team_name,team_pos,minutes,starts,goals_scored,assists,expected_goals,expected_assists,clean_sheets,goals_conceded,saves,penalties_saved,yellow_cards,red_cards,bonus,bps,influence,creativity,threat,total_points,tackles,clearances_blocks_interceptions,recoveries,market_value,tm_age,tm_player_id,tm_year
+2019-20,92371,Pablo Marí,Marí,Pablo,Marí,,DEF,Arsenal,8,113,,0,0,,,1,0,0,0,0,0,1,31,27.8,1.7,0.0,8,,,,4800000.0,26,210178,2020
+2019-20,58822,Cédric Soares,Cédric,Cédric,Soares,,DEF,Arsenal,8,1553,,1,1,,,4,20,0,0,1,0,3,286,349.0,218.9,118.0,61,,,,8000000.0,28,112988,2020
+2019-20,47431,Willian Borges Da Silva,Willian,Willian,Borges Da Silva,1988-08-09,MID,Chelsea,4,2595,,9,9,,,10,35,0,0,4,0,26,698,834.8,1177.7,930.0,168,,,,22500000.0,32,52769,2020
+2019-20,98980,Emiliano Martínez,Martínez,Emiliano,Martínez,1992-09-02,GK,Arsenal,8,770,,0,0,,,3,9,34,0,2,0,1,169,256.8,0.0,0.0,33,,,,8000000.0,28,111873,2020
+2019-20,242166,Matteo Guendouzi,Guendouzi,Matteo,Guendouzi,,MID,Arsenal,8,1744,,0,2,,,3,31,0,0,6,0,2,272,333.6,235.1,146.0,48,,,,32000000.0,21,465830,2020
+2019-20,233963,Konstantinos Mavropanos,Mavropanos,Konstantinos,Mavropanos,1997-12-11,DEF,Arsenal,8,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2400000.0,22,415912,2020
+2019-20,57249,Henrikh Mkhitaryan,Mkhitaryan,Henrikh,Mkhitaryan,,MID,Arsenal,8,110,,0,0,,,1,0,0,0,1,0,0,3,5.4,33.9,46.0,4,,,,20000000.0,31,55735,2020
+2019-20,198849,Lucas Torreira,Torreira,Lucas,Torreira,,MID,Arsenal,8,1501,,1,1,,,3,23,0,0,7,0,0,247,281.8,207.1,207.0,46,,,,30000000.0,24,318077,2020
+2019-20,88894,Ross Barkley,Barkley,Ross,Barkley,1993-12-05,MID,Chelsea,4,1095,,1,5,,,5,14,0,0,0,0,5,208,266.0,344.3,373.0,61,,,,21500000.0,26,131978,2020
+2019-20,43252,James Chester,Chester,James,Chester,,DEF,Aston Villa,17,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2400000.0,31,73482,2020
+2019-20,174597,Andre Green,Green,Andre,Green,,MID,Aston Villa,17,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1800000.0,22,309841,2020
+2019-20,98770,Ørjan Nyland,Nyland,Ørjan,Nyland,,GK,Aston Villa,17,537,,0,0,,,1,12,15,0,0,0,0,90,101.2,0.0,0.0,15,,,,1200000.0,30,73517,2020
+2019-20,50175,Danny Welbeck,Welbeck,Danny,Welbeck,1990-11-26,FWD,Watford,19,813,,2,1,,,1,15,0,0,0,0,3,93,128.2,51.5,350.0,39,,,,5500000.0,29,67063,2020
+2019-20,39155,Adam Lallana,Lallana,Adam,Lallana,1988-05-10,MID,Liverpool,1,371,,1,1,,,1,5,0,0,1,0,1,97,107.2,68.8,74.0,27,,,,9500000.0,32,43530,2020
+2019-20,83543,Anthony Knockaert,Knockaert,Anthony,Knockaert,,MID,Brighton,15,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6500000.0,28,149237,2020
+2019-20,74471,Aaron Mooy,Mooy,Aaron,Mooy,,MID,Brighton,15,2079,,2,2,,,6,33,0,0,1,1,9,337,436.6,614.9,291.0,80,,,,9500000.0,29,123951,2020
+2019-20,61933,Shane Duffy,Duffy,Shane,Duffy,,DEF,Brighton,15,1232,,1,0,,,3,18,0,0,2,0,1,227,288.0,29.8,100.0,44,,,,9500000.0,28,119269,2020
+2019-20,40845,Dale Stephens,Stephens,Dale,Stephens,,MID,Brighton,15,2525,,0,1,,,6,42,0,0,8,0,1,406,438.6,292.8,90.0,63,,,,4800000.0,31,49755,2020
+2019-20,50093,David Button,Button,David,Button,1989-02-27,GK,Brighton,15,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,31,61814,2020
+2019-20,86153,Martín Montoya,Montoya,Martín,Montoya,,DEF,Brighton,15,1892,,0,1,,,6,32,0,0,5,0,3,313,337.4,338.0,177.0,62,,,,6500000.0,29,68645,2020
+2019-20,20529,Glenn Murray,Murray,Glenn,Murray,,FWD,Brighton,15,785,,1,1,,,2,10,0,0,0,0,0,74,74.0,57.1,249.0,36,,,,1600000.0,36,45693,2020
+2019-20,213056,Tudor Baluta,Baluta,Tudor,Baluta,,DEF,Brighton,15,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3600000.0,21,433976,2020
+2019-20,38490,Beram Kayal,Kayal,Beram,Kayal,,MID,Brighton,15,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,32,44741,2020
+2019-20,74375,Ezequiel Schelotto,Schelotto,Ezequiel,Schelotto,,DEF,Brighton,15,357,,0,0,,,0,7,0,0,2,0,0,40,38.4,12.7,65.0,9,,,,1200000.0,31,119164,2020
+2019-20,168399,Will Norris,Norris,Will,Norris,,GK,Wolves,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,27,285033,2020
+2019-20,83312,Ben Gibson,Gibson,Ben,Gibson,,DEF,Burnley,10,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4500000.0,27,128904,2020
+2019-20,17349,Aaron Lennon,Lennon,Aaron,Lennon,,MID,Burnley,10,485,,0,0,,,0,15,0,0,4,0,0,51,45.0,37.8,12.0,15,,,,2400000.0,33,14221,2020
+2019-20,83314,Jeff Hendrick,Hendrick,Jeff,Hendrick,,MID,Burnley,10,1930,,2,2,,,10,30,0,0,8,0,4,197,269.8,213.7,282.0,67,,,,9000000.0,28,148262,2020
+2019-20,15749,Joe Hart,Hart,Joe,Hart,,GK,Burnley,10,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2400000.0,33,40204,2020
+2019-20,83283,Nathan Redmond,Redmond,Nathan,Redmond,,MID,Southampton,11,2763,,4,4,,,7,51,0,0,2,0,8,412,517.2,539.1,752.0,107,,,,800000.0,24,294798,2020
+2019-20,49579,Pedro Rodríguez Ledesma,Pedro,Pedro,Rodríguez Ledesma,,MID,Chelsea,4,659,,1,2,,,2,12,0,0,1,0,1,127,161.4,227.1,349.0,32,,,,9500000.0,33,65278,2020
+2019-20,105700,Davide Zappacosta,Zappacosta,Davide,Zappacosta,,DEF,Chelsea,4,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,28,173859,2020
+2019-20,126187,Ruben Loftus-Cheek,Loftus-Cheek,Ruben,Loftus-Cheek,,MID,Chelsea,4,203,,0,1,,,1,3,0,0,0,0,0,37,30.8,30.2,33.0,12,,,,24000000.0,24,202886,2020
+2019-20,94245,Michy Batshuayi,Batshuayi,Michy,Batshuayi,,FWD,Chelsea,4,224,,1,2,,,0,8,0,0,0,0,1,59,61.8,42.9,185.0,28,,,,14000000.0,26,179184,2020
+2019-20,167767,Robert Kenedy Nunes do Nascimento,Kenedy,Robert Kenedy,Nunes do Nascimento,,MID,Chelsea,4,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,9500000.0,24,281404,2020
+2019-20,199598,Ethan Ampadu,Ampadu,Ethan,Ampadu,2000-09-14,MID,Chelsea,4,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,9000000.0,19,392771,2020
+2019-20,209036,Addji Keaninkin Marc-Israel Guehi,Guehi,Addji Keaninkin Marc-Israel,Guehi,2000-07-13,DEF,Chelsea,4,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2700000.0,20,392757,2020
+2019-20,198826,Ben Godfrey,Godfrey,Ben,Godfrey,1998-01-15,DEF,Norwich,20,2644,,0,0,,,3,62,0,0,3,1,0,447,602.8,57.0,119.0,38,,,,16000000.0,22,343475,2020
+2019-20,170137,Allan Saint-Maximin,Saint-Maximin,Allan,Saint-Maximin,,MID,Newcastle,13,1860,,3,5,,,8,22,0,0,0,0,7,321,434.0,423.4,542.0,92,,,,28000000.0,29,126422,2020
+2019-20,121599,Abdoulaye Doucouré,Doucouré,Abdoulaye,Doucouré,1993-01-01,MID,Watford,19,3156,,4,4,,,10,61,0,0,9,0,9,459,529.6,539.0,667.0,113,,,,20000000.0,27,127187,2020
+2019-20,42774,Morgan Schneiderlin,Schneiderlin,Morgan,Schneiderlin,,MID,Everton,12,998,,0,0,,,1,20,0,0,4,1,0,132,143.2,78.5,32.0,18,,,,9500000.0,30,56818,2020
+2019-20,10318,Maarten Stekelenburg,Stekelenburg,Maarten,Stekelenburg,,GK,Everton,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,550000.0,37,4311,2020
+2019-20,242058,Moise Kean,Kean,Moise,Kean,,FWD,Everton,12,830,,2,2,,,1,15,0,0,1,0,5,138,153.6,136.5,429.0,53,,,,25000000.0,20,364135,2020
+2019-20,20467,Theo Walcott,Walcott,Theo,Walcott,,MID,Everton,12,1281,,2,4,,,4,19,0,0,1,0,1,186,225.0,289.1,521.0,63,,,,12000000.0,31,33713,2020
+2019-20,113688,Oumar Niasse,Niasse,Oumar,Niasse,,FWD,Everton,12,19,,0,0,,,0,2,0,0,0,0,0,1,7.0,1.8,0.0,3,,,,3200000.0,30,209781,2020
+2019-20,102747,Djibril Sidibé,Sidibé,Djibril,Sidibé,,DEF,Everton,12,1818,,0,4,,,5,30,0,0,3,0,10,386,463.0,341.5,121.0,74,,,,9500000.0,28,161869,2020
+2019-20,151086,Mario Lemina,Lemina,Mario,Lemina,,MID,Southampton,11,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,26,170934,2020
+2019-20,219352,Ademola Lookman,Lookman,Ademola,Lookman,,MID,Everton,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,22,406040,2020
+2019-20,165808,Hélder Costa,Costa,Hélder,Costa,,MID,Wolves,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,26,173900,2020
+2019-20,61604,Matty James,James,Matty,James,,MID,Leicester,5,5,,0,0,,,0,0,0,0,0,0,0,3,0.4,0.1,0.0,1,,,,1200000.0,29,73522,2020
+2019-20,222625,George Hirst,Hirst,George,Hirst,1999-02-15,FWD,Leicester,5,9,,0,0,,,0,1,0,0,0,0,0,3,3.2,0.6,25.0,2,,,,450000.0,21,420808,2020
+2019-20,115858,Rachid Ghezzal,Ghezzal,Rachid,Ghezzal,,MID,Leicester,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5500000.0,28,118287,2020
+2019-20,213405,Filip Benkovic,Benkovic,Filip,Benkovic,,DEF,Leicester,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7000000.0,23,293168,2020
+2019-20,13152,Andy King,King,Andy,King,,MID,Leicester,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,31,56872,2020
+2019-20,41727,Ryan Bennett,Bennett,Ryan,Bennett,,DEF,Leicester,5,932,,0,0,,,3,17,0,0,2,0,2,176,161.4,41.0,16.0,32,,,,4000000.0,30,67252,2020
+2019-20,194634,Diogo Jota,Jota,Diogo,Jota,1996-12-04,FWD,Wolves,7,2278,,7,3,,,10,28,0,0,4,0,12,348,457.8,453.3,1139.0,105,,,,28000000.0,23,340950,2020
+2019-20,38454,Dejan Lovren,Lovren,Dejan,Lovren,,DEF,Liverpool,1,776,,0,1,,,0,11,0,0,1,0,0,147,196.6,28.1,72.0,18,,,,12000000.0,31,37838,2020
+2019-20,153682,Harry Wilson,Harry Wilson,Harry,Wilson,1997-03-22,MID,Bournemouth,18,1637,,7,1,,,2,32,0,0,2,0,7,295,377.4,242.1,667.0,91,,,,16000000.0,23,279455,2020
+2019-20,11948,Andy Lonergan,Lonergan,Andy,Lonergan,,GK,Liverpool,1,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,36,14044,2020
+2019-20,126184,Nathan Aké,Aké,Nathan,Aké,1995-02-18,DEF,Bournemouth,18,2503,,2,2,,,4,46,0,0,2,0,6,499,691.2,92.7,326.0,79,,,,28000000.0,25,177476,2020
+2019-20,182156,Leroy Sané,Sané,Leroy,Sané,,MID,Man City,2,11,,0,0,,,0,0,0,0,0,0,0,2,0.0,1.1,11.0,1,,,,80000000.0,24,192565,2020
+2019-20,57410,Nicolás Otamendi,Otamendi,Nicolás,Otamendi,,DEF,Man City,2,1710,,2,1,,,7,21,0,0,3,0,6,389,443.6,65.5,319.0,82,,,,14500000.0,32,54781,2020
+2019-20,33148,Claudio Bravo,Bravo,Claudio,Bravo,,GK,Man City,2,346,,0,0,,,1,7,8,0,0,0,0,69,57.8,0.0,0.0,11,,,,1200000.0,37,40423,2020
+2019-20,20664,David Silva,David Silva,David,Silva,,MID,Man City,2,1821,,6,12,,,11,15,0,0,0,0,15,549,639.6,735.8,937.0,139,,,,12000000.0,34,35518,2020
+2019-20,124165,Patrick Roberts,Roberts,Patrick,Roberts,1997-02-05,MID,Norwich,20,24,,0,0,,,0,2,0,0,0,0,0,12,4.4,0.6,0.0,3,,,,2800000.0,23,225452,2020
+2019-20,17601,Scott Carson,Carson,Scott,Carson,1985-09-03,GK,Man City,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,35,14555,2020
+2019-20,55909,Chris Smalling,Smalling,Chris,Smalling,,DEF,Man Utd,3,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,30,103427,2020
+2019-20,216051,José Diogo Dalot Teixeira,Dalot,José Diogo,Dalot Teixeira,1999-03-18,DEF,Man Utd,3,65,,0,0,,,0,1,0,0,0,0,0,10,10.4,4.3,6.0,4,,,,12000000.0,21,357147,2020
+2019-20,209041,Angel Gomes,Gomes,Angel,Gomes,2000-08-31,MID,Man Utd,3,19,,0,0,,,0,1,0,0,0,0,0,7,4.2,24.8,2.0,2,,,,3600000.0,19,392770,2020
+2019-20,37265,Alexis Sánchez,Sánchez,Alexis,Sánchez,,MID,Man Utd,3,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,16000000.0,31,40433,2020
+2019-20,222677,Tahith Chong,Chong,Tahith,Chong,,MID,Man Utd,3,34,,0,0,,,0,0,0,0,0,0,0,6,1.4,1.1,6.0,3,,,,6300000.0,20,344830,2020
+2019-20,232928,James Garner,Garner,James,Garner,2001-03-13,MID,Man Utd,3,8,,0,0,,,0,1,0,0,0,0,0,3,2.2,2.8,0.0,1,,,,2700000.0,19,505219,2020
+2019-20,156689,Andreas Pereira,Pereira,Andreas,Pereira,1996-01-01,MID,Man Utd,3,1478,,1,3,,,6,16,0,0,3,0,1,198,245.6,432.1,343.0,60,,,,16000000.0,24,203394,2020
+2019-20,75115,Callum Wilson,Callum Wilson,Callum,Wilson,1992-02-27,FWD,Bournemouth,18,2906,,8,6,,,4,53,0,0,9,0,8,321,397.4,391.1,848.0,116,,,,20000000.0,28,123682,2020
+2019-20,194799,Jamal Lewis,Lewis,Jamal,Lewis,1998-01-25,DEF,Norwich,20,2301,,1,0,,,3,56,0,0,4,0,3,384,439.0,262.2,130.0,48,,,,11000000.0,22,346018,2020
+2019-20,90105,Ryan Fraser,Fraser,Ryan,Fraser,1994-02-24,MID,Bournemouth,18,2061,,1,5,,,4,34,0,0,2,0,2,305,355.6,627.1,440.0,73,,,,17500000.0,26,146795,2020
+2019-20,58771,Jack Colback,Colback,Jack,Colback,,MID,Newcastle,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1600000.0,30,61644,2020
+2019-20,77359,Florian Lejeune,Lejeune,Florian,Lejeune,,DEF,Newcastle,13,440,,2,0,,,1,10,0,0,0,0,1,88,132.0,12.6,81.0,24,,,,4800000.0,29,127108,2020
+2019-20,196118,Yoshinori Muto,Muto,Yoshinori,Muto,,FWD,Newcastle,13,207,,0,0,,,0,7,0,0,0,0,0,25,12.6,15.4,12.0,9,,,,5500000.0,28,230541,2020
+2019-20,92159,Jetro Willems,Willems,Jetro,Willems,,DEF,Newcastle,13,1492,,2,2,,,3,24,0,0,0,0,6,283,345.4,196.0,198.0,64,,,,5500000.0,26,146258,2020
+2019-20,38290,Danny Rose,Rose,Danny,Rose,,DEF,Newcastle,13,1753,,0,0,,,5,28,0,0,7,0,0,290,288.4,230.8,44.0,47,,,,16000000.0,30,50174,2020
+2019-20,116543,Valentino Lazaro,Lazaro,Valentino,Lazaro,,MID,Newcastle,13,472,,1,0,,,0,13,0,0,0,1,0,81,84.2,88.1,38.0,19,,,,15000000.0,24,186368,2020
+2019-20,126407,Nabil Bentaleb,Bentaleb,Nabil,Bentaleb,,MID,Newcastle,13,747,,0,0,,,2,16,0,0,2,0,0,113,104.6,101.0,20.0,19,,,,4000000.0,25,245537,2020
+2019-20,195473,Rhian Brewster,Brewster,Rhian,Brewster,,FWD,Liverpool,1,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5400000.0,20,406560,2020
+2019-20,225321,Aaron Ramsdale,Ramsdale,Aaron,Ramsdale,1998-05-14,GK,Bournemouth,18,3330,,0,1,,,5,62,128,1,0,0,13,680,973.8,24.0,0.0,126,,,,12500000.0,22,427568,2020
+2019-20,90518,Ravel Morrison,Morrison,Ravel,Morrison,,MID,Sheffield Utd,9,12,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.6,4.0,1,,,,600000.0,27,128907,2020
+2019-20,18440,Leon Clarke,Clarke,Leon,Clarke,,FWD,Sheffield Utd,9,33,,0,0,,,0,2,0,0,0,0,0,3,4.0,1.6,6.0,2,,,,300000.0,35,36859,2020
+2019-20,171975,Callum Robinson,Callum Robinson,Callum,Robinson,,MID,Sheffield Utd,9,669,,1,2,,,2,6,0,0,1,0,1,73,79.8,72.8,156.0,33,,,,5500000.0,25,183299,2020
+2019-20,49083,Luke Freeman,Freeman,Luke,Freeman,,MID,Sheffield Utd,9,360,,0,0,,,1,5,0,0,2,0,0,38,46.2,77.4,25.0,13,,,,2800000.0,28,66923,2020
+2019-20,213280,Jake Eastwood,Eastwood,Jake,Eastwood,,GK,Sheffield Utd,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,100000.0,23,526873,2020
+2019-20,87121,Kieron Freeman,Freeman,Kieron,Freeman,,DEF,Sheffield Utd,9,6,,0,0,,,0,0,0,0,0,0,0,5,0.0,0.3,0.0,2,,,,1200000.0,28,158703,2020
+2019-20,172649,Dean Henderson,Henderson,Dean,Henderson,1997-03-12,GK,Sheffield Utd,9,3240,,0,1,,,13,33,97,1,2,0,16,688,718.8,10.0,18.0,160,,,,20000000.0,23,258919,2020
+2019-20,222786,Panagiotis Retsos,Retsos,Panagiotis,Retsos,,DEF,Sheffield Utd,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,21,324351,2020
+2019-20,147612,Richairo Zivkovic,Zivkovic,Richairo,Zivkovic,,FWD,Sheffield Utd,9,107,,0,0,,,0,4,0,0,0,0,0,15,9.4,28.6,22.0,5,,,,650000.0,23,252755,2020
+2019-20,158534,Kyle Walker-Peters,Walker-Peters,Kyle,Walker-Peters,1997-04-13,DEF,Southampton,11,944,,0,1,,,2,12,0,0,1,0,2,194,168.2,108.6,48.0,32,,,,8000000.0,23,341051,2020
+2019-20,132015,Pierre-Emile Højbjerg,Højbjerg,Pierre-Emile,Højbjerg,,MID,Southampton,11,2750,,0,3,,,7,51,0,0,5,0,1,412,493.0,469.0,368.0,75,,,,20000000.0,25,167799,2020
+2019-20,167075,Wesley Hoedt,Hoedt,Wesley,Hoedt,,DEF,Southampton,11,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6500000.0,26,253765,2020
+2019-20,128198,Sofiane Boufal,Boufal,Sofiane,Boufal,,MID,Southampton,11,753,,0,3,,,1,17,0,0,2,0,0,99,149.4,203.7,267.0,34,,,,8000000.0,27,232271,2020
+2019-20,80447,Maya Yoshida,Yoshida,Maya,Yoshida,,DEF,Southampton,11,558,,0,0,,,1,18,0,0,1,0,1,85,96.8,3.7,77.0,10,,,,3800000.0,32,81789,2020
+2019-20,107265,Angus Gunn,Gunn,Angus,Gunn,1996-01-22,GK,Southampton,11,900,,0,0,,,2,25,30,0,0,0,3,166,219.4,0.0,0.0,29,,,,4000000.0,24,201574,2020
+2019-20,135720,Kevin Danso,Danso,Kevin,Danso,1998-09-19,DEF,Southampton,11,275,,0,1,,,1,8,0,0,0,1,0,46,58.4,26.0,6.0,9,,,,6300000.0,21,263236,2020
+2019-20,200826,Giovani Lo Celso,Lo Celso,Giovani,Lo Celso,,MID,Spurs,6,1482,,0,3,,,6,18,0,0,6,0,3,250,303.2,459.4,176.0,54,,,,40000000.0,24,348795,2020
+2019-20,87835,Matt Doherty,Doherty,Matt,Doherty,1992-01-16,DEF,Wolves,7,2836,,4,8,,,12,31,0,0,1,0,15,590,576.2,340.5,681.0,167,,,,16000000.0,28,171679,2020
+2019-20,39194,Jan Vertonghen,Vertonghen,Jan,Vertonghen,,DEF,Spurs,6,1644,,1,1,,,4,24,0,0,2,0,5,346,398.4,56.1,63.0,62,,,,14500000.0,33,43250,2020
+2019-20,209042,Oliver Skipp,Skipp,Oliver,Skipp,2000-09-16,MID,Spurs,6,74,,0,0,,,0,1,0,0,0,0,0,23,15.2,1.6,0.0,7,,,,7200000.0,19,406638,2020
+2019-20,234908,Juan Foyth,Foyth,Juan,Foyth,,DEF,Spurs,6,66,,0,0,,,0,3,0,0,1,0,0,9,18.6,12.5,0.0,3,,,,13500000.0,22,480763,2020
+2019-20,184349,Ryan Sessegnon,Sessegnon,Ryan,Sessegnon,2000-05-18,MID,Spurs,6,341,,0,0,,,0,5,0,0,0,0,0,41,45.4,39.9,34.0,9,,,,25000000.0,20,392775,2020
+2019-20,179830,Grady Diangana,Diangana,Grady,Diangana,,MID,West Ham,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4500000.0,22,342048,2020
+2019-20,154043,Ainsley Maitland-Niles,Maitland-Niles,Ainsley,Maitland-Niles,1997-08-29,DEF,Arsenal,8,1382,,0,2,,,3,22,0,0,4,1,3,244,301.8,182.0,58.0,41,,,,18000000.0,23,285845,2020
+2019-20,215439,Tomas Soucek,Soucek,Tomas,Soucek,1995-02-27,MID,West Ham,16,1039,,3,0,,,1,18,0,0,0,0,3,155,254.2,73.1,293.0,41,,,,12000000.0,25,283628,2020
+2019-20,60232,Craig Dawson,Dawson,Craig,Dawson,1990-05-06,DEF,Watford,19,2359,,2,0,,,4,49,0,0,6,0,2,353,550.6,67.5,403.0,61,,,,4800000.0,30,121477,2020
+2019-20,181008,Albian Ajeti,Ajeti,Albian,Ajeti,,FWD,West Ham,16,132,,0,0,,,0,3,0,0,0,0,0,16,5.2,22.9,47.0,9,,,,4800000.0,23,195906,2020
+2019-20,92217,Roberto Firmino,Firmino,Roberto,Firmino,,FWD,Liverpool,1,2985,,9,9,,,16,26,0,0,0,0,20,592,733.6,703.0,1638.0,155,,,,800000.0,34,37403,2020
+2019-20,101537,Felipe Anderson Pereira Gomes,Felipe Anderson,Felipe Anderson,Pereira Gomes,,MID,West Ham,16,1493,,1,4,,,7,27,0,0,1,0,1,299,377.2,414.7,355.0,66,,,,25000000.0,27,159372,2020
+2019-20,42824,Carlos Sánchez,Carlos Sánchez,Carlos,Sánchez,,MID,West Ham,16,112,,0,0,,,0,2,0,0,0,0,0,20,8.4,3.7,0.0,7,,,,1200000.0,34,51226,2020
+2019-20,54102,Jack Wilshere,Wilshere,Jack,Wilshere,,MID,West Ham,16,209,,0,0,,,0,5,0,0,0,0,0,14,6.4,7.0,4.0,8,,,,4800000.0,28,74223,2020
+2019-20,109322,Jesse Lingard,Lingard,Jesse,Lingard,,MID,Man Utd,3,923,,1,0,,,1,14,0,0,3,0,0,99,109.0,278.2,297.0,32,,,,22000000.0,28,141660,2020
+2019-20,441271,Ki-Jana Hoever,Hoever,Ki-Jana,Hoever,2002-01-18,DEF,Liverpool,1,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3600000.0,18,485583,2020
+2019-20,216054,Rúben Gonçalo Silva Nascimento Vinagre,Vinagre,Rúben Gonçalo,Silva Nascimento Vinagre,,DEF,Wolves,7,644,,0,0,,,3,6,0,0,1,0,1,134,130.4,96.2,56.0,32,,,,9000000.0,21,357158,2020
+2019-20,474003,Leonardo Campana,Campana,Leonardo,Campana,,FWD,Wolves,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1800000.0,20,606872,2020
+2019-20,428610,Bruno André Cavaco Jordao,Jordao,Bruno André,Cavaco Jordao,,MID,Wolves,7,6,,0,0,,,0,0,0,0,0,0,0,4,2.6,10.4,0.0,1,,,,2300000.0,21,415646,2020
+2019-20,222531,Morgan Gibbs-White,Gibbs-White,Morgan,Gibbs-White,2000-01-27,MID,Wolves,7,125,,0,1,,,0,2,0,0,0,0,0,39,6.6,44.1,12.0,11,,,,7200000.0,20,429014,2020
+2020-21,198869,Ben White,White,Ben,White,1997-10-08,DEF,Brighton,16,3192,,0,0,,,12,44,0,0,3,1,5,571,488.6,152.5,153.0,104,,,,28000000.0,23,335721,2021
+2020-21,184029,Martin Ødegaard,Ødegaard,Martin,Ødegaard,1998-12-17,MID,Arsenal,8,861,,1,2,,,3,12,0,0,0,0,3,183,169.8,322.8,167.0,40,,,,40000000.0,22,316264,2021
+2020-21,225321,Aaron Ramsdale,Ramsdale,Aaron,Ramsdale,1998-05-14,GK,Sheffield Utd,20,3420,,0,0,,,5,63,146,0,1,0,12,685,1023.0,20.0,4.0,123,,,,12000000.0,23,427568,2021
+2020-21,198849,Lucas Torreira,Torreira,Lucas,Torreira,,MID,Arsenal,8,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,25,318077,2021
+2020-21,41270,David Luiz Moreira Marinho,David Luiz,David,Luiz Moreira Marinho,,DEF,Arsenal,8,1396,,1,0,,,3,20,0,0,1,1,0,230,250.6,46.7,144.0,41,,,,4000000.0,34,46741,2021
+2020-21,47431,Willian Borges Da Silva,Willian,Willian,Borges Da Silva,1988-08-09,MID,Arsenal,8,1398,,1,7,,,3,17,0,0,0,0,9,306,256.2,534.8,228.0,78,,,,9000000.0,33,52769,2021
+2020-21,462424,William Saliba,Saliba,William,Saliba,2001-03-24,DEF,Arsenal,8,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,18000000.0,20,495666,2021
+2020-21,242166,Matteo Guendouzi,Guendouzi,Matteo,Guendouzi,,MID,Arsenal,8,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,22,465830,2021
+2020-21,200641,Reiss Nelson,Nelson,Reiss,Nelson,1999-12-10,MID,Arsenal,8,70,,0,0,,,0,0,0,0,0,0,0,2,4.2,9.7,10.0,2,,,,9000000.0,21,340325,2021
+2020-21,115918,Rúnar Alex Rúnarsson,Rúnarsson,Rúnar Alex,Rúnarsson,,GK,Arsenal,8,15,,0,0,,,0,0,2,0,0,0,0,8,16.6,0.0,0.0,1,,,,1500000.0,26,205657,2021
+2020-21,98745,Héctor Bellerín,Bellerín,Héctor,Bellerín,,DEF,Arsenal,8,2089,,1,3,,,7,24,0,0,8,0,17,421,362.8,351.8,232.0,94,,,,25000000.0,26,191217,2021
+2020-21,131897,Mathew Ryan,Ryan,Mathew,Ryan,,GK,Arsenal,8,1260,,0,0,,,3,21,24,0,1,0,0,216,193.6,10.7,2.0,37,,,,6000000.0,29,128969,2021
+2020-21,84939,Danny Ings,Ings,Danny,Ings,1992-07-23,FWD,Southampton,15,2172,,12,4,,,6,40,0,0,1,0,21,464,634.6,300.7,866.0,131,,,,22000000.0,29,134294,2021
+2020-21,180804,Axel Tuanzebe,Tuanzebe,Axel,Tuanzebe,1997-11-14,DEF,Man Utd,2,402,,0,0,,,0,8,0,0,2,0,0,59,95.0,6.0,0.0,7,,,,8000000.0,23,342046,2021
+2020-21,114283,Jack Grealish,Grealish,Jack,Grealish,1995-09-10,MID,Aston Villa,11,2183,,6,12,,,12,28,0,0,6,0,13,531,707.4,1029.6,917.0,135,,,,65000000.0,25,203460,2021
+2020-21,108156,Bjorn Engels,Engels,Bjorn,Engels,,DEF,Aston Villa,11,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,26,193469,2021
+2020-21,21205,Tom Heaton,Heaton,Tom,Heaton,1986-04-15,GK,Aston Villa,11,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,35,34130,2021
+2020-21,213345,Wesley Moraes,Wesley,Wesley,Moraes,,FWD,Aston Villa,11,15,,0,0,,,0,1,0,0,0,0,0,11,5.0,1.1,17.0,3,,,,13000000.0,24,381362,2021
+2020-21,85242,Conor Hourihane,Hourihane,Conor,Hourihane,,MID,Aston Villa,11,225,,1,1,,,2,2,0,0,0,0,3,70,65.4,82.9,33.0,20,,,,3500000.0,30,61653,2021
+2020-21,203368,Frédéric Guilbert,Guilbert,Frédéric,Guilbert,,DEF,Aston Villa,11,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,26,354352,2021
+2020-21,37339,Ahmed El Mohamady,El Mohamady,Ahmed,El Mohamady,,DEF,Aston Villa,11,833,,0,0,,,3,9,0,0,2,0,4,190,170.4,201.8,65.0,33,,,,1500000.0,33,66333,2021
+2020-21,47390,Neil Taylor,Taylor,Neil,Taylor,,DEF,Aston Villa,11,15,,0,0,,,0,2,0,0,1,0,0,1,0.8,0.7,0.0,-1,,,,1500000.0,32,67416,2021
+2020-21,230127,Percy Tau,Tau,Percy,Tau,,MID,Brighton,16,101,,0,1,,,0,2,0,0,0,0,0,31,26.8,35.8,6.0,7,,,,3000000.0,27,312239,2021
+2020-21,165210,Alireza Jahanbakhsh,Jahanbakhsh,Alireza,Jahanbakhsh,,MID,Brighton,16,520,,0,1,,,1,9,0,0,3,0,0,102,73.2,162.8,221.0,24,,,,5000000.0,27,213268,2021
+2020-21,442229,Michal Karbownik,Karbownik,Michal,Karbownik,,DEF,Brighton,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,20,401604,2021
+2020-21,66242,Davy Pröpper,Pröpper,Davy,Pröpper,,MID,Brighton,16,209,,0,0,,,0,2,0,0,0,0,0,38,24.0,5.1,52.0,9,,,,8000000.0,29,79027,2021
+2020-21,167473,José Izquierdo,Izquierdo,José,Izquierdo,,MID,Brighton,16,8,,0,0,,,0,0,0,0,0,0,0,2,3.2,1.3,7.0,1,,,,4000000.0,29,147094,2021
+2020-21,209362,Bernardo Fernandes da Silva Junior,Bernardo,Bernardo,Fernandes da Silva Junior,,DEF,Brighton,16,205,,0,0,,,0,3,0,0,0,0,0,30,27.2,32.4,69.0,5,,,,4000000.0,26,364258,2021
+2020-21,93284,Florin Andone,Andone,Florin,Andone,,FWD,Brighton,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,28,177065,2021
+2020-21,204676,Andi Zeqiri,Zeqiri,Andi,Zeqiri,,FWD,Brighton,16,164,,0,0,,,0,2,0,0,0,0,0,25,16.0,18.8,107.0,9,,,,2500000.0,22,345468,2021
+2020-21,108813,Christian Walton,Walton,Christian,Walton,1995-11-09,GK,Brighton,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,800000.0,25,208379,2021
+2020-21,486672,Moisés Caicedo,Caicedo,Moisés,Caicedo,2001-11-02,MID,Brighton,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,19,687626,2021
+2020-21,20066,Wayne Hennessey,Hennessey,Wayne,Hennessey,1987-01-24,GK,Crystal Palace,14,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,34,45494,2021
+2020-21,83312,Ben Gibson,Gibson,Ben,Gibson,,DEF,Burnley,17,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7000000.0,28,128904,2021
+2020-21,217401,Josh Benson,Benson,Josh,Benson,,MID,Burnley,17,260,,0,0,,,1,7,0,0,0,0,0,27,16.0,7.9,13.0,10,,,,400000.0,21,397102,2021
+2020-21,218023,Jimmy Dunne,Dunne,Jimmy,Dunne,,DEF,Burnley,17,270,,1,0,,,0,6,0,0,1,0,0,50,79.6,22.1,81.0,9,,,,600000.0,23,396174,2021
+2020-21,220037,Bailey Peacock-Farrell,Peacock-Farrell,Bailey,Peacock-Farrell,,GK,Burnley,17,360,,0,0,,,0,14,10,0,0,0,0,49,82.6,0.0,0.0,3,,,,1000000.0,24,410436,2021
+2020-21,90517,Robbie Brady,Brady,Robbie,Brady,,MID,Burnley,17,1047,,1,1,,,7,6,0,0,3,0,3,157,174.2,133.9,168.0,44,,,,3000000.0,29,128229,2021
+2020-21,122074,Marcus Bettinelli,Bettinelli,Marcus,Bettinelli,1992-05-24,GK,Fulham,18,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,29,116648,2021
+2020-21,173879,Tammy Abraham,Abraham,Tammy,Abraham,1997-10-02,FWD,Chelsea,4,1031,,6,2,,,5,12,0,0,0,0,8,224,277.2,121.6,483.0,69,,,,38000000.0,23,331726,2021
+2020-21,194794,Fikayo Tomori,Tomori,Fikayo,Tomori,,DEF,Chelsea,4,45,,0,0,,,0,2,0,0,0,0,0,8,26.6,0.1,0.0,0,,,,28000000.0,23,303254,2021
+2020-21,103192,Kurt Zouma,Zouma,Kurt,Zouma,,DEF,Chelsea,4,2027,,5,0,,,9,25,0,0,3,0,6,481,577.8,72.6,339.0,108,,,,32000000.0,26,157509,2021
+2020-21,44346,Olivier Giroud,Giroud,Olivier,Giroud,,FWD,Chelsea,4,740,,4,0,,,4,5,0,0,1,0,6,139,161.4,112.0,403.0,47,,,,4000000.0,34,82442,2021
+2020-21,109533,Emerson Palmieri dos Santos,Emerson,Emerson,Palmieri dos Santos,1994-08-03,DEF,Chelsea,4,88,,0,0,,,1,0,0,0,0,0,0,24,17.4,7.7,2.0,7,,,,14000000.0,27,181778,2021
+2020-21,94245,Michy Batshuayi,Batshuayi,Michy,Batshuayi,,FWD,Crystal Palace,14,717,,2,2,,,2,15,0,0,0,0,2,113,132.8,113.5,210.0,41,,,,10000000.0,27,179184,2021
+2020-21,243568,Billy Gilmour,Gilmour,Billy,Gilmour,,MID,Chelsea,4,259,,0,0,,,1,2,0,0,0,0,0,38,36.0,50.9,8.0,8,,,,10000000.0,20,423744,2021
+2020-21,199598,Ethan Ampadu,Ampadu,Ethan,Ampadu,2000-09-14,DEF,Sheffield Utd,20,2087,,0,0,,,2,41,0,0,3,0,4,341,458.0,189.6,51.0,44,,,,15000000.0,20,392771,2021
+2020-21,20310,Willy Caballero,Caballero,Willy,Caballero,,GK,Chelsea,4,90,,0,0,,,0,3,0,0,0,0,0,7,4.2,0.0,0.0,1,,,,250000.0,39,19948,2021
+2020-21,174874,Joachim Andersen,Andersen,Joachim,Andersen,1996-05-31,DEF,Fulham,18,2729,,1,1,,,9,36,0,0,6,1,7,501,582.8,109.3,151.0,93,,,,22000000.0,25,260827,2021
+2020-21,232787,Conor Gallagher,Gallagher,Conor,Gallagher,2000-02-06,MID,West Brom,19,2530,,2,2,,,5,48,0,0,11,0,3,322,437.2,320.1,276.0,71,,,,15000000.0,21,488362,2021
+2020-21,50472,James McCarthy,McCarthy,James,McCarthy,,MID,Crystal Palace,14,816,,0,0,,,2,15,0,0,1,0,0,129,112.2,87.2,10.0,26,,,,3000000.0,30,45333,2021
+2020-21,40784,Mamadou Sakho,Sakho,Mamadou,Sakho,,DEF,Crystal Palace,14,275,,0,0,,,0,8,0,0,0,0,0,33,36.6,1.6,6.0,4,,,,6000000.0,31,47713,2021
+2020-21,74230,Patrick van Aanholt,van Aanholt,Patrick,van Aanholt,,DEF,Crystal Palace,14,1775,,0,2,,,4,36,0,0,2,0,5,313,298.6,195.3,198.0,54,,,,7000000.0,30,52119,2021
+2020-21,60252,Andros Townsend,Townsend,Andros,Townsend,,MID,Crystal Palace,14,2250,,1,5,,,7,37,0,0,0,0,8,378,511.4,694.6,311.0,94,,,,7000000.0,30,61842,2021
+2020-21,19188,Scott Dann,Dann,Scott,Dann,,DEF,Crystal Palace,14,1350,,1,1,,,2,24,0,0,1,0,1,233,284.6,17.0,99.0,39,,,,1500000.0,34,62688,2021
+2020-21,19419,Gary Cahill,Cahill,Gary,Cahill,,DEF,Crystal Palace,14,1800,,1,1,,,4,39,0,0,3,0,6,308,406.2,90.1,157.0,53,,,,1500000.0,35,27511,2021
+2020-21,221272,Sam Woods,Woods,Sam,Woods,,DEF,Crystal Palace,14,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,200000.0,22,611650,2021
+2020-21,59125,Connor Wickham,Wickham,Connor,Wickham,,FWD,Crystal Palace,14,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,28,95435,2021
+2020-21,42525,Stephen Henderson,Henderson,Stephen,Henderson,,GK,Crystal Palace,14,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,33,52191,2021
+2020-21,172632,Demarai Gray,Gray,Demarai,Gray,,MID,Leicester,5,18,,0,0,,,0,0,0,0,0,0,0,3,0.2,1.3,3.0,1,,,,8000000.0,25,292417,2021
+2020-21,11948,Andy Lonergan,Lonergan,Andy,Lonergan,,GK,West Brom,19,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,37,14044,2021
+2020-21,60025,James Rodríguez,Rodríguez,James,Rodríguez,,MID,Everton,10,1763,,6,5,,,5,27,0,0,4,0,11,432,499.2,585.6,399.0,101,,,,28000000.0,30,88103,2021
+2020-21,242058,Moise Kean,Kean,Moise,Kean,,FWD,Everton,10,13,,0,0,,,0,0,0,0,0,0,0,1,0.0,1.3,11.0,2,,,,35000000.0,21,364135,2021
+2020-21,100649,Bernard Anício Caldeira Duarte,Bernard,Bernard,Anício Caldeira Duarte,,MID,Everton,10,447,,1,0,,,2,7,0,0,2,0,1,75,104.8,142.7,80.0,21,,,,12000000.0,28,175169,2021
+2020-21,20467,Theo Walcott,Walcott,Theo,Walcott,,MID,Southampton,15,1629,,3,4,,,5,28,0,0,0,0,2,185,269.8,248.0,366.0,76,,,,5000000.0,32,33713,2021
+2020-21,78007,Joshua King,King,Joshua,King,,FWD,Everton,10,138,,0,0,,,0,2,0,0,0,0,0,18,13.4,5.6,31.0,11,,,,8000000.0,29,91059,2021
+2020-21,222627,João Virgínia,Virgínia,João,Virgínia,1999-10-10,GK,Everton,10,47,,0,0,,,0,0,3,0,0,0,0,10,25.0,0.0,0.0,2,,,,1000000.0,21,329813,2021
+2020-21,495542,Niels Nkounkou,Nkounkou,Niels,Nkounkou,,DEF,Everton,10,80,,0,0,,,0,1,0,0,1,0,0,9,15.0,5.7,1.0,2,,,,3000000.0,20,591193,2021
+2020-21,111782,Robin Olsen,Olsen,Robin,Olsen,1990-01-08,GK,Everton,10,630,,0,0,,,2,9,21,0,1,0,3,119,166.4,0.0,0.0,25,,,,3000000.0,31,75458,2021
+2020-21,180184,Donny van de Beek,van de Beek,Donny,van de Beek,,MID,Man Utd,2,511,,1,2,,,0,12,0,0,1,0,0,133,117.0,58.4,70.0,32,,,,25000000.0,25,288255,2021
+2020-21,200617,Daniel James,James,Daniel,James,1997-11-10,MID,Man Utd,2,907,,3,1,,,4,7,0,0,3,0,1,145,186.0,145.7,285.0,43,,,,18000000.0,23,319301,2021
+2020-21,221399,Jack Harrison,Harrison,Jack,Harrison,1996-11-20,MID,Leeds,9,2846,,8,10,,,11,45,0,0,2,0,15,542,759.2,821.7,666.0,160,,,,15000000.0,24,417346,2021
+2020-21,434138,Jordan Stevens,Stevens,Jordan,Stevens,,MID,Leeds,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,200000.0,21,533913,2021
+2020-21,28690,Pablo Hernández Domínguez,Hernández,Pablo,Hernández Domínguez,,MID,Leeds,9,414,,0,3,,,1,6,0,0,1,0,0,103,84.0,97.9,153.0,28,,,,800000.0,36,46220,2021
+2020-21,105377,Ezgjan Alioski,Alioski,Ezgjan,Alioski,,DEF,Leeds,9,2456,,2,3,,,10,35,0,0,7,0,7,449,477.8,423.0,281.0,110,,,,5000000.0,29,129604,2021
+2020-21,57913,Barry Douglas,Douglas,Barry,Douglas,,DEF,Leeds,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,31,91854,2021
+2020-21,455084,Leif Davis,Davis,Leif,Davis,1999-12-31,DEF,Leeds,9,31,,0,0,,,0,0,0,0,0,0,0,5,2.8,0.6,0.0,2,,,,800000.0,21,596446,2021
+2020-21,480216,Mateusz Bogusz,Bogusz,Mateusz,Bogusz,,MID,Leeds,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,19,431475,2021
+2020-21,215460,Ian Carlo Poveda-Ocampo,Poveda-Ocampo,Ian Carlo,Poveda-Ocampo,2000-02-09,MID,Leeds,9,344,,0,0,,,0,5,0,0,0,0,0,43,55.0,71.5,91.0,14,,,,1500000.0,21,392763,2021
+2020-21,165808,Hélder Wander Sousa de Azevedo e Costa,Costa,Hélder Wander,Sousa de Azevedo e Costa,,MID,Leeds,9,1150,,3,4,,,3,23,0,0,0,0,2,162,224.2,134.3,289.0,63,,,,10000000.0,27,173900,2021
+2020-21,38588,Gaetano Berardi,Berardi,Gaetano,Berardi,,DEF,Leeds,9,113,,0,0,,,1,0,0,0,0,0,1,30,17.2,0.9,18.0,8,,,,300000.0,32,43084,2021
+2020-21,93100,Jannik Vestergaard,Vestergaard,Jannik,Vestergaard,1992-08-03,DEF,Southampton,15,2574,,3,1,,,6,47,0,0,3,1,4,494,671.8,102.1,294.0,86,,,,18000000.0,29,99331,2021
+2020-21,40146,Ryan Bertrand,Bertrand,Ryan,Bertrand,,DEF,Southampton,15,2598,,0,2,,,8,51,0,0,5,0,4,404,306.8,271.8,135.0,78,,,,8000000.0,31,40611,2021
+2020-21,219352,Ademola Lookman,Lookman,Ademola,Lookman,,MID,Fulham,18,2746,,4,4,,,10,33,0,0,5,0,8,367,514.2,884.6,928.0,107,,,,11000000.0,23,406040,2021
+2020-21,106837,Dennis Praet,Praet,Dennis,Praet,,MID,Leicester,5,714,,1,2,,,3,11,0,0,0,0,1,129,119.2,132.1,120.0,37,,,,18000000.0,27,129588,2021
+2020-21,37402,Christian Fuchs,Fuchs,Christian,Fuchs,,DEF,Leicester,5,701,,0,0,,,3,9,0,0,4,0,2,112,137.0,33.9,22.0,24,,,,800000.0,35,6636,2021
+2020-21,61604,Matty James,James,Matty,James,,MID,Leicester,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,29,73522,2021
+2020-21,228798,Cengiz Ünder,Ünder,Cengiz,Ünder,,MID,Leicester,5,275,,0,2,,,0,5,0,0,0,0,0,62,73.4,87.5,88.0,16,,,,18000000.0,23,341647,2021
+2020-21,153682,Harry Wilson,Harry Wilson,Harry,Wilson,1997-03-22,MID,Liverpool,3,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,17000000.0,24,279455,2021
+2020-21,68312,Xherdan Shaqiri,Shaqiri,Xherdan,Shaqiri,,MID,Liverpool,3,548,,0,2,,,2,7,0,0,2,0,1,127,95.2,294.2,86.0,26,,,,12000000.0,29,86792,2021
+2020-21,41733,Georginio Wijnaldum,Wijnaldum,Georginio,Wijnaldum,,MID,Liverpool,3,2938,,2,1,,,10,39,0,0,1,0,3,482,358.2,387.0,307.0,97,,,,30000000.0,30,49499,2021
+2020-21,152898,Ben Davies,Davies,Ben,Davies,,DEF,Liverpool,3,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,26,257097,2021
+2020-21,182436,Ben Woodburn,Woodburn,Ben,Woodburn,,MID,Liverpool,3,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,21,344015,2021
+2020-21,219937,Rhys Williams,Rhys Williams,Rhys,Williams,2001-02-03,DEF,Liverpool,3,659,,0,0,,,3,6,0,0,0,0,1,135,111.6,29.8,62.0,28,,,,5000000.0,20,503679,2021
+2020-21,438277,Ozan Kabak,Kabak,Ozan,Kabak,,DEF,Liverpool,3,801,,0,0,,,3,9,0,0,3,0,1,150,131.0,17.2,19.0,26,,,,25000000.0,21,361260,2021
+2020-21,17601,Scott Carson,Carson,Scott,Carson,1985-09-03,GK,Man City,1,90,,0,0,,,0,3,2,1,0,0,1,27,37.4,0.0,0.0,7,,,,300000.0,35,14555,2021
+2020-21,37572,Sergio Agüero,Agüero,Sergio,Agüero,,FWD,Man City,1,554,,4,1,,,4,4,0,0,0,0,3,155,200.6,102.2,326.0,38,,,,18000000.0,33,26399,2021
+2020-21,432656,Eric Garcia,Garcia,Eric,Garcia,,DEF,Man City,1,380,,0,0,,,0,12,0,0,0,0,0,64,67.6,26.4,5.0,6,,,,20000000.0,20,466794,2021
+2020-21,245719,Taylor Harwood-Bellis,Harwood-Bellis,Taylor,Harwood-Bellis,2002-01-30,DEF,Man City,1,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,19,503977,2021
+2020-21,156689,Andreas Pereira,Pereira,Andreas,Pereira,1996-01-01,MID,Man Utd,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,25,203394,2021
+2020-21,222677,Tahith Chong,Chong,Tahith,Chong,,MID,Man Utd,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,21,344830,2021
+2020-21,488404,Facundo Pellistri,Pellistri,Facundo,Pellistri,,MID,Man Utd,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,19,676318,2021
+2020-21,232928,James Garner,Garner,James,Garner,2001-03-13,MID,Man Utd,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,20,505219,2021
+2020-21,232937,Brandon Williams,Williams,Brandon,Williams,,DEF,Man Utd,2,187,,0,0,,,0,3,0,0,0,0,0,26,26.6,19.4,19.0,5,,,,10000000.0,20,507700,2021
+2020-21,42899,Sergio Romero,Romero,Sergio,Romero,,GK,Man Utd,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,34,30690,2021
+2020-21,104953,Christian Atsu,Atsu,Christian,Atsu,,MID,Newcastle,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,29,186997,2021
+2020-21,196118,Yoshinori Muto,Muto,Yoshinori,Muto,,FWD,Newcastle,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,29,230541,2021
+2020-21,77359,Florian Lejeune,Lejeune,Florian,Lejeune,,DEF,Newcastle,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4500000.0,30,127108,2021
+2020-21,40142,Andy Carroll,Carroll,Andy,Carroll,,FWD,Newcastle,12,380,,1,1,,,1,8,0,0,1,0,3,78,64.0,37.1,187.0,30,,,,1500000.0,32,48066,2021
+2020-21,107265,Angus Gunn,Gunn,Angus,Gunn,1996-01-22,GK,Southampton,15,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,25,201574,2021
+2020-21,98770,Ørjan Nyland,Nyland,Ørjan,Nyland,,GK,Aston Villa,11,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,30,73517,2021
+2020-21,167522,Jordan Hugill,Hugill,Jordan,Hugill,,FWD,West Ham,6,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,29,291544,2021
+2020-21,151086,Mario Lemina,Lemina,Mario,Lemina,,MID,Fulham,18,1696,,1,1,,,3,27,0,0,5,0,3,267,294.0,169.5,134.0,55,,,,10000000.0,27,170934,2021
+2020-21,220598,Michael Obafemi,Obafemi,Michael,Obafemi,2000-07-06,FWD,Southampton,15,57,,0,0,,,0,2,0,0,0,0,0,12,5.6,10.8,4.0,4,,,,3000000.0,21,444208,2021
+2020-21,153379,Josh Sims,Sims,Josh,Sims,,MID,Southampton,15,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,24,286919,2021
+2020-21,157882,Takumi Minamino,Minamino,Takumi,Minamino,,MID,Southampton,15,999,,3,0,,,2,18,0,0,1,0,2,153,168.2,92.3,281.0,48,,,,12000000.0,26,165793,2021
+2020-21,234908,Juan Foyth,Foyth,Juan,Foyth,,DEF,Spurs,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,23,480763,2021
+2020-21,55605,Toby Alderweireld,Alderweireld,Toby,Alderweireld,,DEF,Spurs,7,2240,,1,0,,,10,25,0,0,2,0,4,469,559.8,106.5,178.0,88,,,,11000000.0,32,42710,2021
+2020-21,45268,Moussa Sissoko,Sissoko,Moussa,Sissoko,,MID,Spurs,7,1576,,0,0,,,5,22,0,0,3,0,2,214,182.2,94.5,69.0,44,,,,10000000.0,32,46001,2021
+2020-21,15749,Joe Hart,Hart,Joe,Hart,,GK,Spurs,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,34,40204,2021
+2020-21,38290,Danny Rose,Rose,Danny,Rose,,DEF,Spurs,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,30,50174,2021
+2020-21,102884,Paulo Gazzaniga,Gazzaniga,Paulo,Gazzaniga,,GK,Spurs,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,29,195488,2021
+2020-21,62974,Erik Lamela,Lamela,Erik,Lamela,,MID,Spurs,7,700,,1,1,,,1,17,0,0,4,1,0,96,115.2,137.1,236.0,28,,,,16000000.0,29,111630,2021
+2020-21,80226,Serge Aurier,Aurier,Serge,Aurier,,DEF,Spurs,7,1605,,2,3,,,6,22,0,0,0,0,4,370,412.2,267.6,194.0,80,,,,20000000.0,28,127032,2021
+2020-21,168763,Cameron Carter-Vickers,Carter-Vickers,Cameron,Carter-Vickers,,DEF,Spurs,7,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,23,341049,2021
+2020-21,245824,Carlos Vinicius Alves Morais,Carlos Vinicius,Carlos Vinicius,Alves Morais,1995-03-25,FWD,Spurs,7,305,,1,0,,,1,2,0,0,2,0,0,38,52.6,26.9,142.0,13,,,,18000000.0,26,525287,2021
+2020-21,36903,Gareth Bale,Bale,Gareth,Bale,,MID,Spurs,7,912,,11,3,,,5,12,0,0,1,0,16,366,550.8,306.5,507.0,113,,,,18000000.0,31,39381,2021
+2020-21,60232,Craig Dawson,Dawson,Craig,Dawson,1990-05-06,DEF,West Ham,6,1925,,3,0,,,7,25,0,0,3,1,3,336,433.6,30.2,219.0,75,,,,3000000.0,31,121477,2021
+2020-21,84182,Alphonse Areola,Areola,Alphonse,Areola,1993-02-27,GK,Fulham,18,3240,,0,0,,,9,48,116,0,2,0,9,637,876.2,0.0,0.0,124,,,,17000000.0,28,120629,2021
+2020-21,101537,Felipe Anderson Pereira Gomes,Felipe Anderson,Felipe Anderson,Pereira Gomes,,MID,West Ham,6,2,,0,0,,,0,0,0,0,0,0,0,8,2.4,0.4,2.0,2,,,,10000000.0,28,159372,2021
+2020-21,166640,Fabián Balbuena,Balbuena,Fabián,Balbuena,,DEF,West Ham,6,1197,,1,0,,,4,19,0,0,1,1,0,193,260.8,9.0,79.0,39,,,,5000000.0,29,285548,2021
+2020-21,486870,Frederik Alves,Alves,Frederik,Alves,,DEF,West Ham,6,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,21,542690,2021
+2020-21,222017,Conor Coventry,Coventry,Conor,Coventry,,MID,West Ham,6,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,200000.0,21,419025,2021
+2020-21,448514,Rayan Ait Nouri,Ait Nouri,Rayan,Ait Nouri,2001-06-06,DEF,Wolves,13,1400,,1,1,,,3,23,0,0,1,0,6,264,243.2,234.5,196.0,54,,,,18000000.0,20,578391,2021
+2020-21,38533,Rui Pedro dos Santos Patrício,Patrício,Rui Pedro,dos Santos Patrício,,GK,Wolves,13,3330,,0,0,,,10,51,100,1,1,0,12,626,763.6,0.0,0.0,132,,,,10000000.0,33,45026,2021
+2020-21,250604,Owen Otasowie,Otasowie,Owen,Otasowie,,MID,Wolves,13,185,,0,1,,,0,6,0,0,1,0,0,33,38.2,25.9,34.0,9,,,,1500000.0,20,511815,2021
+2020-21,474003,Leonardo Campana,Campana,Leonardo,Campana,,FWD,Wolves,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,20,606872,2021
+2020-21,222531,Morgan Gibbs-White,Gibbs-White,Morgan,Gibbs-White,2000-01-27,MID,Wolves,13,407,,1,0,,,0,6,0,0,1,0,3,87,85.0,112.8,114.0,22,,,,7000000.0,21,429014,2021
+2020-21,209353,Patrick Cutrone,Cutrone,Patrick,Cutrone,,FWD,Wolves,13,23,,0,0,,,0,0,0,0,0,0,0,5,0.0,0.0,4.0,2,,,,9000000.0,23,265078,2021
+2020-21,216208,Matija Sarkic,Sarkic,Matija,Sarkic,,GK,Wolves,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,100000.0,24,293257,2021
+2020-21,216054,Rúben Gonçalo Silva Nascimento Vinagre,Vinagre,Rúben Gonçalo,Silva Nascimento Vinagre,,DEF,Wolves,13,172,,0,0,,,0,7,0,0,0,0,0,24,31.2,25.3,0.0,1,,,,5000000.0,22,357158,2021
+2020-21,73314,Willian José Da Silva,Willian José,Willian José,Da Silva,,FWD,Wolves,13,1106,,1,1,,,5,13,0,0,0,0,3,131,89.6,165.9,256.0,40,,,,18000000.0,29,122155,2021
+2021-22,81012,Ryan Fredericks,Fredericks,Ryan,Fredericks,,DEF,West Ham,7,303,,0,0,,,0,6,0,0,1,0,0,38,29.6,31.6,4.0,7,,,,1500000.0,29,140191,2022
+2021-22,88900,Jack Stephens,Stephens,Jack,Stephens,1994-01-27,DEF,Southampton,15,810,,0,0,,,1,19,0,0,3,0,0,135,176.0,47.7,6.0,12,,,,7000000.0,28,163744,2022
+2021-22,205651,Gabriel Fernando de Jesus,Jesus,Gabriel Fernando,de Jesus,1997-04-03,FWD,Man City,1,1871,,8,8,,,11,15,0,0,1,0,16,488,563.6,508.4,1075.0,120,,,,50000000.0,25,363205,2022
+2021-22,206325,Oleksandr Zinchenko,Zinchenko,Oleksandr,Zinchenko,1996-12-15,DEF,Man City,1,1044,,0,4,,,5,9,0,0,0,0,4,284,234.2,256.6,103.0,59,,,,25000000.0,25,203853,2022
+2021-22,242166,Mattéo Guendouzi,Guendouzi,Mattéo,Guendouzi,,MID,Arsenal,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,25000000.0,23,465830,2022
+2021-22,198849,Lucas Torreira,Torreira,Lucas,Torreira,,MID,Arsenal,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,26,318077,2022
+2021-22,80201,Bernd Leno,Leno,Bernd,Leno,1992-03-04,GK,Arsenal,5,360,,0,0,,,1,9,10,0,0,0,0,69,85.0,0.0,0.0,10,,,,9000000.0,30,72476,2022
+2021-22,233963,Konstantinos Mavropanos,Mavropanos,Konstantinos,Mavropanos,1997-12-11,DEF,Arsenal,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,24,415912,2022
+2021-22,98745,Héctor Bellerín,Bellerín,Héctor,Bellerín,,DEF,Arsenal,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,27,191217,2022
+2021-22,59966,Alexandre Lacazette,Lacazette,Alexandre,Lacazette,,FWD,Arsenal,5,1773,,4,8,,,10,17,0,0,0,0,3,295,376.6,385.7,724.0,90,,,,15000000.0,31,93720,2022
+2021-22,92371,Pablo Marí,Marí,Pablo,Marí,,DEF,Arsenal,5,180,,0,0,,,0,4,0,0,1,0,0,35,55.4,12.3,11.0,1,,,,5000000.0,28,210178,2022
+2021-22,437626,Nuno Varela Tavares,Tavares,Nuno,Varela Tavares,,DEF,Arsenal,5,1169,,1,1,,,3,19,0,0,2,0,2,199,194.6,168.4,203.0,49,,,,15000000.0,22,535955,2022
+2021-22,220682,Arthur Okonkwo,Okonkwo,Arthur,Okonkwo,,GK,Arsenal,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,20,503769,2022
+2021-22,232223,Folarin Balogun,Balogun,Folarin,Balogun,,FWD,Arsenal,5,69,,0,0,,,0,1,0,0,0,0,0,2,4.2,3.7,17.0,2,,,,4000000.0,21,503770,2022
+2021-22,115918,Rúnar Alex Rúnarsson,Rúnarsson,Rúnar Alex,Rúnarsson,,GK,Arsenal,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,27,205657,2022
+2021-22,195735,Nicolas Pépé,Pépé,Nicolas,Pépé,,MID,Arsenal,5,681,,1,4,,,2,9,0,0,0,0,1,127,127.4,204.8,391.0,45,,,,25000000.0,27,343052,2022
+2021-22,154043,Ainsley Maitland-Niles,Maitland-Niles,Ainsley,Maitland-Niles,1997-08-29,MID,Arsenal,5,263,,0,0,,,2,4,0,0,0,0,0,44,42.6,41.3,9.0,12,,,,10000000.0,25,285845,2022
+2021-22,84583,Philippe Coutinho Correia,Coutinho,Philippe,Coutinho Correia,,MID,Aston Villa,14,1327,,5,3,,,7,17,0,0,0,0,7,283,324.2,338.3,419.0,83,,,,20000000.0,30,80444,2022
+2021-22,151589,Leander Dendoncker,Dendoncker,Leander,Dendoncker,1995-04-15,MID,Wolves,10,1945,,2,3,,,5,29,0,0,4,0,5,308,339.0,175.5,258.0,76,,,,28000000.0,27,168157,2022
+2021-22,111782,Robin Olsen,Olsen,Robin,Olsen,1990-01-08,GK,Aston Villa,14,90,,0,0,,,0,3,2,0,0,0,0,14,0.0,0.0,0.0,1,,,,2000000.0,32,75458,2022
+2021-22,171771,Jan Bednarek,Bednarek,Jan,Bednarek,1996-04-12,DEF,Southampton,15,2629,,4,0,,,7,52,0,0,10,0,15,499,699.6,88.1,321.0,94,,,,22000000.0,26,243028,2022
+2021-22,478912,Carney Chukwuemeka,Chukwuemeka,Carney,Chukwuemeka,,MID,Aston Villa,14,291,,0,1,,,0,6,0,0,0,0,0,43,44.0,34.6,69.0,16,,,,6000000.0,18,659459,2022
+2021-22,169359,Matt Targett,Targett,Matt,Targett,1995-09-18,DEF,Newcastle,11,2871,,1,2,,,9,47,0,0,3,0,7,530,567.4,623.8,184.0,101,,,,17000000.0,26,250478,2022
+2021-22,193488,Anwar El Ghazi,El Ghazi,Anwar,El Ghazi,,MID,Everton,16,392,,1,1,,,1,8,0,0,2,0,1,61,74.6,85.2,85.0,22,,,,9000000.0,27,183720,2022
+2021-22,85242,Conor Hourihane,Hourihane,Conor,Hourihane,,MID,Aston Villa,14,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1800000.0,31,61653,2022
+2021-22,248164,Viljami Sinisalo,Sinisalo,Viljami,Sinisalo,,GK,Aston Villa,14,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,200000.0,20,484838,2022
+2021-22,490094,Tim Iroegbunam,Iroegbunam,Tim,Iroegbunam,2003-06-30,MID,Aston Villa,14,90,,0,0,,,1,0,0,0,1,0,0,17,10.6,2.0,4.0,4,,,,2500000.0,19,696589,2022
+2021-22,123354,Kortney Hause,Hause,Kortney,Hause,1995-07-16,DEF,Aston Villa,14,397,,1,0,,,1,9,0,0,0,0,3,89,102.8,5.9,64.0,20,,,,4000000.0,27,233124,2022
+2021-22,110504,Bertrand Traoré,Traoré,Bertrand,Traoré,1995-09-06,MID,Aston Villa,14,212,,0,1,,,0,3,0,0,0,0,0,41,21.0,10.6,90.0,13,,,,16000000.0,26,131996,2022
+2021-22,221239,Keinan Davis,Davis,Keinan,Davis,,FWD,Aston Villa,14,11,,0,0,,,0,0,0,0,0,0,0,2,0.4,1.0,0.0,1,,,,2500000.0,24,412660,2022
+2021-22,481624,Jaden Philogene-Bidace,Philogene-Bidace,Jaden,Philogene-Bidace,2002-02-08,MID,Aston Villa,14,4,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,1,,,,3000000.0,20,665390,2022
+2021-22,213345,Wesley Moraes,Wesley,Wesley,Moraes,,FWD,Aston Villa,14,1,,0,0,,,0,0,0,0,0,0,0,2,0.0,0.5,0.0,1,,,,6000000.0,25,381362,2022
+2021-22,51927,Ben Mee,Mee,Ben,Mee,1989-09-21,DEF,Burnley,18,1839,,3,0,,,6,25,0,0,3,0,3,325,463.8,63.4,238.0,74,,,,2500000.0,32,74810,2022
+2021-22,216620,Marcus Forss,Forss,Marcus,Forss,,FWD,Brentford,13,203,,0,1,,,0,4,0,0,0,0,0,35,20.8,12.5,55.0,11,,,,4000000.0,23,404584,2022
+2021-22,80607,Christian Eriksen,Eriksen,Christian,Eriksen,1992-02-14,MID,Brentford,13,938,,1,4,,,4,10,0,0,1,0,2,221,269.4,428.6,172.0,43,,,,20000000.0,30,69633,2022
+2021-22,121570,Julian Jeanvier,Jeanvier,Julian,Jeanvier,,DEF,Brentford,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,900000.0,30,134277,2022
+2021-22,232247,Dominic Thompson,Thompson,Dominic,Thompson,,DEF,Brentford,13,146,,0,0,,,0,3,0,0,0,0,0,12,15.8,1.2,6.0,3,,,,800000.0,21,503688,2022
+2021-22,235448,Ellery Balcombe,Balcombe,Ellery,Balcombe,1999-10-15,GK,Brentford,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,22,456292,2022
+2021-22,228044,Mads Bech Sørensen,Sørensen,Mads,Bech Sørensen,,DEF,Brentford,13,833,,0,0,,,2,14,0,0,3,0,1,139,112.8,69.4,44.0,22,,,,5000000.0,23,372240,2022
+2021-22,434662,Halil Dervişoğlu,Dervişoğlu,Halil,Dervişoğlu,,FWD,Brentford,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,22,465606,2022
+2021-22,450539,Myles Peart-Harris,Peart-Harris,Myles,Peart-Harris,2002-09-18,MID,Brentford,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,19,587002,2022
+2021-22,154138,Tariqe Fosu-Henry,Fosu,Tariqe,Fosu-Henry,,MID,Brentford,13,16,,0,0,,,0,0,0,0,0,0,0,4,5.2,4.8,21.0,1,,,,2000000.0,26,249873,2022
+2021-22,220695,Paris Maghoma,Maghoma,Paris,Maghoma,2001-05-08,MID,Brentford,13,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,200000.0,21,470596,2022
+2021-22,240796,Álvaro Fernández,Fernández,Álvaro,Fernández,,GK,Brentford,13,1080,,0,0,,,1,24,49,0,0,0,2,218,353.2,0.0,0.0,31,,,,4000000.0,24,453704,2022
+2021-22,57513,Jonas Lössl,Lössl,Jonas,Lössl,,GK,Brentford,13,180,,0,0,,,0,5,2,0,0,0,0,21,15.4,0.0,0.0,2,,,,1000000.0,33,48870,2022
+2021-22,243568,Billy Gilmour,Gilmour,Billy,Gilmour,,MID,Norwich,20,1852,,0,1,,,2,52,0,0,2,0,1,283,280.2,458.7,134.0,49,,,,12000000.0,21,423744,2022
+2021-22,179268,Marc Cucurella,Cucurella,Marc,Cucurella,1998-07-22,DEF,Brighton,9,3089,,1,1,,,11,39,0,0,6,0,21,673,659.6,671.9,181.0,126,,,,28000000.0,24,284857,2022
+2021-22,227127,Yves Bissouma,Bissouma,Yves,Bissouma,1996-08-30,MID,Brighton,9,2110,,1,2,,,7,28,0,0,10,0,9,351,425.6,167.1,126.0,66,,,,35000000.0,25,410425,2022
+2021-22,115382,Neal Maupay,Maupay,Neal,Maupay,,FWD,Brighton,9,2269,,8,3,,,7,31,0,0,7,0,11,295,367.4,357.3,672.0,98,,,,18000000.0,26,217115,2022
+2021-22,93284,Florin Andone,Andone,Florin,Andone,,FWD,Brighton,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,29,177065,2022
+2021-22,61933,Shane Duffy,Duffy,Shane,Duffy,,DEF,Brighton,9,1434,,1,1,,,4,19,0,0,7,0,3,288,380.6,58.2,282.0,48,,,,5000000.0,30,119269,2022
+2021-22,235382,Steven Alzate,Alzate,Steven,Alzate,,MID,Brighton,9,401,,0,0,,,0,7,0,0,0,0,0,77,70.2,40.8,21.0,13,,,,5000000.0,23,476237,2022
+2021-22,240514,Kjell Scherpen,Scherpen,Kjell,Scherpen,2000-01-23,GK,Brighton,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2200000.0,22,463527,2022
+2021-22,442229,Michal Karbownik,Karbownik,Michal,Karbownik,,DEF,Brighton,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,21,401604,2022
+2021-22,204676,Andi Zeqiri,Zeqiri,Andi,Zeqiri,,FWD,Brighton,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2300000.0,23,345468,2022
+2021-22,209045,Taylor Richards,Richards,Taylor,Richards,,MID,Brighton,9,23,,0,0,,,0,0,0,0,0,0,0,5,4.6,12.8,8.0,2,,,,400000.0,21,484551,2022
+2021-22,233425,Aaron Connolly,Connolly,Aaron,Connolly,,FWD,Brighton,9,154,,0,0,,,0,1,0,0,0,0,0,12,2.4,13.1,18.0,5,,,,6000000.0,22,434207,2022
+2021-22,433589,Haydon Roberts,Roberts,Haydon,Roberts,,DEF,Brighton,9,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,20,533523,2022
+2021-22,423649,Enock Mwepu,Mwepu,Enock,Mwepu,,MID,Brighton,9,990,,2,5,,,3,13,0,0,2,0,5,200,241.8,142.9,199.0,58,,,,18000000.0,24,490307,2022
+2021-22,444463,Wesley Fofana,Fofana,Wesley,Fofana,2000-12-17,DEF,Leicester,8,630,,0,0,,,1,7,0,0,2,0,2,112,109.6,29.8,23.0,17,,,,40000000.0,21,475411,2022
+2021-22,103955,Raheem Sterling,Sterling,Raheem,Sterling,1994-12-08,MID,Man City,1,2121,,13,7,,,13,17,0,0,1,0,15,468,709.8,588.2,1184.0,163,,,,70000000.0,27,134425,2022
+2021-22,54694,Pierre-Emerick Aubameyang,Aubameyang,Pierre-Emerick,Aubameyang,,FWD,Arsenal,5,1036,,4,1,,,6,16,0,0,3,0,7,131,217.6,132.4,582.0,44,,,,15000000.0,33,58864,2022
+2021-22,165153,Timo Werner,Werner,Timo,Werner,1996-03-06,FWD,Chelsea,3,1278,,4,2,,,5,17,0,0,1,0,5,175,207.6,153.1,773.0,62,,,,35000000.0,26,170527,2022
+2021-22,109533,Emerson Palmieri dos Santos,Emerson,Emerson,Palmieri dos Santos,1994-08-03,DEF,Chelsea,3,4,,0,0,,,0,0,0,0,0,0,0,3,0.0,0.1,2.0,1,,,,14000000.0,28,181778,2022
+2021-22,66749,Romelu Lukaku,Lukaku,Romelu,Lukaku,,FWD,Chelsea,3,1583,,8,1,,,7,14,0,0,1,0,12,310,367.0,303.3,704.0,87,,,,70000000.0,29,96341,2022
+2021-22,94245,Michy Batshuayi,Batshuayi,Michy,Batshuayi,,FWD,Chelsea,3,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,28,179184,2022
+2021-22,204727,Malang Sarr,Sarr,Malang,Sarr,,DEF,Chelsea,3,544,,0,0,,,4,7,0,0,2,0,4,141,113.4,45.1,1.0,30,,,,8000000.0,23,344596,2022
+2021-22,167767,Robert Kenedy Nunes do Nascimento,Kenedy,Robert Kenedy,Nunes do Nascimento,,DEF,Chelsea,3,58,,0,1,,,0,0,0,0,0,0,0,19,0.0,0.0,0.0,4,,,,7000000.0,26,281404,2022
+2021-22,135363,Andreas Christensen,Christensen,Andreas,Christensen,,DEF,Chelsea,3,1494,,0,0,,,9,11,0,0,2,0,3,343,296.4,103.4,20.0,69,,,,35000000.0,26,196948,2022
+2021-22,102380,Antonio Rüdiger,Rüdiger,Antonio,Rüdiger,,DEF,Chelsea,3,3035,,3,3,,,15,27,0,0,9,0,10,661,581.6,257.4,484.0,150,,,,40000000.0,29,86202,2022
+2021-22,82263,Marcos Alonso,Alonso,Marcos,Alonso,,DEF,Chelsea,3,2164,,4,5,,,9,22,0,0,8,0,14,528,560.2,677.3,566.0,128,,,,12000000.0,31,112515,2022
+2021-22,209046,Callum Hudson-Odoi,Hudson-Odoi,Callum,Hudson-Odoi,2000-11-07,MID,Chelsea,3,958,,1,4,,,6,8,0,0,1,0,1,163,175.4,326.9,326.0,49,,,,25000000.0,21,392768,2022
+2021-22,199598,Ethan Ampadu,Ampadu,Ethan,Ampadu,2000-09-14,DEF,Chelsea,3,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,13000000.0,21,392771,2022
+2021-22,88894,Ross Barkley,Barkley,Ross,Barkley,1993-12-05,MID,Chelsea,3,174,,1,0,,,1,2,0,0,0,0,1,43,19.2,104.8,38.0,14,,,,12000000.0,28,131978,2022
+2021-22,89335,Saúl Ñíguez,Saúl,Saúl,Ñíguez,,MID,Chelsea,3,478,,0,1,,,1,6,0,0,1,0,0,68,63.2,51.8,41.0,16,,,,25000000.0,27,148928,2022
+2021-22,54861,Christian Benteke,Benteke,Christian,Benteke,,FWD,Crystal Palace,12,1132,,4,1,,,4,20,0,0,3,0,6,173,250.2,176.7,523.0,58,,,,6000000.0,31,50201,2022
+2021-22,185478,Jarosław Jach,Jach,Jarosław,Jach,,DEF,Crystal Palace,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,28,327755,2022
+2021-22,58786,Martin Kelly,Kelly,Martin,Kelly,,DEF,Crystal Palace,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,32,78959,2022
+2021-22,55037,Cheikhou Kouyaté,Kouyaté,Cheikhou,Kouyaté,,DEF,Crystal Palace,12,1970,,0,1,,,8,28,0,0,3,0,5,395,312.4,85.5,41.0,77,,,,4000000.0,32,66934,2022
+2021-22,462831,Scott Banks,Banks,Scott,Banks,,MID,Crystal Palace,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,20,596821,2022
+2021-22,169593,Remi Matthews,Matthews,Remi,Matthews,1994-02-10,GK,Crystal Palace,12,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,28,196722,2022
+2021-22,450542,Jesurun Rak-Sakyi,Rak-Sakyi,Jesurun,Rak-Sakyi,2002-10-05,MID,Crystal Palace,12,79,,0,0,,,1,0,0,0,0,0,0,7,1.0,5.0,0.0,4,,,,500000.0,19,586834,2022
+2021-22,437742,Albert Sambi Lokonga,Sambi Lokonga,Albert,Sambi Lokonga,1999-10-22,MID,Arsenal,5,1129,,0,0,,,7,11,0,0,5,0,0,173,181.8,250.7,87.0,32,,,,15000000.0,23,381967,2022
+2021-22,433154,Dwight McNeil,McNeil,Dwight,McNeil,1999-11-22,MID,Burnley,18,3104,,0,1,,,9,49,0,0,1,0,1,440,556.8,729.5,489.0,84,,,,18000000.0,22,584769,2022
+2021-22,17761,James Tarkowski,Tarkowski,James,Tarkowski,1992-11-19,DEF,Burnley,18,3106,,1,2,,,7,51,0,0,11,0,5,486,881.4,106.8,307.0,83,,,,22000000.0,29,173504,2022
+2021-22,94147,Conor Coady,Coady,Conor,Coady,1993-02-25,DEF,Wolves,10,3361,,4,0,,,11,43,0,0,4,0,10,688,737.2,45.4,202.0,138,,,,25000000.0,29,128901,2022
+2021-22,11974,Eldin Jakupovic,Jakupovic,Eldin,Jakupovic,,GK,Leicester,8,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,37,2857,2022
+2021-22,212319,Richarlison de Andrade,Richarlison,Richarlison,de Andrade,1997-05-10,FWD,Everton,16,2522,,10,6,,,7,46,0,0,9,0,19,413,651.4,383.7,1010.0,125,,,,48000000.0,25,378710,2022
+2021-22,119765,Allan Marques Loureiro,Allan,Allan,Marques Loureiro,,MID,Everton,16,2181,,0,3,,,6,38,0,0,7,1,2,313,391.4,228.4,82.0,58,,,,10000000.0,31,126422,2022
+2021-22,153673,Jonjoe Kenny,Kenny,Jonjoe,Kenny,,DEF,Everton,16,1015,,0,1,,,1,24,0,0,1,1,0,147,147.4,157.1,42.0,21,,,,4000000.0,25,258883,2022
+2021-22,66838,Cenk Tosun,Tosun,Cenk,Tosun,,FWD,Everton,16,5,,0,0,,,0,0,0,0,0,0,0,3,0.0,0.1,0.0,1,,,,2000000.0,31,45671,2022
+2021-22,160987,Jean-Philippe Gbamin,Gbamin,Jean-Philippe,Gbamin,,MID,Everton,16,65,,0,0,,,0,2,0,0,0,0,0,10,7.0,0.6,0.0,3,,,,9000000.0,26,182894,2022
+2021-22,218997,Ellis Simms,Simms,Ellis,Simms,2001-01-05,FWD,Everton,16,61,,0,0,,,1,0,0,0,0,0,0,6,6.4,0.4,0.0,2,,,,600000.0,21,511550,2022
+2021-22,173818,Nathan Broadhead,Broadhead,Nathan,Broadhead,1998-04-05,FWD,Everton,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,24,344009,2022
+2021-22,480455,Jarrad Branthwaite,Branthwaite,Jarrad,Branthwaite,2002-06-27,DEF,Everton,16,387,,1,0,,,0,17,0,0,0,1,1,49,69.8,2.3,44.0,7,,,,3000000.0,20,661053,2022
+2021-22,495542,Niels Nkounkou,Nkounkou,Niels,Nkounkou,,DEF,Everton,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2200000.0,21,591193,2022
+2021-22,120250,André Filipe Tavares Gomes,André Gomes,André Filipe,Tavares Gomes,,MID,Everton,16,614,,0,1,,,0,19,0,0,3,0,0,47,84.0,85.2,136.0,18,,,,18000000.0,29,221025,2022
+2021-22,41823,Fabian Delph,Delph,Fabian,Delph,,MID,Everton,16,660,,0,0,,,3,6,0,0,2,0,0,118,115.6,58.4,16.0,18,,,,1800000.0,32,50362,2022
+2021-22,222627,João Virgínia,Virgínia,João,Virgínia,1999-10-10,GK,Everton,16,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,22,329813,2022
+2021-22,219924,Issa Diop,Diop,Issa,Diop,1997-01-09,DEF,West Ham,7,961,,0,1,,,2,19,0,0,0,0,2,203,225.6,21.3,44.0,30,,,,10000000.0,25,272622,2022
+2021-22,156689,Andreas Pereira,Pereira,Andreas,Pereira,1996-01-01,MID,Man Utd,6,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7500000.0,26,203394,2022
+2021-22,47431,Willian Borges Da Silva,Willian,Willian,Borges Da Silva,1988-08-09,MID,Arsenal,5,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,34,52769,2022
+2021-22,200617,Daniel James,James,Daniel,James,1997-11-10,MID,Leeds,17,2489,,4,5,,,5,51,0,0,7,1,2,221,336.4,348.1,810.0,91,,,,18000000.0,24,319301,2022
+2021-22,155405,Kalvin Phillips,Phillips,Kalvin,Phillips,1995-12-02,MID,Leeds,17,1594,,0,1,,,3,25,0,0,4,0,1,209,249.0,137.0,99.0,39,,,,50000000.0,26,351749,2022
+2021-22,165808,Hélder Wander Sousa de Azevedo e Costa,Costa,Hélder Wander,Sousa de Azevedo e Costa,,MID,Leeds,17,21,,0,0,,,0,0,0,0,0,0,0,1,0.0,0.4,1.0,1,,,,5000000.0,28,173900,2022
+2021-22,464618,Liam McCarron,McCarron,Liam,McCarron,,MID,Leeds,17,9,,0,0,,,0,1,0,0,0,0,0,3,0.0,0.0,0.0,1,,,,500000.0,21,614082,2022
+2021-22,492373,Charlie Cresswell,Cresswell,Charlie,Cresswell,,DEF,Leeds,17,140,,0,0,,,0,4,0,0,1,0,0,19,29.2,0.6,4.0,4,,,,3000000.0,19,597659,2022
+2021-22,173821,Tyler Roberts,Roberts,Tyler,Roberts,,MID,Leeds,17,976,,1,1,,,1,26,0,0,5,0,1,105,160.4,189.8,296.0,34,,,,8000000.0,23,296986,2022
+2021-22,221610,Jamie Shackleton,Shackleton,Jamie,Shackleton,,MID,Leeds,17,704,,0,1,,,1,14,0,0,4,0,0,94,126.6,29.0,62.0,19,,,,2500000.0,22,534700,2022
+2021-22,215460,Ian Carlo Poveda-Ocampo,Poveda,Ian Carlo,Poveda-Ocampo,2000-02-09,MID,Leeds,17,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,22,392763,2022
+2021-22,17745,Kasper Schmeichel,Schmeichel,Kasper,Schmeichel,,GK,Leicester,8,3330,,0,0,,,7,58,131,2,1,0,12,706,1064.0,11.2,0.0,131,,,,4000000.0,35,16911,2022
+2021-22,197469,Hamza Choudhury,Choudhury,Hamza,Choudhury,,MID,Leicester,8,284,,0,0,,,1,4,0,0,1,0,0,41,43.0,2.8,6.0,8,,,,4000000.0,24,341501,2022
+2021-22,219352,Ademola Lookman,Lookman,Ademola,Lookman,,MID,Leicester,8,1446,,6,0,,,2,31,0,0,2,0,6,225,363.0,301.9,516.0,76,,,,10000000.0,24,406040,2022
+2021-22,110979,Sadio Mané,Mané,Sadio,Mané,,MID,Liverpool,2,2818,,16,5,,,17,24,0,0,5,0,10,526,763.2,592.5,1533.0,183,,,,70000000.0,30,200512,2022
+2021-22,215136,Neco Williams,N.Williams,Neco,Williams,2001-04-13,DEF,Liverpool,2,7,,0,1,,,0,0,0,0,0,0,0,17,18.2,11.1,2.0,4,,,,8000000.0,21,503680,2022
+2021-22,157882,Takumi Minamino,Minamino,Takumi,Minamino,,MID,Liverpool,2,178,,3,0,,,0,1,0,0,1,0,2,89,117.4,33.8,104.0,28,,,,12000000.0,27,165793,2022
+2021-22,152898,Ben Davies,Davies,Ben,Davies,,DEF,Liverpool,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,26,257097,2022
+2021-22,182436,Ben Woodburn,Woodburn,Ben,Woodburn,,MID,Liverpool,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,22,344015,2022
+2021-22,152760,Divock Origi,Origi,Divock,Origi,,FWD,Liverpool,2,126,,3,0,,,0,0,0,0,0,0,3,87,104.6,6.6,165.0,22,,,,12000000.0,27,148368,2022
+2021-22,443629,Marcelo de Araújo Pitaluga Filho,Pitaluga,Marcelo,de Araújo Pitaluga Filho,,GK,Liverpool,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,100000.0,19,662334,2022
+2021-22,219937,Rhys Williams,R.Williams,Rhys,Williams,2001-02-03,DEF,Liverpool,2,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,21,503679,2022
+2021-22,164484,Zack Steffen,Steffen,Zack,Steffen,,GK,Man City,1,90,,0,0,,,1,0,2,0,0,0,1,29,23.0,0.0,0.0,7,,,,6000000.0,27,221624,2022
+2021-22,67089,Martin Dubravka,Dubravka,Martin,Dubravka,1989-01-15,GK,Newcastle,11,2340,,0,0,,,8,35,73,0,1,0,9,465,566.4,10.0,0.0,96,,,,4000000.0,33,74960,2022
+2021-22,197365,Eric Bailly,Bailly,Eric,Bailly,,DEF,Man Utd,6,216,,0,0,,,0,4,0,0,1,0,0,22,36.0,1.0,0.0,2,,,,6000000.0,28,286384,2022
+2021-22,74208,Paul Pogba,Pogba,Paul,Pogba,,MID,Man Utd,6,1347,,1,9,,,2,22,0,0,7,1,6,254,332.6,355.1,328.0,65,,,,48000000.0,29,122153,2022
+2021-22,62398,Nemanja Matic,Matic,Nemanja,Matic,,MID,Man Utd,6,1375,,0,4,,,2,26,0,0,3,0,3,271,302.6,216.9,45.0,52,,,,5000000.0,33,74683,2022
+2021-22,40720,Edinson Cavani,Cavani,Edinson,Cavani,,FWD,Man Utd,6,760,,2,1,,,1,10,0,0,0,0,2,105,109.0,73.7,283.0,34,,,,4000000.0,35,48280,2022
+2021-22,43670,Juan Mata,Mata,Juan,Mata,,MID,Man Utd,6,230,,0,0,,,1,4,0,0,0,0,0,50,31.0,52.1,57.0,10,,,,2500000.0,34,44068,2022
+2021-22,109322,Jesse Lingard,Lingard,Jesse,Lingard,,MID,Man Utd,6,354,,2,0,,,0,13,0,0,1,0,1,105,115.8,109.5,102.0,29,,,,18000000.0,29,141660,2022
+2021-22,493250,Amad Diallo,Diallo,Amad,Diallo,2002-07-11,MID,Man Utd,6,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,20,536835,2022
+2021-22,465527,Hannibal Mejbri,Mejbri,Hannibal,Mejbri,2003-01-21,MID,Man Utd,6,67,,0,0,,,0,2,0,0,2,0,0,-2,0.0,0.6,0.0,1,,,,6000000.0,19,607224,2022
+2021-22,152590,Alex Nicolao Telles,Telles,Alex Nicolao,Telles,,DEF,Man Utd,6,1658,,0,4,,,5,26,0,0,1,0,6,345,382.4,437.3,95.0,67,,,,18000000.0,29,255755,2022
+2021-22,172649,Dean Henderson,Henderson,Dean,Henderson,1997-03-12,GK,Man Utd,6,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,18000000.0,25,258919,2022
+2021-22,98747,Nick Pope,Pope,Nick,Pope,1992-04-19,GK,Burnley,18,3240,,0,0,,,9,47,120,0,1,0,12,683,875.6,20.0,0.0,130,,,,15000000.0,30,192080,2022
+2021-22,153127,Isaac Hayden,Hayden,Isaac,Hayden,1995-03-22,MID,Newcastle,11,1000,,1,0,,,0,25,0,0,5,0,3,124,187.6,33.6,66.0,28,,,,8000000.0,27,206225,2022
+2021-22,104547,Dwight Gayle,Gayle,Dwight,Gayle,,FWD,Newcastle,11,34,,0,0,,,0,0,0,0,1,0,0,22,4.2,24.2,13.0,7,,,,1500000.0,32,196522,2022
+2021-22,57145,Federico Fernández,Fernández,Federico,Fernández,,DEF,Newcastle,11,521,,0,1,,,0,12,0,0,0,0,0,91,129.4,13.8,69.0,11,,,,1500000.0,33,85475,2022
+2021-22,155503,Freddie Woodman,Woodman,Freddie,Woodman,1997-03-04,GK,Newcastle,11,360,,0,0,,,0,12,10,1,0,0,0,64,89.4,0.0,0.0,9,,,,9000000.0,25,226049,2022
+2021-22,83314,Jeff Hendrick,Hendrick,Jeff,Hendrick,,MID,Newcastle,11,69,,1,0,,,0,3,0,0,0,0,0,25,38.8,12.1,9.0,8,,,,5000000.0,30,148262,2022
+2021-22,58845,Ciaran Clark,Clark,Ciaran,Clark,,DEF,Newcastle,11,1012,,0,1,,,0,27,0,0,2,1,1,131,189.2,49.9,95.0,14,,,,1800000.0,32,98240,2022
+2021-22,222531,Morgan Gibbs-White,Gibbs-White,Morgan,Gibbs-White,2000-01-27,MID,Wolves,10,7,,0,0,,,0,0,0,0,1,0,0,0,0.0,0.7,24.0,1,,,,11000000.0,22,429014,2022
+2021-22,230251,Emmanuel Dennis,Dennis,Emmanuel,Dennis,,FWD,Watford,19,2579,,10,7,,,3,60,0,0,7,1,21,425,667.6,453.4,932.0,134,,,,14000000.0,24,448854,2022
+2021-22,90585,Willy Boly,Boly,Willy,Boly,1991-02-03,DEF,Wolves,10,900,,0,0,,,1,20,0,0,1,0,0,165,157.2,18.0,27.0,17,,,,6000000.0,31,142310,2022
+2021-22,20066,Wayne Hennessey,Hennessey,Wayne,Hennessey,1987-01-24,GK,Burnley,18,180,,0,0,,,0,6,8,0,0,0,0,37,62.8,30.0,0.0,4,,,,500000.0,35,45494,2022
+2021-22,80226,Serge Aurier,Aurier,Serge,Aurier,,DEF,Spurs,4,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,29,127032,2022
+2021-22,514356,Romeo Lavia,Lavia,Romeo,Lavia,2004-01-06,MID,Man City,1,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,18,628451,2022
+2021-22,490503,Samuel Edozie,Edozie,Samuel,Edozie,,MID,Man City,1,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,800000.0,19,680806,2022
+2021-22,78056,Oriol Romeu Vidal,Romeu,Oriol,Romeu Vidal,,MID,Southampton,15,2890,,2,2,,,7,52,0,0,9,0,6,487,527.4,521.5,247.0,88,,,,5000000.0,30,66100,2022
+2021-22,40383,Fraser Forster,Forster,Fraser,Forster,1988-03-17,GK,Southampton,15,1710,,0,0,,,3,35,68,0,1,0,6,330,559.8,0.0,0.0,57,,,,2000000.0,34,52570,2022
+2021-22,83283,Nathan Redmond,Redmond,Nathan,Redmond,,MID,Southampton,15,1827,,1,6,,,4,33,0,0,0,0,6,313,330.4,506.7,289.0,79,,,,18000000.0,28,129078,2022
+2021-22,20452,Shane Long,Long,Shane,Long,,FWD,Southampton,15,300,,1,0,,,0,5,0,0,1,0,0,48,57.8,29.2,169.0,19,,,,800000.0,35,37304,2022
+2021-22,198044,Harry Lewis,Lewis,Harry,Lewis,,GK,Southampton,15,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,200000.0,24,341043,2022
+2021-22,213482,Yan Valery,Valery,Yan,Valery,,DEF,Southampton,15,369,,0,0,,,1,7,0,0,0,0,0,62,70.8,20.4,2.0,9,,,,2500000.0,23,406008,2022
+2021-22,203389,Nathan Tella,Tella,Nathan,Tella,,MID,Southampton,15,802,,0,2,,,1,18,0,0,2,0,0,81,79.4,102.2,138.0,29,,,,1800000.0,23,340322,2022
+2021-22,214466,William Smallbone,Smallbone,William,Smallbone,2000-02-21,MID,Southampton,15,132,,0,0,,,0,5,0,0,0,0,0,25,7.2,15.7,8.0,5,,,,2000000.0,22,444211,2022
+2021-22,221632,Cristian Romero,Romero,Cristian,Romero,1998-04-27,DEF,Spurs,4,1844,,1,0,,,5,25,0,0,8,0,10,385,498.8,98.9,102.0,63,,,,48000000.0,24,355915,2022
+2021-22,194252,Steven Bergwijn,Bergwijn,Steven,Bergwijn,,MID,Spurs,4,548,,3,2,,,3,6,0,0,1,0,3,138,163.6,101.2,273.0,55,,,,18000000.0,24,284165,2022
+2021-22,231372,Tanguy Ndombele,Ndombele,Tanguy,Ndombele,,MID,Spurs,4,481,,1,1,,,0,11,0,0,1,0,0,85,99.8,83.1,122.0,22,,,,30000000.0,25,450936,2022
+2021-22,200826,Giovani Lo Celso,Lo Celso,Giovani,Lo Celso,,MID,Spurs,4,231,,0,0,,,0,5,0,0,0,0,0,41,33.4,77.6,59.0,11,,,,22000000.0,26,348795,2022
+2021-22,157668,Harry Winks,Winks,Harry,Winks,1996-02-02,MID,Spurs,4,904,,0,2,,,1,15,0,0,2,0,1,175,167.8,198.4,20.0,33,,,,15000000.0,26,249126,2022
+2021-22,199249,Sergio Reguilón,Reguilón,Sergio,Reguilón,1996-12-16,DEF,Spurs,4,1914,,2,4,,,9,25,0,0,4,0,9,438,468.8,459.9,362.0,104,,,,25000000.0,25,282429,2022
+2021-22,214225,Joe Rodon,Rodon,Joe,Rodon,1997-10-22,DEF,Spurs,4,87,,0,0,,,0,3,0,0,0,0,0,17,19.6,0.7,0.0,3,,,,8000000.0,24,297212,2022
+2021-22,156683,Pierluigi Gollini,Gollini,Pierluigi,Gollini,,GK,Spurs,4,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,27,244192,2022
+2021-22,149519,Maxwel Cornet,Cornet,Maxwel,Cornet,1996-09-27,MID,Burnley,18,1764,,9,2,,,5,24,0,0,2,0,9,242,390.2,246.9,547.0,104,,,,15000000.0,25,234781,2022
+2021-22,84182,Alphonse Areola,Areola,Alphonse,Areola,1993-02-27,GK,West Ham,7,90,,0,0,,,0,1,2,0,0,0,0,11,20.4,0.0,0.0,2,,,,8000000.0,29,120629,2022
+2021-22,56377,Andriy Yarmolenko,Yarmolenko,Andriy,Yarmolenko,,MID,West Ham,7,303,,1,0,,,1,4,0,0,1,0,0,73,75.2,62.9,150.0,25,,,,2500000.0,32,69015,2022
+2021-22,105717,Arthur Masuaku,Masuaku,Arthur,Masuaku,1993-11-07,DEF,West Ham,7,645,,1,1,,,1,12,0,0,1,0,3,145,178.2,57.2,39.0,29,,,,5000000.0,28,181380,2022
+2021-22,18073,Mark Noble,Noble,Mark,Noble,,MID,West Ham,7,325,,1,0,,,1,5,0,0,0,0,1,76,82.4,14.2,34.0,19,,,,1000000.0,35,31835,2022
+2021-22,180151,Nikola Vlasic,Vlasic,Nikola,Vlasic,,MID,West Ham,7,549,,1,0,,,1,10,0,0,0,0,0,98,85.4,122.8,115.0,30,,,,22000000.0,24,293200,2022
+2021-22,195728,Alex Kral,Kral,Alex,Kral,,MID,West Ham,7,1,,0,0,,,0,0,0,0,0,0,0,3,0.0,0.0,0.0,1,,,,7000000.0,24,337333,2022
+2021-22,432830,Nathan Collins,Collins,Nathan,Collins,2001-04-30,DEF,Burnley,18,1670,,2,0,,,5,26,0,0,2,1,1,272,426.6,62.4,246.0,55,,,,10000000.0,21,469050,2022
+2021-22,184754,Hee-Chan Hwang,Hwang,Hee-Chan,Hwang,1996-01-26,FWD,Wolves,10,1811,,5,1,,,7,22,0,0,2,0,11,288,318.0,258.6,433.0,81,,,,16000000.0,26,292246,2022
+2021-22,209353,Patrick Cutrone,Cutrone,Patrick,Cutrone,,FWD,Wolves,10,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3500000.0,24,265078,2022
+2021-22,19236,John Ruddy,Ruddy,John,Ruddy,1986-10-24,GK,Wolves,10,135,,0,0,,,0,3,4,0,0,0,0,20,11.4,0.0,0.0,3,,,,300000.0,35,29712,2022
+2021-22,107613,Romain Saïss,Saïss,Romain,Saïss,,DEF,Wolves,10,2706,,2,0,,,11,30,0,0,6,0,6,540,694.6,112.2,214.0,109,,,,8000000.0,32,204198,2022
+2021-22,111291,Fernando Marçal,Marçal,Fernando,Marçal,,DEF,Wolves,10,1448,,0,3,,,6,14,0,0,3,0,5,295,247.2,187.3,135.0,67,,,,1500000.0,33,137745,2022
+2021-22,449988,Fabio Silva,Fabio Silva,Fabio,Silva,2002-07-19,FWD,Wolves,10,562,,0,1,,,0,7,0,0,0,0,0,43,21.0,48.3,262.0,30,,,,15000000.0,20,505653,2022
+2021-22,232351,Ryan Giles,Giles,Ryan,Giles,2000-01-26,MID,Wolves,10,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,22,504581,2022
+2021-22,441271,Ki-Jana Hoever,Hoever,Ki-Jana,Hoever,2002-01-18,DEF,Wolves,10,306,,0,0,,,1,5,0,0,1,0,0,56,42.6,22.1,8.0,14,,,,6000000.0,20,485583,2022
+2021-22,428610,Bruno André Cavaco Jordão,Jordão,Bruno André,Cavaco Jordão,,MID,Wolves,10,0,,0,0,,,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1600000.0,23,415646,2022
+2021-22,245923,Luke Cundle,Cundle,Luke,Cundle,,MID,Wolves,10,179,,0,0,,,1,1,0,0,0,0,0,32,17.0,32.0,2.0,7,,,,800000.0,20,532541,2022
+2021-22,222564,Francisco Machado Mota de Castro Trincão,Trincão,Francisco,Machado Mota de Castro Trincão,,MID,Wolves,10,1328,,2,1,,,7,15,0,0,0,0,2,197,240.0,247.1,390.0,66,,,,20000000.0,22,412669,2022
+2022-23,200785,Tyler Adams,Adams,Tyler,Adams,1999-02-14,MID,Leeds,19,2156,24.0,0,0,0.11,1.05,5,36,0,0,4,1,1,290,393.6,328.9,24.0,47,,,,18000000.0,24,332705,2023
+2022-23,424044,Hamed Traorè,H.Traorè,Hamed,Traorè,2000-02-16,MID,Bournemouth,15,425,5.0,0,0,1.04,1.15,2,8,0,0,0,0,0,60,84.0,218.5,36.0,14,,,,22000000.0,23,391065,2023
+2022-23,224995,Luis Sinisterra Lucumí,Sinisterra,Luis,Sinisterra Lucumí,1999-06-17,MID,Leeds,19,863,13.0,5,0,3.81,0.88,0,23,0,0,1,1,6,173,242.8,157.7,305.0,53,,,,22000000.0,24,512385,2023
+2022-23,156687,Ben Pearson,Pearson,Ben,Pearson,,MID,Bournemouth,15,282,3.0,0,0,0.05,0.02,1,10,0,0,1,0,0,32,21.0,6.4,9.0,9,,,,2200000.0,28,183302,2023
+2022-23,152551,Jefferson Lerma Solís,Lerma,Jefferson,Lerma Solís,1994-10-25,MID,Bournemouth,15,3252,37.0,5,0,2.58,3.0,7,67,0,0,7,0,5,500,616.6,293.6,311.0,101,,,,20000000.0,28,262980,2023
+2022-23,154131,Jack Stacey,Stacey,Jack,Stacey,,DEF,Bournemouth,15,293,3.0,0,0,0.09,0.03,0,10,0,0,2,0,0,36,44.2,8.6,8.0,6,,,,2000000.0,27,249356,2023
+2022-23,447932,Jordan Zemura,Zemura,Jordan,Zemura,,DEF,Bournemouth,15,1452,17.0,0,1,0.47,1.71,5,31,0,0,1,0,1,235,269.4,232.8,71.0,47,,,,6000000.0,23,633530,2023
+2022-23,461017,Christian Saydee,Saydee,Christian,Saydee,,FWD,Bournemouth,15,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,400000.0,21,655835,2023
+2022-23,244085,Siriki Dembélé,Dembélé,Siriki,Dembélé,,MID,Bournemouth,15,104,0.0,0,0,0.16,0.21,0,2,0,0,0,0,0,20,31.8,52.3,28.0,6,,,,2000000.0,26,488656,2023
+2022-23,128309,Jamal Lowe,Lowe,Jamal,Lowe,,MID,Bournemouth,15,11,0.0,0,0,0.0,0.01,0,0,0,0,0,0,0,6,0.2,0.3,0.0,2,,,,1500000.0,29,239949,2023
+2022-23,463981,James Hill,Hill,James,Hill,2002-01-10,DEF,Bournemouth,15,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,21,611793,2023
+2022-23,444180,Jaidon Anthony,Anthony,Jaidon,Anthony,1999-12-01,MID,Bournemouth,15,1241,11.0,3,1,1.69,1.1,2,29,0,0,2,0,4,193,299.4,209.1,263.0,61,,,,9000000.0,23,684210,2023
+2022-23,229600,Mark Travers,Travers,Mark,Travers,1999-05-18,GK,Bournemouth,15,1035,11.0,0,0,0.0,0.0,2,32,36,0,0,0,1,193,253.0,0.0,0.0,28,,,,2000000.0,24,357658,2023
+2022-23,444172,Will Dennis,Dennis,Will,Dennis,2000-07-10,GK,Bournemouth,15,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,150000.0,22,582078,2023
+2022-23,56872,Junior Stanislas,Stanislas,Junior,Stanislas,,MID,Bournemouth,15,58,0.0,0,0,0.04,0.18,0,1,0,0,0,0,0,13,10.0,22.9,7.0,4,,,,500000.0,33,87672,2023
+2022-23,244704,Matías Viña,Viña,Matías,Viña,,DEF,Bournemouth,15,452,5.0,2,0,0.86,0.11,1,10,0,0,1,0,0,93,156.4,28.1,92.0,28,,,,8000000.0,25,439072,2023
+2022-23,204480,Declan Rice,Rice,Declan,Rice,1999-01-14,MID,West Ham,14,3272,36.0,4,3,2.4,1.85,9,50,0,0,5,0,12,622,777.6,522.4,226.0,116,,,,90000000.0,24,357662,2023
+2022-23,219847,Kai Havertz,Havertz,Kai,Havertz,1999-06-11,FWD,Chelsea,12,2565,30.0,7,1,11.58,2.75,9,31,0,0,5,0,13,301,470.2,513.3,1012.0,102,,,,55000000.0,24,309400,2023
+2022-23,154561,David Raya Martin,Raya,David,Raya Martin,1995-09-15,GK,Brentford,9,3420,38.0,0,0,0.11,0.12,12,46,154,0,1,0,20,822,1125.4,20.1,4.0,166,,,,30000000.0,27,262749,2023
+2022-23,84450,Granit Xhaka,Xhaka,Granit,Xhaka,1992-09-27,MID,Arsenal,2,2992,36.0,7,8,4.65,3.89,13,35,0,0,4,0,15,634,647.0,673.3,498.0,153,,,,20000000.0,30,111455,2023
+2022-23,224068,Matt Turner,Turner,Matt,Turner,1994-06-24,GK,Arsenal,2,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,29,425306,2023
+2022-23,92371,Pablo Marí Villar,Pablo Marí,Pablo,Marí Villar,,DEF,Arsenal,2,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,29,210178,2023
+2022-23,192895,Kieran Tierney,Tierney,Kieran,Tierney,1997-06-05,DEF,Arsenal,2,774,6.0,0,1,0.38,0.43,1,10,0,0,0,0,0,164,144.0,85.5,67.0,37,,,,25000000.0,26,300716,2023
+2022-23,156074,Rob Holding,Holding,Rob,Holding,1995-09-20,DEF,Arsenal,2,562,6.0,1,0,0.32,0.15,0,13,0,0,0,0,0,120,152.0,10.3,54.0,21,,,,8000000.0,27,253341,2023
+2022-23,437626,Nuno Varela Tavares,Tavares,Nuno,Varela Tavares,,DEF,Arsenal,2,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,18000000.0,23,535955,2023
+2022-23,154043,Ainsley Maitland-Niles,Maitland-Niles,Ainsley,Maitland-Niles,1997-08-29,MID,Southampton,20,1400,13.0,0,1,0.02,0.76,3,31,0,0,3,0,0,202,280.2,159.2,23.0,38,,,,8000000.0,25,285845,2023
+2022-23,195735,Nicolas Pépé,Pépé,Nicolas,Pépé,,MID,Arsenal,2,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,18000000.0,28,343052,2023
+2022-23,437742,Albert Sambi Lokonga,Sambi,Albert,Sambi Lokonga,1999-10-22,MID,Crystal Palace,11,728,8.0,0,0,0.17,0.18,2,8,0,0,2,0,0,129,98.4,57.2,20.0,23,,,,15000000.0,23,381967,2023
+2022-23,166989,Youri Tielemans,Tielemans,Youri,Tielemans,1997-05-07,MID,Leicester,18,2341,27.0,3,3,2.5,2.99,6,49,0,0,4,0,6,461,512.2,458.3,190.0,86,,,,25000000.0,26,249565,2023
+2022-23,171101,Clément Lenglet,Lenglet,Clément,Lenglet,,DEF,Spurs,8,2018,24.0,0,2,0.98,0.78,5,35,0,0,4,0,6,387,380.8,136.1,130.0,63,,,,10000000.0,28,182904,2023
+2022-23,433979,Cameron Archer,Archer,Cameron,Archer,2001-12-09,FWD,Aston Villa,7,43,0.0,0,0,0.0,0.01,0,1,0,0,0,0,0,13,1.8,2.4,6.0,6,,,,12000000.0,21,533662,2023
+2022-23,481624,Jaden Philogene-Bidace,Philogene-Bidace,Jaden,Philogene-Bidace,2002-02-08,MID,Aston Villa,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2800000.0,21,665390,2023
+2022-23,184704,Marvelous Nakamba,Nakamba,Marvelous,Nakamba,,MID,Aston Villa,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,29,324882,2023
+2022-23,221239,Keinan Davis,Davis,Keinan,Davis,,FWD,Aston Villa,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,25,412660,2023
+2022-23,18892,Ashley Young,Young,Ashley,Young,1985-07-09,DEF,Aston Villa,7,2031,23.0,1,0,0.46,0.78,9,28,0,0,7,0,8,388,380.2,223.4,81.0,87,,,,600000.0,38,14086,2023
+2022-23,248164,Viljami Sinisalo,Sinisalo,Viljami,Sinisalo,,GK,Aston Villa,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,21,484838,2023
+2022-23,122775,Morgan Sanson,Sanson,Morgan,Sanson,,MID,Aston Villa,7,10,0.0,0,0,0.0,0.0,0,1,0,0,0,0,0,6,4.2,0.5,0.0,2,,,,6000000.0,28,174094,2023
+2022-23,84583,Philippe Coutinho Correia,Coutinho,Philippe,Coutinho Correia,,MID,Aston Villa,7,777,7.0,1,0,1.37,0.65,3,9,0,0,3,0,1,98,119.2,152.5,218.0,32,,,,10000000.0,31,80444,2023
+2022-23,432830,Nathan Collins,Collins,Nathan,Collins,2001-04-30,DEF,Wolves,13,1811,19.0,0,0,0.23,0.21,4,37,0,0,2,1,6,326,419.0,37.9,29.0,49,,,,22000000.0,22,469050,2023
+2022-23,513418,Kevin Schade,Schade,Kevin,Schade,2001-11-27,MID,Brentford,9,723,7.0,0,1,2.07,0.67,3,7,0,0,2,0,0,76,72.2,110.4,205.0,29,,,,25000000.0,21,473050,2023
+2022-23,115382,Neal Maupay,Maupay,Neal,Maupay,,FWD,Everton,17,1104,11.0,1,0,4.91,0.24,3,19,0,0,4,0,3,86,85.8,109.9,429.0,41,,,,10000000.0,27,217115,2023
+2022-23,481405,Mads Bidstrup,Bidstrup,Mads,Bidstrup,,MID,Brentford,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,22,462832,2023
+2022-23,434662,Halil Dervişoğlu,Dervişoğlu,Halil,Dervişoğlu,,FWD,Brentford,9,6,0.0,0,1,0.03,0.0,0,0,0,0,0,0,0,11,0.0,0.0,10.0,4,,,,2000000.0,23,465606,2023
+2022-23,174932,Sergi Canós Tenés,Canós,Sergi,Canós Tenés,,DEF,Brentford,9,73,0.0,0,0,0.07,0.04,0,2,0,0,0,0,0,14,7.0,13.5,6.0,5,,,,9000000.0,26,251845,2023
+2022-23,61810,Pontus Jansson,Jansson,Pontus,Jansson,,DEF,Brentford,9,722,9.0,1,0,0.34,0.11,2,14,0,0,0,0,0,147,176.2,2.5,53.0,29,,,,2500000.0,32,125314,2023
+2022-23,228044,Mads Bech Sørensen,Bech,Mads,Bech Sørensen,,DEF,Brentford,9,18,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,12,2.6,0.2,0.0,4,,,,2500000.0,24,372240,2023
+2022-23,591357,Ryan Trevitt,Trevitt,Ryan,Trevitt,2003-03-12,MID,Brentford,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,100000.0,20,874538,2023
+2022-23,450550,Fin Stevens,Stevens,Fin,Stevens,,DEF,Brentford,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,20,587019,2023
+2022-23,503300,Matthew Cox,Cox,Matthew,Cox,2003-05-02,GK,Brentford,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,20,741236,2023
+2022-23,199249,Sergio Reguilón,Reguilón,Sergio,Reguilón,1996-12-16,DEF,Spurs,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,27,282429,2023
+2022-23,15157,James Milner,Milner,James,Milner,1986-01-04,MID,Liverpool,5,889,7.0,0,1,0.4,1.63,3,12,0,0,2,0,0,187,172.8,207.2,92.0,42,,,,1500000.0,37,3333,2023
+2022-23,486672,Moisés Caicedo Corozo,Caicedo,Moisés,Caicedo Corozo,2001-11-02,MID,Brighton,6,3138,34.0,1,1,1.67,2.51,10,47,0,0,10,0,0,503,582.2,668.6,210.0,79,,,,75000000.0,21,687626,2023
+2022-23,243016,Alexis Mac Allister,Mac Allister,Alexis,Mac Allister,1998-12-24,MID,Brighton,6,2882,31.0,10,2,12.05,4.27,10,45,0,0,8,0,18,567,741.0,729.6,706.0,140,,,,65000000.0,24,534033,2023
+2022-23,215059,Robert Sánchez,Sánchez,Robert,Sánchez,1997-11-18,GK,Brighton,6,2070,23.0,0,0,0.0,0.01,6,30,48,1,2,0,10,380,439.0,0.1,0.0,82,,,,22000000.0,25,403151,2023
+2022-23,450434,Deniz Undav,Undav,Deniz,Undav,,FWD,Brighton,6,614,6.0,5,2,4.89,1.25,2,9,0,0,2,0,4,173,157.6,105.7,333.0,52,,,,10000000.0,27,339314,2023
+2022-23,433589,Haydon Roberts,Roberts,Haydon,Roberts,,DEF,Brighton,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,700000.0,21,533523,2023
+2022-23,209045,Taylor Richards,Richards,Taylor,Richards,,MID,Brighton,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,400000.0,22,484551,2023
+2022-23,235382,Steven Alzate,Alzate,Steven,Alzate,,MID,Brighton,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,24,476237,2023
+2022-23,509416,Yasin Ayari,Ayari,Yasin,Ayari,2003-10-06,MID,Brighton,6,65,1.0,0,0,0.02,0.3,0,2,0,0,0,0,0,14,5.4,25.3,3.0,3,,,,6000000.0,19,667287,2023
+2022-23,441192,Jeremy Sarmiento Morante,Sarmiento,Jeremy,Sarmiento Morante,2002-06-16,MID,Brighton,6,168,1.0,0,2,0.33,0.27,1,2,0,0,1,0,0,40,46.6,38.2,50.0,16,,,,5000000.0,21,568005,2023
+2022-23,240514,Kjell Scherpen,Scherpen,Kjell,Scherpen,2000-01-23,GK,Brighton,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,23,463527,2023
+2022-23,83283,Nathan Redmond,Redmond,Nathan,Redmond,,MID,Southampton,20,1,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,0.0,0.0,0.0,1,,,,10000000.0,29,129078,2023
+2022-23,120202,Wout Weghorst,Weghorst,Wout,Weghorst,,FWD,Man Utd,3,790,10.0,0,1,2.02,1.16,4,11,0,0,1,0,0,56,97.6,183.7,140.0,24,,,,12000000.0,31,228645,2023
+2022-23,520295,David Datro Fofana,D.D.Fofana,David Datro,Fofana,2002-12-22,FWD,Chelsea,12,68,1.0,0,0,0.57,0.04,0,1,0,0,0,0,0,8,15.2,34.6,30.0,3,,,,12000000.0,21,787232,2023
+2022-23,514356,Roméo Lavia,Lavia,Roméo,Lavia,2004-01-06,MID,Southampton,20,2219,26.0,1,1,0.42,0.62,4,50,0,0,9,0,0,317,344.8,247.1,46.0,57,,,,32000000.0,19,628451,2023
+2022-23,244851,Cole Palmer,Palmer,Cole,Palmer,2002-05-06,MID,Man City,1,358,2.0,0,1,0.36,0.49,1,4,0,0,1,0,0,76,59.2,72.4,97.0,19,,,,18000000.0,21,568177,2023
+2022-23,40669,Angelo Ogbonna,Ogbonna,Angelo,Ogbonna,,DEF,West Ham,14,1234,13.0,0,0,0.26,0.07,4,19,0,0,0,0,4,217,212.8,35.2,24.0,44,,,,13000000.0,18,743598,2023
+2022-23,184341,Mason Mount,Mount,Mason,Mount,1999-01-10,MID,Chelsea,12,1644,20.0,3,4,1.97,2.81,8,21,0,0,4,0,8,277,331.4,463.1,376.0,82,,,,60000000.0,24,346483,2023
+2022-23,91651,Mateo Kovacic,Kovacic,Mateo,Kovacic,1994-05-06,MID,Chelsea,12,1699,17.0,1,2,1.79,2.04,4,25,0,0,8,0,2,289,294.2,363.8,114.0,53,,,,38000000.0,29,51471,2023
+2022-23,86129,Kalidou Koulibaly,Koulibaly,Kalidou,Koulibaly,,DEF,Chelsea,12,1798,20.0,2,1,0.88,0.43,6,22,0,0,5,1,8,408,497.4,104.1,141.0,74,,,,15000000.0,32,93128,2023
+2022-23,176413,Christian Pulisic,Pulisic,Christian,Pulisic,,MID,Chelsea,12,805,8.0,1,1,1.67,0.38,3,11,0,0,1,0,0,102,117.2,166.7,210.0,39,,,,25000000.0,24,315779,2023
+2022-23,126187,Ruben Loftus-Cheek,Loftus-Cheek,Ruben,Loftus-Cheek,,MID,Chelsea,12,1530,19.0,0,1,0.85,1.75,5,23,0,0,1,0,1,228,206.6,234.8,173.0,46,,,,25000000.0,27,202886,2023
+2022-23,228286,Edouard Mendy,Mendy,Edouard,Mendy,,GK,Chelsea,12,855,9.0,0,0,0.0,0.0,1,14,25,0,1,0,0,132,200.4,0.0,0.0,24,,,,12000000.0,31,442531,2023
+2022-23,199598,Ethan Ampadu,Ampadu,Ethan,Ampadu,2000-09-14,DEF,Chelsea,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,9000000.0,22,392771,2023
+2022-23,209046,Callum Hudson-Odoi,Hudson-Odoi,Callum,Hudson-Odoi,2000-11-07,MID,Chelsea,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,22,392768,2023
+2022-23,503301,Omari Hutchinson,Hutchinson,Omari,Hutchinson,2003-10-30,MID,Chelsea,12,22,0.0,0,0,0.0,0.02,0,0,0,0,0,0,0,2,1.0,1.8,4.0,1,,,,1000000.0,19,741238,2023
+2022-23,109745,Kepa Arrizabalaga,Arrizabalaga,Kepa,Arrizabalaga,1994-10-03,GK,Chelsea,12,2565,29.0,0,0,0.0,0.0,9,33,91,0,1,0,15,575,706.2,0.1,0.0,118,,,,18000000.0,28,192279,2023
+2022-23,54694,Pierre-Emerick Aubameyang,Aubameyang,Pierre-Emerick,Aubameyang,,FWD,Chelsea,12,546,5.0,1,0,1.53,0.18,1,8,0,0,1,0,3,61,55.0,59.4,177.0,25,,,,4000000.0,34,58864,2023
+2022-23,41328,César Azpilicueta,Azpilicueta,César,Azpilicueta,,DEF,Chelsea,12,1521,16.0,0,0,0.35,1.25,3,21,0,0,3,0,4,242,259.2,206.7,93.0,45,,,,5000000.0,33,57500,2023
+2022-23,116594,N'Golo Kanté,Kanté,N'Golo,Kanté,,MID,Chelsea,12,517,6.0,0,1,0.32,0.82,2,7,0,0,1,0,1,120,107.0,186.9,58.0,18,,,,15000000.0,32,225083,2023
+2022-23,124183,Hakim Ziyech,Ziyech,Hakim,Ziyech,,MID,Chelsea,12,649,6.0,0,3,0.65,1.51,2,7,0,0,1,0,0,129,155.4,230.9,113.0,33,,,,16000000.0,30,217111,2023
+2022-23,487838,Lewis Hall,Hall,Lewis,Hall,2004-09-08,MID,Chelsea,12,653,8.0,0,0,0.83,1.46,1,11,0,0,1,0,3,118,113.2,174.3,119.0,19,,,,10000000.0,18,670858,2023
+2022-23,532605,Andrey Nascimento dos Santos,Andrey Santos,Andrey,Nascimento dos Santos,2004-05-03,MID,Chelsea,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,19,743600,2023
+2022-23,212701,Denis Zakaria,Zakaria,Denis,Zakaria,,MID,Chelsea,12,409,5.0,0,0,0.19,0.05,2,5,0,0,0,0,0,47,44.6,22.6,24.0,13,,,,18000000.0,26,334526,2023
+2022-23,428399,João Félix Sequeira,João Félix,João,Félix Sequeira,,FWD,Chelsea,12,936,11.0,4,0,4.62,0.99,2,16,0,0,1,1,7,126,203.6,135.2,287.0,44,,,,50000000.0,23,462250,2023
+2022-23,172649,Dean Henderson,Henderson,Dean,Henderson,1997-03-12,GK,Nott'm Forest,16,1620,18.0,0,0,0.0,0.01,6,31,54,2,2,0,12,367,474.4,0.0,0.0,82,,,,18000000.0,26,258919,2023
+2022-23,66975,Luka Milivojevic,Milivojevic,Luka,Milivojevic,,MID,Crystal Palace,11,500,5.0,0,0,0.34,0.2,2,7,0,0,2,0,0,80,69.2,43.6,17.0,23,,,,2000000.0,32,74300,2023
+2022-23,105666,Jack Butland,Butland,Jack,Butland,1993-03-10,GK,Man Utd,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,30,128899,2023
+2022-23,82403,Wilfried Zaha,Zaha,Wilfried,Zaha,,MID,Crystal Palace,11,2289,27.0,7,2,6.32,2.95,5,34,0,0,5,0,6,216,465.4,384.8,848.0,95,,,,22000000.0,30,145988,2023
+2022-23,40836,Vicente Guaita,Guaita,Vicente,Guaita,,GK,Crystal Palace,11,2430,27.0,0,0,0.0,0.01,6,34,85,0,1,0,10,484,668.4,0.0,0.0,99,,,,1000000.0,36,64399,2023
+2022-23,450541,Luke Plange,Plange,Luke,Plange,,FWD,Crystal Palace,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,20,586986,2023
+2022-23,50471,James McArthur,McArthur,James,McArthur,,MID,Crystal Palace,11,50,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,13,6.8,1.7,0.0,4,,,,400000.0,35,41416,2023
+2022-23,220307,Arnaut Danjuma,Danjuma,Arnaut,Danjuma,,MID,Spurs,8,162,1.0,1,0,0.84,0.07,0,5,0,0,0,0,0,43,53.2,25.1,71.0,15,,,,25000000.0,26,355861,2023
+2022-23,221399,Jack Harrison,Harrison,Jack,Harrison,1996-11-20,MID,Leeds,19,2707,34.0,5,8,5.44,5.06,6,55,0,0,2,0,15,403,556.2,791.5,466.0,134,,,,22000000.0,26,417346,2023
+2022-23,153133,Alex Iwobi,Iwobi,Alex,Iwobi,1996-05-03,MID,Everton,17,3379,38.0,2,8,2.56,4.31,9,56,0,0,2,0,9,563,682.4,917.7,366.0,126,,,,28000000.0,27,242631,2023
+2022-23,172632,Demarai Gray,Gray,Demarai,Gray,,MID,Everton,17,2501,27.0,4,1,6.17,3.82,7,39,0,0,3,0,4,284,410.4,605.2,670.0,91,,,,20000000.0,27,292417,2023
+2022-23,218997,Ellis Simms,Simms,Ellis,Simms,2001-01-05,FWD,Everton,17,219,2.0,1,0,0.86,0.15,0,4,0,0,0,0,0,59,40.8,39.3,54.0,17,,,,4000000.0,22,511550,2023
+2022-23,495542,Niels Nkounkou,Nkounkou,Niels,Nkounkou,,DEF,Everton,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,22,591193,2023
+2022-23,40349,Asmir Begović,Begović,Asmir,Begović,1987-06-20,GK,Everton,17,90,1.0,0,0,0.0,0.0,1,0,4,0,0,0,2,30,36.0,0.0,0.0,9,,,,800000.0,36,33873,2023
+2022-23,164511,Yerry Mina,Mina,Yerry,Mina,,DEF,Everton,17,594,7.0,2,0,1.52,0.15,1,9,0,0,2,0,7,115,176.8,17.7,134.0,33,,,,10000000.0,28,289446,2023
+2022-23,173807,Tom Davies,Davies,Tom,Davies,,MID,Everton,17,524,4.0,0,0,1.3,0.25,1,9,0,0,3,0,0,55,50.4,46.2,98.0,19,,,,9000000.0,25,314210,2023
+2022-23,194164,Mason Holgate,Holgate,Mason,Holgate,,DEF,Everton,17,506,5.0,0,0,1.0,0.17,2,9,0,0,1,1,2,81,90.4,71.9,55.0,16,,,,9000000.0,26,348623,2023
+2022-23,60252,Andros Townsend,Townsend,Andros,Townsend,,MID,Everton,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,31,61842,2023
+2022-23,160987,Jean-Philippe Gbamin,Gbamin,Jean-Philippe,Gbamin,,MID,Everton,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4800000.0,27,182894,2023
+2022-23,94147,Conor Coady,Coady,Conor,Coady,1993-02-25,DEF,Everton,17,2094,23.0,1,1,0.84,0.49,7,28,0,0,2,0,5,397,392.6,59.5,88.0,77,,,,12000000.0,30,128901,2023
+2022-23,216054,Rúben Nascimento Vinagre,Vinagre,Rúben,Nascimento Vinagre,,DEF,Everton,17,24,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,9,7.6,1.4,0.0,2,,,,4000000.0,24,357158,2023
+2022-23,166477,Timothy Castagne,Castagne,Timothy,Castagne,1995-12-05,DEF,Leicester,18,3255,36.0,2,4,2.16,2.13,8,63,0,0,3,0,11,615,679.8,377.3,289.0,114,,,,25000000.0,27,262226,2023
+2022-23,102057,Raúl Jiménez,Jiménez,Raúl,Jiménez,1991-05-05,FWD,Wolves,13,839,8.0,0,2,2.55,0.55,2,18,0,0,0,0,0,65,74.6,116.0,273.0,29,,,,6000000.0,32,206040,2023
+2022-23,159533,Adama Traoré Diarra,Adama,Adama,Traoré Diarra,1996-01-25,MID,Wolves,13,1477,12.0,2,4,1.38,3.22,2,30,0,0,2,0,0,228,253.6,370.0,258.0,66,,,,10000000.0,27,204103,2023
+2022-23,128389,Aleksandar Mitrović,Mitrović,Aleksandar,Mitrović,,FWD,Fulham,10,2010,23.0,14,2,15.31,1.31,7,30,0,0,7,0,14,324,584.8,216.5,1141.0,107,,,,28000000.0,28,51152,2023
+2022-23,83543,Anthony Knockaert,Knockaert,Anthony,Knockaert,,MID,Fulham,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,900000.0,31,149237,2023
+2022-23,166324,Ivan Neves Abreu Cavaleiro,Cavaleiro,Ivan,Neves Abreu Cavaleiro,,MID,Fulham,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2200000.0,29,149716,2023
+2022-23,92259,Neeskens Kebano,Kebano,Neeskens,Kebano,,MID,Fulham,10,758,9.0,0,4,0.48,0.88,3,10,0,0,0,0,0,123,119.6,179.7,112.0,40,,,,2000000.0,31,111422,2023
+2022-23,101105,Joe Bryan,Bryan,Joe,Bryan,,DEF,Fulham,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2200000.0,29,194460,2023
+2022-23,61933,Shane Duffy,Duffy,Shane,Duffy,,DEF,Fulham,10,17,0.0,0,0,0.16,0.0,0,4,0,0,0,0,0,12,0.2,0.2,7.0,4,,,,2000000.0,31,119269,2023
+2022-23,102884,Paulo Gazzaniga Farias,Gazzaniga,Paulo,Gazzaniga Farias,,GK,Fulham,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,31,195488,2023
+2022-23,490146,Jay Stansfield,Stansfield,Jay,Stansfield,,FWD,Fulham,10,85,1.0,0,1,0.25,0.03,0,2,0,0,0,0,0,22,8.4,12.8,46.0,7,,,,1200000.0,20,696346,2023
+2022-23,120721,Kevin Mbabu,Mbabu,Kevin,Mbabu,,DEF,Fulham,10,141,1.0,0,1,0.0,0.42,0,7,0,0,1,0,0,39,39.8,37.7,0.0,7,,,,3500000.0,28,183321,2023
+2022-23,109434,Terence Kongolo,Kongolo,Terence,Kongolo,,DEF,Fulham,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,900000.0,29,152651,2023
+2022-23,235674,Manor Solomon,Solomon,Manor,Solomon,1999-07-24,MID,Fulham,10,560,4.0,4,0,1.21,0.78,0,11,0,0,0,0,1,156,214.8,86.0,107.0,44,,,,18000000.0,23,396638,2023
+2022-23,58822,Cédric Alves Soares,Cédric,Cédric,Alves Soares,,DEF,Fulham,10,223,2.0,0,0,0.06,0.19,0,3,0,0,0,0,0,56,56.4,51.4,10.0,10,,,,3000000.0,31,112988,2023
+2022-23,89068,Layvin Kurzawa,Kurzawa,Layvin,Kurzawa,,DEF,Fulham,10,136,2.0,0,0,0.0,0.03,0,4,0,0,1,0,0,13,20.2,4.5,0.0,2,,,,3000000.0,30,126710,2023
+2022-23,56979,Jordan Henderson,Henderson,Jordan,Henderson,1990-06-17,MID,Liverpool,5,2060,23.0,0,3,1.35,3.59,8,30,0,0,2,0,0,401,307.4,506.1,174.0,69,,,,10000000.0,33,61651,2023
+2022-23,81880,Alex Oxlade-Chamberlain,Chamberlain,Alex,Oxlade-Chamberlain,,MID,Liverpool,5,332,4.0,1,0,1.27,0.18,0,7,0,0,0,0,2,57,72.4,66.3,84.0,20,,,,7000000.0,29,143424,2023
+2022-23,175592,Naby Keita,Keita,Naby,Keita,,MID,Liverpool,5,290,3.0,0,0,0.67,0.2,1,4,0,0,1,0,0,34,23.8,92.6,54.0,10,,,,12000000.0,28,302215,2023
+2022-23,92217,Roberto Firmino,Firmino,Roberto,Firmino,,FWD,Liverpool,5,1202,13.0,11,4,5.48,2.16,4,17,0,0,0,0,12,447,542.0,293.2,792.0,104,,,,18000000.0,31,131789,2023
+2022-23,219937,Rhys Williams,R.Williams,Rhys,Williams,2001-02-03,DEF,Liverpool,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,22,503679,2023
+2022-23,244858,Fábio Freitas Gouveia Carvalho,Carvalho,Fábio,Freitas Gouveia Carvalho,2002-08-30,MID,Liverpool,5,339,4.0,2,1,1.11,0.25,0,3,0,0,0,0,0,80,89.4,36.7,173.0,27,,,,16000000.0,20,559263,2023
+2022-23,444765,Sepp van den Berg,Van den Berg,Sepp,van den Berg,2001-12-20,DEF,Liverpool,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,21,541231,2023
+2022-23,204043,Arthur Henrique Ramos de Oliveira Melo,Arthur,Arthur Henrique,Ramos de Oliveira Melo,,MID,Liverpool,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,26,362842,2023
+2022-23,88894,Ross Barkley,Barkley,Ross,Barkley,1993-12-05,MID,Chelsea,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,29,131978,2023
+2022-23,465351,Matheus Luiz Nunes,Matheus,Matheus Luiz,Nunes,1998-08-27,MID,Wolves,13,2467,30.0,1,1,2.41,1.38,11,38,0,0,2,1,5,338,370.2,405.0,310.0,80,,,,45000000.0,25,601883,2023
+2022-23,103025,Riyad Mahrez,Mahrez,Riyad,Mahrez,,MID,Man City,1,1913,22.0,5,12,5.4,5.22,6,23,0,0,2,0,11,470,533.6,773.4,520.0,126,,,,20000000.0,32,171424,2023
+2022-23,146941,Aymeric Laporte,Laporte,Aymeric,Laporte,,DEF,Man City,1,992,11.0,0,0,0.49,0.44,4,10,0,0,0,0,3,210,166.2,107.8,68.0,40,,,,25000000.0,29,176553,2023
+2022-23,59859,Ilkay Gündogan,Gündogan,Ilkay,Gündogan,1990-10-24,MID,Man City,1,2351,27.0,8,6,7.83,4.37,10,20,0,0,0,0,9,518,596.2,636.9,597.0,132,,,,20000000.0,32,53622,2023
+2022-23,121145,João Cancelo,Cancelo,João,Cancelo,,DEF,Man City,1,1273,16.0,2,2,0.83,1.53,6,16,0,0,3,1,10,304,277.0,266.4,276.0,73,,,,50000000.0,29,182712,2023
+2022-23,432714,James McAtee,McAtee,James,McAtee,2002-10-18,MID,Man City,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,20,583199,2023
+2022-23,482769,Máximo Perrone,Perrone,Máximo,Perrone,,MID,Man City,1,18,0.0,0,0,0.0,0.01,0,1,0,0,0,0,0,4,1.0,2.6,4.0,1,,,,10000000.0,20,668547,2023
+2022-23,447880,Josh Wilson-Esbrand,Wilson-Esbrand,Josh,Wilson-Esbrand,,DEF,Man City,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,20,576121,2023
+2022-23,37642,Jonny Evans,Evans,Jonny,Evans,1988-01-03,DEF,Leicester,18,1051,12.0,0,0,0.17,0.18,2,28,0,0,1,0,0,191,223.8,20.6,35.0,20,,,,2000000.0,35,42412,2023
+2022-23,449434,Anthony Elanga,Elanga,Anthony,Elanga,2002-04-27,MID,Man Utd,3,417,5.0,0,1,0.65,0.98,2,2,0,0,0,0,0,53,52.4,78.8,162.0,23,,,,18000000.0,21,583189,2023
+2022-23,446189,Matej Kovár,Kovár,Matej,Kovár,,GK,Man Utd,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1800000.0,23,550829,2023
+2022-23,152590,Alex Telles,Telles,Alex,Telles,,DEF,Man Utd,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7500000.0,30,255755,2023
+2022-23,461548,Zidane Iqbal,Iqbal,Zidane,Iqbal,,MID,Man Utd,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,20,686845,2023
+2022-23,197365,Eric Bailly,Bailly,Eric,Bailly,,DEF,Man Utd,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,29,286384,2023
+2022-23,232937,Brandon Williams,B.Williams,Brandon,Williams,,DEF,Man Utd,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7000000.0,22,507700,2023
+2022-23,51940,David De Gea Quintana,De Gea,David,De Gea Quintana,,GK,Man Utd,3,3420,38.0,0,0,0.0,0.22,17,43,101,1,0,0,5,729,792.2,13.0,0.0,161,,,,13000000.0,32,59377,2023
+2022-23,76359,Phil Jones,Jones,Phil,Jones,,DEF,Man Utd,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,31,117996,2023
+2022-23,101338,Marcel Sabitzer,Sabitzer,Marcel,Sabitzer,,MID,Man Utd,3,622,7.0,0,1,0.74,1.2,5,7,0,0,1,0,0,98,100.4,138.9,84.0,25,,,,20000000.0,29,106987,2023
+2022-23,201666,Harvey Barnes,Barnes,Harvey,Barnes,1997-12-09,MID,Leicester,18,2709,32.0,13,2,9.07,2.33,6,51,0,0,3,0,0,379,567.4,305.1,883.0,138,,,,35000000.0,25,398065,2023
+2022-23,441191,Tino Livramento,Livramento,Tino,Livramento,2002-11-12,DEF,Southampton,20,26,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,13,5.8,0.0,0.0,2,,,,25000000.0,20,503981,2023
+2022-23,170137,Allan Saint-Maximin,Saint-Maximin,Allan,Saint-Maximin,,MID,Newcastle,4,1109,12.0,1,6,1.6,2.59,4,14,0,0,1,0,4,240,266.4,344.1,370.0,66,,,,32000000.0,26,272642,2023
+2022-23,60689,Chris Wood,Wood,Chris,Wood,1991-12-07,FWD,Nott'm Forest,16,807,9.0,3,0,2.71,0.37,4,9,0,0,0,0,7,163,145.2,82.1,169.0,53,,,,8000000.0,31,108725,2023
+2022-23,59735,Karl Darlow,Darlow,Karl,Darlow,1990-10-08,GK,Newcastle,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,32,99397,2023
+2022-23,83314,Jeff Hendrick,Hendrick,Jeff,Hendrick,,MID,Newcastle,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,31,148262,2023
+2022-23,90105,Ryan Fraser,Fraser,Ryan,Fraser,1994-02-24,MID,Newcastle,4,308,3.0,0,0,0.31,0.25,1,3,0,0,1,0,0,39,26.8,74.0,70.0,11,,,,6000000.0,29,146795,2023
+2022-23,194799,Jamal Lewis,Lewis,Jamal,Lewis,1998-01-25,DEF,Newcastle,4,9,0.0,0,0,0.0,0.0,0,1,0,0,0,0,0,6,1.0,0.8,4.0,2,,,,6000000.0,25,346018,2023
+2022-23,58845,Ciaran Clark,Clark,Ciaran,Clark,,DEF,Newcastle,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,33,98240,2023
+2022-23,242898,Brennan Johnson,Johnson,Brennan,Johnson,2001-05-23,FWD,Nott'm Forest,16,2930,33.0,8,5,8.39,2.0,7,54,0,0,6,0,15,384,478.2,373.6,729.0,122,,,,38000000.0,22,470607,2023
+2022-23,217331,Sam Surridge,Surridge,Sam,Surridge,,FWD,Nott'm Forest,16,306,1.0,1,0,1.71,0.02,0,5,0,0,2,0,3,61,59.4,15.9,92.0,26,,,,5000000.0,24,398402,2023
+2022-23,437476,Braian Ojeda Rodríguez,Ojeda,Braian,Ojeda Rodríguez,,MID,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,23,491596,2023
+2022-23,173399,Mohamed Dräger,Dräger,Mohamed,Dräger,,DEF,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,900000.0,27,192167,2023
+2022-23,184193,Jordan Smith,Smith,Jordan,Smith,,GK,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,28,452707,2023
+2022-23,50232,Jonjo Shelvey,Shelvey,Jonjo,Shelvey,,MID,Nott'm Forest,16,573,6.0,0,0,0.19,0.66,1,11,0,0,2,0,0,67,55.6,102.1,11.0,16,,,,5000000.0,31,71292,2023
+2022-23,58771,Jack Colback,Colback,Jack,Colback,,MID,Nott'm Forest,16,492,4.0,0,0,0.0,0.15,0,11,0,0,0,0,0,73,62.0,33.7,2.0,14,,,,600000.0,33,61644,2023
+2022-23,437753,Giulian Biancone,Biancone,Giulian,Biancone,,DEF,Nott'm Forest,16,15,0.0,0,0,0.0,0.0,0,1,0,0,0,0,0,9,6.8,0.0,0.0,2,,,,6000000.0,23,536507,2023
+2022-23,56917,Steve Cook,Cook,Steve,Cook,,DEF,Nott'm Forest,16,956,11.0,0,0,0.13,0.59,2,21,0,0,4,0,0,149,177.4,39.3,28.0,20,,,,1800000.0,32,90836,2023
+2022-23,244930,Alex Mighten,Mighten,Alex,Mighten,,MID,Nott'm Forest,16,7,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,1,0.0,0.3,0.0,1,,,,600000.0,21,503988,2023
+2022-23,89076,Remo Freuler,Freuler,Remo,Freuler,,MID,Nott'm Forest,16,2157,24.0,0,0,0.42,0.79,6,47,0,0,4,0,0,267,272.2,174.7,54.0,54,,,,8000000.0,31,148252,2023
+2022-23,230251,Emmanuel Dennis,Dennis,Emmanuel,Dennis,,FWD,Nott'm Forest,16,709,6.0,2,2,1.73,0.4,1,17,0,0,3,0,3,113,166.4,96.8,286.0,39,,,,8000000.0,25,448854,2023
+2022-23,209035,Jonathan Panzo,Panzo,Jonathan,Panzo,,DEF,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,22,392777,2023
+2022-23,242885,Loïc Mbe Soh,Mbe Soh,Loïc,Mbe Soh,,DEF,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,22,463610,2023
+2022-23,243345,Lewis O'Brien,O'Brien,Lewis,O'Brien,1998-10-14,MID,Nott'm Forest,16,578,6.0,1,0,0.34,0.19,1,14,0,0,2,0,0,88,107.8,56.4,47.0,22,,,,8000000.0,24,560694,2023
+2022-23,204822,Omar Richards,Richards,Omar,Richards,1998-02-15,DEF,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,25,424881,2023
+2022-23,185253,Gustavo Henrique Furtado Scarpa,Scarpa,Gustavo Henrique,Furtado Scarpa,,MID,Nott'm Forest,16,177,2.0,0,0,0.23,0.04,0,1,0,0,1,0,0,16,15.0,17.3,25.0,5,,,,10000000.0,29,330085,2023
+2022-23,221403,Richie Laryea,Laryea,Richie,Laryea,,DEF,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,28,417348,2023
+2022-23,57647,Lyle Taylor,Lyle Taylor,Lyle,Taylor,,FWD,Nott'm Forest,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,33,104495,2023
+2022-23,109322,Jesse Lingard,Lingard,Jesse,Lingard,,MID,Nott'm Forest,16,918,12.0,0,1,1.04,0.47,5,17,0,0,1,0,0,93,50.6,151.9,127.0,33,,,,8000000.0,30,141660,2023
+2022-23,45124,André Ayew,A.Ayew,André,Ayew,,MID,Nott'm Forest,16,306,1.0,0,0,1.06,0.03,0,10,0,0,1,0,0,27,34.0,17.1,53.0,11,,,,1800000.0,33,45403,2023
+2022-23,233420,Renan Augusto Lodi dos Santos,Renan Lodi,Renan Augusto,Lodi dos Santos,,DEF,Nott'm Forest,16,2211,26.0,0,2,0.94,1.3,5,48,0,0,7,0,3,363,319.0,208.2,97.0,56,,,,20000000.0,25,476352,2023
+2022-23,28411,Keylor Navas,Navas,Keylor,Navas,,GK,Nott'm Forest,16,1530,17.0,0,0,0.0,0.01,2,32,51,0,2,0,5,273,387.6,0.0,0.0,43,,,,4000000.0,36,79422,2023
+2022-23,244619,Luke Thomas,Thomas,Luke,Thomas,2001-06-10,DEF,Leicester,18,1068,11.0,0,1,0.09,0.48,2,20,0,0,3,0,0,189,166.8,89.4,12.0,28,,,,12000000.0,22,505194,2023
+2022-23,172780,James Maddison,Maddison,James,Maddison,1996-11-23,MID,Leicester,18,2479,28.0,10,9,8.5,5.53,4,54,0,0,10,0,9,520,785.4,970.0,769.0,135,,,,60000000.0,26,294057,2023
+2022-23,441164,Pedro Porro,Pedro Porro,Pedro,Porro,1999-09-13,DEF,Spurs,8,1132,13.0,3,3,1.81,2.29,2,26,0,0,0,0,5,253,268.6,377.9,150.0,59,,,,40000000.0,23,553875,2023
+2022-23,445044,Dejan Kulusevski,Kulusevski,Dejan,Kulusevski,2000-04-25,MID,Spurs,8,2062,23.0,2,7,2.68,4.76,8,40,0,0,2,0,5,310,409.2,627.6,514.0,96,,,,50000000.0,23,431755,2023
+2022-23,78830,Harry Kane,Kane,Harry,Kane,,FWD,Spurs,8,3406,38.0,30,9,20.95,4.01,11,62,0,0,6,0,48,1008,1256.6,744.8,1707.0,263,,,,90000000.0,30,132098,2023
+2022-23,157668,Harry Winks,Winks,Harry,Winks,1996-02-02,MID,Spurs,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,27,249126,2023
+2022-23,173904,Davinson Sánchez,Sánchez,Davinson,Sánchez,,DEF,Spurs,8,848,8.0,0,0,0.65,0.2,2,17,0,0,1,0,1,166,180.6,29.9,52.0,28,,,,15000000.0,27,341429,2023
+2022-23,232859,Djed Spence,Spence,Djed,Spence,2000-08-09,DEF,Spurs,8,5,0.0,0,0,0.06,0.0,0,0,0,0,0,0,0,10,0.2,1.3,20.0,4,,,,10000000.0,23,483348,2023
+2022-23,95715,Lucas Rodrigues Moura da Silva,Lucas Moura,Lucas,Rodrigues Moura da Silva,,MID,Spurs,8,145,0.0,1,0,0.55,0.46,0,5,0,0,0,1,0,55,29.0,55.8,43.0,17,,,,6000000.0,30,77100,2023
+2022-23,214225,Joe Rodon,Rodon,Joe,Rodon,1997-10-22,DEF,Spurs,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7000000.0,25,297212,2023
+2022-23,490145,Dane Scarlett,Scarlett,Dane,Scarlett,2004-03-24,FWD,Spurs,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1800000.0,19,670883,2023
+2022-23,199584,Japhet Tanganga,Tanganga,Japhet,Tanganga,,DEF,Spurs,8,145,2.0,0,0,0.0,0.01,0,5,0,0,0,0,0,32,27.6,6.2,0.0,4,,,,7000000.0,24,346478,2023
+2022-23,101178,James Ward-Prowse,Ward-Prowse,James,Ward-Prowse,1994-11-01,MID,Southampton,20,3371,38.0,9,4,5.86,5.3,4,72,0,0,6,0,18,747,880.4,1162.9,319.0,142,,,,38000000.0,28,181579,2023
+2022-23,195899,Gianluca Scamacca,Scamacca,Gianluca,Scamacca,,FWD,West Ham,14,921,11.0,3,0,2.42,0.51,3,12,0,0,3,0,7,110,151.8,160.7,312.0,41,,,,22000000.0,24,315867,2023
+2022-23,180151,Nikola Vlasic,Vlasic,Nikola,Vlasic,,MID,West Ham,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,17000000.0,25,293200,2023
+2022-23,105717,Arthur Masuaku,Masuaku,Arthur,Masuaku,1993-11-07,DEF,West Ham,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,29,181380,2023
+2022-23,86934,Manuel Lanzini,Lanzini,Manuel,Lanzini,,MID,West Ham,14,243,2.0,1,0,0.54,0.29,0,5,0,0,0,0,1,63,50.6,21.9,37.0,17,,,,6000000.0,30,135853,2023
+2022-23,220585,Flynn Downes,Downes,Flynn,Downes,1999-01-20,MID,West Ham,14,752,7.0,0,0,0.43,0.11,1,14,0,0,2,0,0,104,55.8,28.9,51.0,27,,,,9000000.0,24,506189,2023
+2022-23,430871,Matheus Santos Carneiro Da Cunha,Cunha,Matheus,Santos Carneiro Da Cunha,1999-05-27,FWD,Wolves,13,961,12.0,2,0,1.72,0.17,5,12,0,0,1,0,6,122,143.0,95.1,217.0,39,,,,25000000.0,24,517894,2023
+2022-23,476502,Boubacar Traoré,Traoré,Boubacar,Traoré,2001-08-20,MID,Wolves,13,405,4.0,0,1,0.07,0.06,0,9,0,0,2,0,0,44,49.6,16.6,7.0,14,,,,5000000.0,21,649020,2023
+2022-23,87835,Matt Doherty,Doherty,Matt,Doherty,1992-01-16,DEF,Spurs,8,663,7.0,1,0,0.74,0.27,3,9,0,0,0,0,2,147,147.0,110.5,146.0,35,,,,5000000.0,31,171679,2023
+2022-23,171317,Rúben da Silva Neves,Neves,Rúben,da Silva Neves,,MID,Wolves,13,3020,33.0,6,2,5.19,1.57,10,48,0,0,12,0,16,558,788.8,474.7,347.0,118,,,,40000000.0,26,225161,2023
+2022-23,200600,Daniel Castelo Podence,Podence,Daniel,Castelo Podence,,MID,Wolves,13,1760,20.0,6,1,3.88,2.19,6,31,0,0,5,0,10,249,376.0,512.8,580.0,92,,,,20000000.0,27,256977,2023
+2022-23,216208,Matija Šarkić,Šarkić,Matija,Šarkić,,GK,Wolves,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,26,293257,2023
+2022-23,19624,João Filipe Iria Santos Moutinho,Moutinho,João Filipe Iria,Santos Moutinho,,MID,Wolves,13,1773,20.0,0,2,1.3,1.93,6,28,0,0,3,0,0,297,309.8,537.7,142.0,56,,,,1500000.0,36,29364,2023
+2022-23,18507,Diego Da Silva Costa,Diego Costa,Diego,Da Silva Costa,,FWD,Wolves,13,1235,16.0,1,0,3.22,0.6,6,17,0,0,5,1,3,40,96.8,144.3,504.0,33,,,,2000000.0,34,44779,2023
+2022-23,181284,Gonçalo Manuel Ganchinho Guedes,Guedes,Gonçalo Manuel,Ganchinho Guedes,1996-11-29,MID,Wolves,13,703,8.0,1,1,1.2,0.45,2,12,0,0,1,0,1,85,89.4,139.6,223.0,29,,,,23000000.0,26,225122,2023
+2022-23,461026,Chem Campbell,Campbell,Chem,Campbell,,MID,Wolves,13,68,0.0,0,0,0.1,0.0,0,2,0,0,0,0,0,9,5.6,3.0,16.0,5,,,,1000000.0,20,614603,2023
+2022-23,245923,Luke Cundle,Cundle,Luke,Cundle,,MID,Wolves,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,21,532541,2023
+2023-24,224995,Luis Sinisterra,Sinisterra,Luis,Sinisterra,1999-06-17,MID,Bournemouth,12,685,7.0,2,2,2.62,1.03,1,18,0,0,0,0,2,149,221.4,251.4,343.0,43,,,,17000000.0,25,512385,2024
+2023-24,168636,Enes Ünal,Enes Ünal,Enes,Ünal,1997-05-10,FWD,Bournemouth,12,317,2.0,2,4,2.84,0.13,1,9,0,0,1,0,3,99,142.4,58.6,242.0,40,,,,18000000.0,27,251106,2024
+2023-24,109745,Kepa Arrizabalaga,Arrizabalaga,Kepa,Arrizabalaga,1994-10-03,GK,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,29,192279,2024
+2023-24,523700,Daniel Jebbison,Jebbison,Daniel,Jebbison,2003-08-13,FWD,Sheffield Utd,20,20,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,0.0,0.1,4.0,1,,,,1000000.0,20,746740,2024
+2023-24,154566,Dominic Solanke,Solanke,Dominic,Solanke,1997-09-14,FWD,Bournemouth,12,3325,37.0,19,3,19.64,2.11,10,61,0,0,3,0,20,560,902.0,479.6,1348.0,175,,,,40000000.0,26,258889,2024
+2023-24,128340,Kieffer Moore,Moore,Kieffer,Moore,,FWD,Bournemouth,12,100,0.0,1,0,1.44,0.33,0,2,0,0,0,0,2,38,37.4,27.9,81.0,14,,,,2000000.0,31,275590,2024
+2023-24,235530,Lloyd Kelly,Kelly,Lloyd,Kelly,,DEF,Bournemouth,12,1553,17.0,0,1,0.34,0.77,4,32,0,0,2,0,5,293,279.0,141.8,48.0,48,,,,18000000.0,25,480116,2024
+2023-24,128309,Jamal Lowe,Lowe,Jamal,Lowe,,MID,Bournemouth,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,29,239949,2024
+2023-24,444183,Gavin Kilkenny,Kilkenny,Gavin,Kilkenny,,MID,Bournemouth,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,24,469064,2024
+2023-24,424044,Hamed Traorè,Hamed Traorè,Hamed,Traorè,2000-02-16,MID,Bournemouth,12,44,0.0,0,0,0.17,0.01,0,1,0,0,0,0,0,10,12.8,14.8,30.0,3,,,,17000000.0,24,391065,2024
+2023-24,223911,Chris Mepham,Mepham,Chris,Mepham,1997-11-05,DEF,Bournemouth,12,613,6.0,0,1,0.09,0.17,1,16,0,0,2,0,0,113,142.6,40.0,27.0,16,,,,6000000.0,26,480987,2024
+2023-24,444180,Jaidon Anthony,Anthony,Jaidon,Anthony,1999-12-01,MID,Bournemouth,12,151,2.0,0,0,0.07,0.02,0,5,0,0,1,0,0,4,9.0,4.6,16.0,3,,,,6000000.0,24,684210,2024
+2023-24,69752,Norberto Murara Neto,Neto,Norberto,Murara Neto,1989-07-19,GK,Bournemouth,12,2880,32.0,0,0,0.0,0.01,7,55,113,1,5,0,14,592,875.2,0.0,0.0,110,,,,2500000.0,35,111819,2024
+2023-24,441240,Romain Faivre,Faivre,Romain,Faivre,1998-07-14,MID,Bournemouth,12,37,0.0,0,0,0.15,0.03,0,1,0,0,1,0,0,9,5.0,2.5,13.0,4,,,,15000000.0,26,555076,2024
+2023-24,156685,Joe Rothwell,Rothwell,Joe,Rothwell,,MID,Bournemouth,12,380,3.0,0,0,0.06,0.22,0,12,0,0,0,0,0,54,45.8,63.9,5.0,13,,,,2500000.0,29,183293,2024
+2023-24,81012,Ryan Fredericks,Fredericks,Ryan,Fredericks,,DEF,Bournemouth,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,31,140191,2024
+2023-24,32259,Darren Randolph,Randolph,Darren,Randolph,,GK,Bournemouth,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,37,51321,2024
+2023-24,133845,Emiliano Marcondes,Marcondes,Emiliano,Marcondes,,MID,Bournemouth,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,29,232964,2024
+2023-24,215531,Ionuț Radu,Radu,Ionuț,Radu,,GK,Bournemouth,12,180,2.0,0,0,0.0,0.0,0,7,5,0,0,0,0,31,33.0,0.0,0.0,2,,,,3000000.0,27,303657,2024
+2023-24,154561,David Raya Martin,Raya,David,Raya Martin,1995-09-15,GK,Arsenal,2,2880,32.0,0,0,0.0,0.04,16,24,46,1,2,0,6,569,413.0,0.0,0.0,135,,,,35000000.0,28,262749,2024
+2023-24,103955,Raheem Sterling,Sterling,Raheem,Sterling,1994-12-08,MID,Chelsea,6,1972,22.0,8,8,6.39,4.33,5,38,0,0,7,0,8,323,502.8,473.7,747.0,123,,,,35000000.0,29,134425,2024
+2023-24,209289,Emile Smith Rowe,Smith Rowe,Emile,Smith Rowe,2000-07-28,MID,Arsenal,2,343,3.0,0,2,1.86,0.4,3,3,0,0,0,0,0,73,62.4,72.2,128.0,25,,,,22000000.0,24,392765,2024
+2023-24,205533,Eddie Nketiah,Nketiah,Eddie,Nketiah,1999-05-30,FWD,Arsenal,2,1065,10.0,5,4,4.65,0.53,6,10,0,0,3,0,5,206,235.0,136.3,417.0,71,,,,30000000.0,25,340324,2024
+2023-24,225321,Aaron Ramsdale,Ramsdale,Aaron,Ramsdale,1998-05-14,GK,Arsenal,2,540,6.0,0,0,0.0,0.01,2,5,9,0,0,0,0,90,73.2,0.0,0.0,20,,,,25000000.0,26,427568,2024
+2023-24,438098,Fábio Ferreira Vieira,Fábio Vieira,Fábio,Ferreira Vieira,2000-05-30,MID,Arsenal,2,290,2.0,1,3,1.25,0.64,1,2,0,0,0,1,0,67,82.8,88.8,85.0,24,,,,22000000.0,24,537598,2024
+2023-24,153256,Mohamed Elneny,M.Elneny,Mohamed,Elneny,,MID,Arsenal,2,25,0.0,0,1,0.08,0.01,0,0,0,0,0,0,0,16,4.0,2.1,10.0,6,,,,3500000.0,32,160438,2024
+2023-24,437626,Nuno Varela Tavares,Tavares,Nuno,Varela Tavares,,DEF,Nott'm Forest,17,454,5.0,0,0,0.16,0.38,1,9,0,0,2,0,0,69,61.8,48.8,28.0,11,,,,15000000.0,24,535955,2024
+2023-24,463748,Karl Hein,Hein,Karl,Hein,2002-04-13,GK,Arsenal,2,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,22,493513,2024
+2023-24,437742,Albert Sambi Lokonga,Sambi,Albert,Sambi Lokonga,1999-10-22,MID,Luton,18,1304,16.0,1,3,0.55,0.79,2,31,0,0,4,0,4,231,289.8,154.9,56.0,47,,,,15000000.0,24,381967,2024
+2023-24,200641,Reiss Nelson,Nelson,Reiss,Nelson,1999-12-10,MID,Arsenal,2,256,1.0,0,0,0.18,0.43,1,1,0,0,1,0,0,58,42.8,87.7,39.0,16,,,,15000000.0,24,340325,2024
+2023-24,58822,Cédric Alves Soares,Cédric,Cédric,Alves Soares,,DEF,Arsenal,2,59,0.0,0,0,0.0,0.02,0,0,0,0,0,0,0,15,2.0,4.3,0.0,3,,,,2000000.0,32,112988,2024
+2023-24,449871,Amadou Onana,Onana,Amadou,Onana,2001-08-16,MID,Everton,15,2085,23.0,2,0,2.22,1.39,5,38,0,0,5,0,5,304,354.0,282.7,254.0,66,,,,50000000.0,22,485706,2024
+2023-24,441302,Ian Maatsen,Maatsen,Ian,Maatsen,2002-03-10,MID,Chelsea,6,200,1.0,0,0,0.74,0.2,0,5,0,0,1,0,0,24,29.4,44.8,29.0,11,,,,40000000.0,22,485585,2024
+2023-24,433979,Cameron Archer,Archer,Cameron,Archer,2001-12-09,FWD,Sheffield Utd,20,1829,21.0,4,3,5.28,1.39,2,50,0,0,2,0,9,241,266.0,309.3,353.0,82,,,,13000000.0,22,533662,2024
+2023-24,481624,Jaden Philogene-Bidace,Philogene,Jaden,Philogene-Bidace,2002-02-08,MID,Aston Villa,4,3,0.0,0,0,0.0,0.0,0,1,0,0,0,0,0,3,0.4,0.3,2.0,1,,,,15000000.0,22,665390,2024
+2023-24,461421,Lewis Dobbin,Dobbin,Lewis,Dobbin,2003-01-03,MID,Everton,15,226,1.0,1,0,0.34,0.12,1,3,0,0,1,0,0,54,68.4,50.5,59.0,18,,,,2500000.0,21,627248,2024
+2023-24,88894,Ross Barkley,Barkley,Ross,Barkley,1993-12-05,MID,Luton,18,2616,30.0,5,5,3.91,2.73,2,66,0,0,6,0,4,498,687.4,622.8,379.0,101,,,,8000000.0,30,131978,2024
+2023-24,243557,Moussa Diaby,Diaby,Moussa,Diaby,,MID,Aston Villa,4,2168,25.0,6,11,7.4,4.24,8,40,0,0,1,0,10,429,515.4,617.8,675.0,142,,,,55000000.0,25,395516,2024
+2023-24,230046,Douglas Luiz Soares de Paulo,Douglas Luiz,Douglas Luiz,Soares de Paulo,1998-05-09,MID,Aston Villa,4,2994,35.0,9,5,6.69,4.86,6,57,0,0,12,0,25,666,761.8,867.0,381.0,148,,,,70000000.0,26,447661,2024
+2023-24,490094,Tim Iroegbunam,Iroegbunam,Tim,Iroegbunam,2003-06-30,MID,Aston Villa,4,157,1.0,0,0,0.0,0.0,0,7,0,0,0,0,0,29,18.6,4.0,0.0,10,,,,4000000.0,21,696589,2024
+2023-24,122775,Morgan Sanson,Sanson,Morgan,Sanson,,MID,Aston Villa,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,29,174094,2024
+2023-24,248164,Viljami Sinisalo,Sinisalo,Viljami,Sinisalo,,GK,Aston Villa,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,22,484838,2024
+2023-24,101184,Calum Chambers,Chambers,Calum,Chambers,,DEF,Aston Villa,4,149,1.0,0,1,0.0,0.01,0,6,0,0,1,0,0,37,39.0,12.2,0.0,6,,,,4000000.0,29,215118,2024
+2023-24,151589,Leander Dendoncker,Dendoncker,Leander,Dendoncker,1995-04-15,MID,Aston Villa,4,118,1.0,1,1,0.73,0.01,0,3,0,0,0,0,3,64,59.2,3.9,37.0,20,,,,7000000.0,29,168157,2024
+2023-24,465390,Kaine Kesler-Hayden,Kesler-Hayden,Kaine,Kesler-Hayden,2002-10-23,DEF,Aston Villa,4,5,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,9,0.0,0.0,0.0,3,,,,2200000.0,21,626888,2024
+2023-24,462381,Filip Marschall,Marschall,Filip,Marschall,2003-04-24,GK,Aston Villa,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,800000.0,21,610863,2024
+2023-24,84583,Philippe Coutinho Correia,Coutinho,Philippe,Coutinho Correia,,MID,Aston Villa,4,24,0.0,0,0,0.15,0.02,0,1,0,0,0,0,0,7,4.0,2.8,12.0,2,,,,7500000.0,32,80444,2024
+2023-24,171101,Clément Lenglet,Lenglet,Clément,Lenglet,,DEF,Aston Villa,4,1153,14.0,0,1,0.81,0.52,2,27,0,0,3,0,0,207,250.6,41.8,103.0,24,,,,10000000.0,29,182904,2024
+2023-24,245414,Nicolò Zaniolo,Zaniolo,Nicolò,Zaniolo,,MID,Aston Villa,4,824,9.0,2,0,2.67,0.7,2,13,0,0,7,0,0,36,146.8,120.1,357.0,34,,,,20000000.0,24,392085,2024
+2023-24,444765,Sepp van den Berg,Van den Berg,Sepp,van den Berg,2001-12-20,DEF,Liverpool,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,22,541231,2024
+2023-24,144485,Ivan Toney,Toney,Ivan,Toney,,FWD,Brentford,16,1449,16.0,4,3,5.72,1.51,3,30,0,0,5,0,4,159,289.6,206.5,524.0,57,,,,50000000.0,28,251664,2024
+2023-24,140200,Thomas Strakosha,Strakosha,Thomas,Strakosha,,GK,Brentford,16,135,1.0,0,0,0.0,0.01,0,2,6,0,0,0,0,24,42.8,0.0,0.0,4,,,,3000000.0,29,222209,2024
+2023-24,213687,Charlie Goode,Goode,Charlie,Goode,,DEF,Brentford,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,29,376856,2024
+2023-24,432160,Shandon Baptiste,Baptiste,Shandon,Baptiste,,MID,Brentford,16,222,2.0,1,1,0.89,0.36,0,5,0,0,1,0,0,83,92.4,54.8,60.0,19,,,,2500000.0,26,533916,2024
+2023-24,205836,Saman Ghoddos,Ghoddos,Saman,Ghoddos,,MID,Brentford,16,728,7.0,1,0,0.3,1.05,0,20,0,0,5,0,0,127,139.8,163.8,45.0,26,,,,2000000.0,31,204294,2024
+2023-24,450539,Myles Peart-Harris,Peart-Harris,Myles,Peart-Harris,2002-09-18,MID,Brentford,16,11,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,6,2.2,10.9,2.0,3,,,,700000.0,21,587002,2024
+2023-24,428580,Frank Onyeka,Onyeka,Frank,Onyeka,1998-01-01,MID,Brentford,16,1147,11.0,1,2,2.09,1.44,1,27,0,0,8,0,0,150,259.0,178.3,189.0,39,,,,9000000.0,26,421637,2024
+2023-24,235448,Ellery Balcombe,Balcombe,Ellery,Balcombe,1999-10-15,GK,Brentford,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,24,456292,2024
+2023-24,115382,Neal Maupay,Maupay,Neal,Maupay,,FWD,Brentford,16,1417,14.0,6,3,6.89,1.99,4,37,0,0,8,0,6,248,325.8,242.5,568.0,76,,,,12000000.0,27,217115,2024
+2023-24,450434,Deniz Undav,Undav,Deniz,Undav,,FWD,Brighton,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,25000000.0,28,339314,2024
+2023-24,243568,Billy Gilmour,Gilmour,Billy,Gilmour,,MID,Brighton,11,2116,24.0,0,3,0.98,2.56,6,37,0,0,8,1,4,354,291.4,481.5,104.0,61,,,,18000000.0,23,423744,2024
+2023-24,60307,Pascal Groß,Gross,Pascal,Groß,1991-06-15,MID,Brighton,11,3112,34.0,4,11,6.4,8.89,7,50,0,0,6,0,29,724,988.6,1674.9,434.0,153,,,,8000000.0,33,82873,2024
+2023-24,484658,Kacper Kozłowski,Kozłowski,Kacper,Kozłowski,,MID,Brighton,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,20,554284,2024
+2023-24,168090,Mahmoud Dahoud,Dahoud,Mahmoud,Dahoud,,MID,Brighton,11,449,6.0,0,1,0.22,0.54,1,6,0,0,1,1,0,68,70.4,127.2,24.0,14,,,,6000000.0,28,191422,2024
+2023-24,39155,Adam Lallana,Lallana,Adam,Lallana,1988-05-10,MID,Brighton,11,839,13.0,0,1,0.83,1.6,2,13,0,0,2,0,0,95,83.0,248.7,130.0,30,,,,1000000.0,36,43530,2024
+2023-24,543158,Valentín Barco,Barco,Valentín,Barco,2004-07-23,DEF,Brighton,11,307,3.0,0,0,0.2,0.38,0,9,0,0,1,0,0,33,44.8,69.6,39.0,5,,,,13000000.0,20,849410,2024
+2023-24,445548,Odeluga Offiah,Offiah,Odeluga,Offiah,,DEF,Brighton,11,126,1.0,0,0,0.0,0.03,0,3,0,0,0,0,0,21,6.4,5.5,4.0,4,,,,300000.0,21,567597,2024
+2023-24,441192,Jeremy Sarmiento Morante,Sarmiento,Jeremy,Sarmiento Morante,2002-06-16,MID,Brighton,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7000000.0,22,568005,2024
+2023-24,536916,Facundo Buonanotte,Buonanotte,Facundo,Buonanotte,2004-12-23,MID,Brighton,11,1356,17.0,3,1,2.34,1.16,6,19,0,0,7,0,1,160,254.8,291.3,238.0,57,,,,18000000.0,19,983989,2024
+2023-24,235382,Steven Alzate,Alzate,Steven,Alzate,,MID,Brighton,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,25,476237,2024
+2023-24,209288,Tom McGill,McGill,Tom,McGill,2000-03-25,GK,Brighton,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,24,406556,2024
+2023-24,247632,Pedro Lomba Neto,Neto,Pedro,Lomba Neto,2000-03-09,MID,Wolves,14,1516,18.0,2,11,3.17,3.69,3,27,0,0,4,0,8,310,371.4,599.2,389.0,86,,,,55000000.0,24,487465,2024
+2023-24,549068,Omari Kellyman,Kellyman,Omari,Kellyman,2005-09-15,MID,Aston Villa,4,35,0.0,0,0,0.04,0.0,0,1,0,0,0,0,0,6,2.6,0.5,2.0,2,,,,1000000.0,18,926135,2024
+2023-24,209243,Jadon Sancho,Sancho,Jadon,Sancho,2000-03-25,MID,Man Utd,8,76,0.0,0,0,0.0,0.07,0,1,0,0,0,0,0,11,9.8,14.8,12.0,3,,,,30000000.0,24,401173,2024
+2023-24,109646,Tosin Adarabioyo,Tosin,Tosin,Adarabioyo,1997-09-24,DEF,Fulham,13,1616,18.0,2,0,0.78,0.32,6,25,0,0,2,0,2,327,431.8,39.3,152.0,66,,,,20000000.0,26,258878,2024
+2023-24,232787,Conor Gallagher,Gallagher,Conor,Gallagher,2000-02-06,MID,Chelsea,6,3129,37.0,5,8,4.01,3.53,8,56,0,0,7,1,10,618,754.8,821.5,401.0,129,,,,50000000.0,24,488362,2024
+2023-24,487838,Lewis Hall,Hall,Lewis,Hall,2004-09-08,DEF,Newcastle,7,773,8.0,1,0,0.35,0.72,2,12,0,0,2,0,3,171,194.8,69.1,85.0,38,,,,18000000.0,19,670858,2024
+2023-24,66749,Romelu Lukaku Bolingoli,Lukaku,Romelu,Lukaku Bolingoli,,FWD,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,30000000.0,31,96341,2024
+2023-24,518620,Ângelo Gabriel Borges Damaceno,Ângelo,Ângelo Gabriel,Borges Damaceno,,MID,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,19,743598,2024
+2023-24,491011,Diego Manuel Jadon da Silva Moreira,Diego Moreira,Diego Manuel Jadon,da Silva Moreira,,MID,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,20,655006,2024
+2023-24,204727,Malang Sarr,M.Sarr,Malang,Sarr,,DEF,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,25,344596,2024
+2023-24,124183,Hakim Ziyech,Ziyech,Hakim,Ziyech,,MID,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,9000000.0,31,217111,2024
+2023-24,51090,Thiago Emiliano da Silva,T.Silva,Thiago,Emiliano da Silva,,DEF,Chelsea,6,2525,28.0,3,1,0.73,0.58,7,45,0,0,4,0,12,604,797.0,138.7,165.0,98,,,,1000000.0,39,29241,2024
+2023-24,180736,Trevoh Chalobah,Chalobah,Trevoh,Chalobah,1999-07-05,DEF,Chelsea,6,949,10.0,1,0,0.2,0.16,3,14,0,0,1,0,4,221,250.8,45.4,38.0,39,,,,13000000.0,25,346314,2024
+2023-24,520295,David Datro Fofana,D.D.Fofana,David Datro,Fofana,2002-12-22,FWD,Burnley,19,876,10.0,4,1,4.58,0.3,1,18,0,0,1,0,8,133,212.0,111.7,273.0,50,,,,12000000.0,21,787232,2024
+2023-24,440323,Armando Broja,Broja,Armando,Broja,2001-09-10,FWD,Fulham,13,529,6.0,1,2,2.24,0.23,3,9,0,0,0,0,0,72,75.6,70.3,152.0,35,,,,22000000.0,22,571743,2024
+2023-24,457569,Đorđe Petrović,Petrović,Đorđe,Petrović,1999-10-08,GK,Chelsea,6,1986,22.0,0,0,0.0,0.0,5,38,75,0,2,0,5,414,567.8,0.0,0.0,71,,,,20000000.0,24,465555,2024
+2023-24,461188,Bashir Humphreys,Humphreys,Bashir,Humphreys,2003-03-15,DEF,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4800000.0,21,612517,2024
+2023-24,503714,Lesley Ugochukwu,Ugochukwu,Lesley,Ugochukwu,2004-03-26,MID,Chelsea,6,296,3.0,0,0,0.0,0.14,1,6,0,0,2,0,0,62,60.8,44.4,4.0,13,,,,25000000.0,20,711999,2024
+2023-24,471798,Gabriel Słonina,Slonina,Gabriel,Słonina,2004-05-15,GK,Chelsea,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,20,656316,2024
+2023-24,514280,Alfie Gilchrist,Gilchrist,Alfie,Gilchrist,,DEF,Chelsea,6,200,2.0,1,0,0.32,0.05,1,6,0,0,1,0,0,67,70.6,8.6,33.0,20,,,,5000000.0,20,790992,2024
+2023-24,224068,Matt Turner,Turner,Matt,Turner,1994-06-24,GK,Nott'm Forest,17,1530,17.0,0,0,0.0,0.0,2,28,55,0,2,0,0,278,379.6,0.0,0.0,41,,,,7000000.0,30,425306,2024
+2023-24,443661,Michael Olise,Olise,Michael,Olise,,MID,Crystal Palace,10,1272,14.0,10,6,5.32,4.96,3,19,0,0,0,0,21,438,627.6,568.7,556.0,125,,,,55000000.0,22,566723,2024
+2023-24,174874,Joachim Andersen,Andersen,Joachim,Andersen,1996-05-31,DEF,Crystal Palace,10,3416,38.0,2,3,1.75,2.08,10,58,0,0,7,0,12,679,873.6,301.1,253.0,121,,,,35000000.0,28,260827,2024
+2023-24,101982,Sam Johnstone,Johnstone,Sam,Johnstone,1993-03-25,GK,Crystal Palace,10,1796,20.0,0,0,0.0,0.0,6,27,41,0,1,0,7,310,321.4,0.0,0.0,68,,,,10000000.0,31,110864,2024
+2023-24,80146,Jordan Ayew,J.Ayew,Jordan,Ayew,1991-09-11,MID,Crystal Palace,10,2540,30.0,4,7,3.97,2.55,11,39,0,0,7,1,3,325,517.6,445.2,550.0,109,,,,4000000.0,32,108354,2024
+2023-24,173954,Jairo Riedewald,Riedewald,Jairo,Riedewald,,MID,Crystal Palace,10,228,2.0,0,0,0.04,0.07,1,3,0,0,0,0,0,35,24.6,9.3,14.0,12,,,,3000000.0,27,241481,2024
+2023-24,450542,Jesurun Rak-Sakyi,Rak-Sakyi,Jesurun,Rak-Sakyi,2002-10-05,MID,Crystal Palace,10,132,0.0,0,0,0.41,0.14,1,3,0,0,0,0,0,21,23.2,28.2,58.0,8,,,,2000000.0,21,586834,2024
+2023-24,450535,Malcolm Ebiowei,Ebiowei,Malcolm,Ebiowei,2003-09-04,MID,Crystal Palace,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,20,512354,2024
+2023-24,531989,David Ozoh,Ozoh,David,Ozoh,2005-05-06,MID,Crystal Palace,10,148,0.0,0,0,0.0,0.01,0,5,0,0,1,0,0,27,25.2,4.0,0.0,8,,,,700000.0,19,865993,2024
+2023-24,487818,Joe Whitworth,Whitworth,Joe,Whitworth,,GK,Crystal Palace,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,20,670840,2024
+2023-24,466117,Naouirou Ahamada,Ahamada,Naouirou,Ahamada,2002-03-29,MID,Crystal Palace,10,332,0.0,0,0,0.4,0.12,0,14,0,0,2,1,0,52,41.2,25.2,61.0,16,,,,8000000.0,22,538971,2024
+2023-24,49413,James Tomkins,Tomkins,James,Tomkins,,DEF,Crystal Palace,10,8,0.0,0,0,0.0,0.0,0,2,0,0,0,0,0,12,3.0,0.3,0.0,3,,,,700000.0,35,61592,2024
+2023-24,199670,Odsonne Edouard,Edouard,Odsonne,Edouard,1998-01-16,FWD,Crystal Palace,10,1545,17.0,7,0,6.33,0.86,6,24,0,0,4,0,9,246,359.6,256.7,663.0,79,,,,18000000.0,26,344152,2024
+2023-24,512462,Jake O'Brien,O'Brien,Jake,O'Brien,2001-05-15,DEF,Crystal Palace,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,23,711544,2024
+2023-24,440993,Iliman Ndiaye,Ndiaye,Iliman,Ndiaye,2000-03-06,FWD,Sheffield Utd,20,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,24,623570,2024
+2023-24,179519,Orel Mangala,Mangala,Orel,Mangala,1998-03-18,MID,Nott'm Forest,17,1562,19.0,1,0,0.77,0.28,3,31,0,0,6,0,0,186,208.0,108.7,44.0,40,,,,20000000.0,26,289592,2024
+2023-24,198826,Ben Godfrey,Godfrey,Ben,Godfrey,1998-01-15,DEF,Everton,15,1120,13.0,0,0,1.76,0.55,4,13,0,0,2,0,0,166,221.4,64.9,156.0,37,,,,10000000.0,26,343475,2024
+2023-24,11948,Andy Lonergan,Lonergan,Andy,Lonergan,,GK,Everton,15,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,100000.0,40,14044,2024
+2023-24,194164,Mason Holgate,Holgate,Mason,Holgate,,DEF,Sheffield Utd,20,711,9.0,0,0,0.55,0.2,0,27,0,0,3,1,0,69,117.8,22.7,19.0,1,,,,5000000.0,27,348623,2024
+2023-24,108823,Dele Alli,Dele,Dele,Alli,,MID,Everton,15,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,28,207929,2024
+2023-24,120250,André Tavares Gomes,André Gomes,André,Tavares Gomes,,MID,Everton,15,505,3.0,1,0,0.32,0.43,3,7,0,0,4,0,0,64,72.8,88.3,81.0,20,,,,10000000.0,30,221025,2024
+2023-24,220307,Arnaut Danjuma Groeneveld,Danjuma,Arnaut,Danjuma Groeneveld,,MID,Everton,15,587,5.0,1,0,2.63,0.42,2,10,0,0,0,0,0,53,73.6,79.3,271.0,26,,,,13000000.0,27,355861,2024
+2023-24,207189,Sander Berge,Berge,Sander,Berge,1998-02-14,MID,Burnley,19,3002,34.0,1,2,2.04,1.66,2,70,0,0,8,1,3,430,533.6,446.3,161.0,74,,,,20000000.0,26,333014,2024
+2023-24,184349,Ryan Sessegnon,Sessegnon,Ryan,Sessegnon,2000-05-18,DEF,Spurs,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,24,392775,2024
+2023-24,154296,João Palhinha Gonçalves,J.Palhinha,João,Palhinha Gonçalves,1995-07-09,MID,Fulham,13,2698,31.0,4,1,3.39,0.99,9,46,0,0,13,0,8,387,659.2,219.0,365.0,91,,,,55000000.0,29,257455,2024
+2023-24,490146,Jay Stansfield,Stansfield,Jay,Stansfield,,FWD,Fulham,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3500000.0,21,696346,2024
+2023-24,109434,Terence Kongolo,Kongolo,Terence,Kongolo,,DEF,Fulham,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,30,152651,2024
+2023-24,120721,Kevin Mbabu,Mbabu,Kevin,Mbabu,,DEF,Fulham,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,29,183321,2024
+2023-24,47431,Willian Borges da Silva,Willian,Willian,Borges da Silva,1988-08-09,MID,Fulham,13,2048,24.0,4,3,5.09,4.68,9,28,0,0,1,0,6,390,416.4,701.3,439.0,94,,,,3000000.0,36,52769,2024
+2023-24,82514,Tim Ream,Ream,Tim,Ream,,DEF,Fulham,13,1503,17.0,1,0,0.96,0.16,3,31,0,0,2,1,4,267,339.8,18.2,45.0,40,,,,800000.0,36,145466,2024
+2023-24,432931,Tyrese Francois,Francois,Tyrese,Francois,,MID,Fulham,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,24,528888,2024
+2023-24,96994,Bobby De Cordova-Reid,De Cordova-Reid,Bobby,De Cordova-Reid,1993-02-02,MID,Fulham,13,1410,17.0,6,3,4.55,1.12,3,29,0,0,4,0,7,290,330.6,255.3,325.0,92,,,,5000000.0,31,186186,2024
+2023-24,155529,Marek Rodák,Rodák,Marek,Rodák,,GK,Fulham,13,0,0.0,0,0,0.0,0.0,0,0,0,0,1,0,0,-3,0.0,0.0,0.0,-1,,,,3000000.0,27,186901,2024
+2023-24,515024,Luke Harris,Harris,Luke,Harris,2005-03-04,MID,Fulham,13,74,0.0,0,0,0.28,0.01,0,5,0,0,0,0,0,2,3.2,0.7,17.0,2,,,,1000000.0,19,817612,2024
+2023-24,225897,Fodé Ballo-Touré,Ballo-Touré,Fodé,Ballo-Touré,,DEF,Fulham,13,65,0.0,0,0,0.0,0.0,0,1,0,0,1,0,0,18,13.6,2.2,2.0,5,,,,3000000.0,27,296422,2024
+2023-24,216616,Dara O'Shea,O'Shea,Dara,O'Shea,1999-03-04,DEF,Burnley,19,2892,32.0,3,4,0.74,0.9,2,71,0,0,5,1,2,478,772.0,189.7,213.0,69,,,,7000000.0,25,401320,2024
+2023-24,232917,Arijanet Muric,Muric,Arijanet,Muric,1998-11-07,GK,Burnley,19,900,10.0,0,0,0.0,0.05,0,16,64,1,0,0,12,241,513.0,40.3,0.0,47,,,,7000000.0,25,371021,2024
+2023-24,229164,Chiedozie Ogbene,Ogbene,Chiedozie,Ogbene,1997-05-01,FWD,Luton,18,1987,20.0,4,4,4.47,3.5,2,47,0,0,1,0,7,387,412.6,378.3,486.0,84,,,,8000000.0,27,392591,2024
+2023-24,222018,Ben Johnson,Johnson,Ben,Johnson,2000-01-24,DEF,West Ham,9,538,4.0,0,0,0.25,0.11,1,16,0,0,1,0,0,90,84.6,22.5,38.0,17,,,,8000000.0,24,468002,2024
+2023-24,155405,Kalvin Phillips,Phillips,Kalvin,Phillips,1995-12-02,MID,West Ham,9,394,3.0,0,0,0.22,0.11,0,13,0,0,1,1,0,27,35.6,23.3,31.0,10,,,,25000000.0,28,351749,2024
+2023-24,209042,Oliver Skipp,Skipp,Oliver,Skipp,2000-09-16,MID,Spurs,5,691,5.0,0,0,0.77,0.5,0,17,0,0,3,0,0,105,92.0,126.2,65.0,22,,,,15000000.0,23,406638,2024
+2023-24,60706,Adrián San Miguel del Castillo,Adrián,Adrián,San Miguel del Castillo,,GK,Liverpool,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,37,71271,2024
+2023-24,535928,Stefan Bajcetic,Bajcetic,Stefan,Bajcetic,2004-10-22,MID,Liverpool,3,25,0.0,0,0,0.0,0.0,0,2,0,0,0,0,0,3,7.8,0.3,0.0,1,,,,11000000.0,19,864799,2024
+2023-24,443629,Marcelo de Araújo Pitaluga Filho,Pitaluga,Marcelo,de Araújo Pitaluga Filho,,GK,Liverpool,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,21,662334,2024
+2023-24,496208,Ben Doak,Doak,Ben,Doak,2005-11-11,MID,Liverpool,3,13,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,0.2,0.8,0.0,1,,,,10000000.0,18,719673,2024
+2023-24,60914,Joel Matip,Matip,Joel,Matip,,DEF,Liverpool,3,779,9.0,0,0,0.48,0.11,2,9,0,0,2,0,0,145,192.8,33.3,35.0,21,,,,8000000.0,32,82105,2024
+2023-24,61558,Thiago Alcántara do Nascimento,Thiago,Thiago,Alcántara do Nascimento,,MID,Liverpool,3,5,0.0,0,0,0.0,0.0,0,1,0,0,0,0,0,3,0.6,0.4,0.0,1,,,,10000000.0,33,60444,2024
+2023-24,461358,Julián Álvarez,J.Alvarez,Julián,Álvarez,,FWD,Man City,1,2644,31.0,11,11,13.07,6.28,12,24,0,0,2,0,17,662,737.0,1005.2,992.0,158,,,,90000000.0,24,576024,2024
+2023-24,121145,João Cancelo,Cancelo,João,Cancelo,,DEF,Man City,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,25000000.0,30,182712,2024
+2023-24,437468,Sergio Gómez,Sergio Gómez,Sergio,Gómez,,DEF,Man City,1,48,0.0,0,1,0.32,0.19,0,2,0,0,0,0,0,24,22.6,23.0,10.0,9,,,,10000000.0,23,366930,2024
+2023-24,220394,Tommy Doyle,Doyle,Tommy,Doyle,2001-10-17,MID,Wolves,14,1209,11.0,0,0,0.42,0.87,3,24,0,0,2,0,0,197,198.4,173.7,55.0,38,,,,10000000.0,22,433183,2024
+2023-24,482769,Máximo Perrone,Perrone,Máximo,Perrone,,MID,Man City,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,9000000.0,21,668547,2024
+2023-24,476369,Issa Kaboré,Kaboré,Issa,Kaboré,,DEF,Luton,18,1727,21.0,0,3,0.22,1.87,0,39,0,0,7,0,3,236,326.6,253.0,62.0,34,,,,10000000.0,23,649452,2024
+2023-24,195851,Scott McTominay,McTominay,Scott,McTominay,,MID,Man Utd,8,1891,18.0,7,1,6.0,0.41,7,30,0,0,2,0,5,307,539.4,179.5,492.0,98,,,,32000000.0,27,315969,2024
+2023-24,214590,Aaron Wan-Bissaka,Wan-Bissaka,Aaron,Wan-Bissaka,1997-11-26,DEF,Man Utd,8,1778,20.0,0,2,0.11,1.47,3,34,0,0,4,0,5,323,397.8,196.5,60.0,47,,,,20000000.0,26,477758,2024
+2023-24,515501,Álvaro Fernández Carreras,Fernandez,Álvaro,Fernández Carreras,,DEF,Man Utd,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7000000.0,21,811778,2024
+2023-24,518466,Willy Kambwala,Kambwala,Willy,Kambwala,,DEF,Man Utd,8,325,3.0,0,0,0.0,0.01,0,10,0,0,1,0,0,48,53.8,2.4,0.0,5,,,,5000000.0,19,780630,2024
+2023-24,465527,Hannibal Mejbri,Hannibal,Hannibal,Mejbri,2003-01-21,MID,Man Utd,8,131,1.0,1,0,0.03,0.48,1,1,0,0,1,0,0,34,48.2,29.8,13.0,11,,,,9000000.0,21,607224,2024
+2023-24,488404,Facundo Pellistri Rebollo,Pellistri,Facundo,Pellistri Rebollo,,MID,Man Utd,8,164,1.0,0,1,0.51,0.39,0,2,0,0,0,0,0,36,47.0,19.3,66.0,13,,,,10000000.0,22,676318,2024
+2023-24,180184,Donny van de Beek,Van de Beek,Donny,van de Beek,,MID,Man Utd,8,2,0.0,0,0,0.04,0.03,0,0,0,0,0,0,0,3,0.0,10.3,6.0,1,,,,5000000.0,27,288255,2024
+2023-24,90152,Raphaël Varane,R.Varane,Raphaël,Varane,,DEF,Man Utd,8,1370,16.0,1,0,0.81,0.36,3,23,0,0,2,0,2,273,356.2,35.3,85.0,44,,,,20000000.0,31,164770,2024
+2023-24,487828,Omari Forson,Forson,Omari,Forson,,MID,Man Utd,8,67,1.0,0,1,0.03,0.02,0,2,0,0,0,0,0,23,24.2,23.6,4.0,7,,,,2000000.0,19,670845,2024
+2023-24,232937,Brandon Williams,B.Williams,Brandon,Williams,,DEF,Man Utd,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,23,507700,2024
+2023-24,148225,Anthony Martial,Martial,Anthony,Martial,,FWD,Man Utd,8,439,5.0,1,1,1.24,0.14,1,6,0,0,0,0,2,73,67.2,85.0,97.0,25,,,,10000000.0,28,182877,2024
+2023-24,172912,Sofyan Amrabat,Amrabat,Sofyan,Amrabat,,MID,Man Utd,8,929,10.0,0,0,0.07,0.36,2,15,0,0,6,0,0,125,159.0,102.5,6.0,26,,,,22000000.0,27,287579,2024
+2023-24,111452,Odysseas Vlachodimos,Odysseas,Odysseas,Vlachodimos,1994-04-26,GK,Nott'm Forest,17,450,5.0,0,0,0.0,0.01,1,12,10,0,0,0,0,79,101.8,10.0,0.0,12,,,,7000000.0,30,124419,2024
+2023-24,538207,William Osula,Osula,William,Osula,2003-08-04,FWD,Sheffield Utd,20,778,9.0,0,1,1.64,0.15,0,23,0,0,4,0,0,27,27.0,24.9,200.0,25,,,,3000000.0,21,609556,2024
+2023-24,215379,Elliot Anderson,Anderson,Elliot,Anderson,2002-11-06,MID,Newcastle,7,1018,10.0,0,2,1.63,1.25,5,14,0,0,3,0,3,144,187.4,223.7,201.0,42,,,,15000000.0,21,567576,2024
+2023-24,232977,Kell Watts,Watts,Kell,Watts,,DEF,Newcastle,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,24,484389,2024
+2023-24,56983,Matt Ritchie,Ritchie,Matt,Ritchie,,MID,Newcastle,7,120,0.0,1,0,0.98,0.07,0,5,0,0,1,0,0,49,70.0,9.1,106.0,17,,,,1000000.0,34,92469,2024
+2023-24,90105,Ryan Fraser,Fraser,Ryan,Fraser,1994-02-24,MID,Newcastle,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,30,146795,2024
+2023-24,461484,Joe White,White,Joe,White,2002-10-01,MID,Newcastle,7,12,0.0,0,0,0.0,0.0,0,0,0,0,1,0,0,9,0.8,1.1,0.0,3,,,,300000.0,21,614811,2024
+2023-24,104542,Loris Karius,Karius,Loris,Karius,,GK,Newcastle,7,90,1.0,0,0,0.0,0.0,0,4,4,0,0,0,0,17,31.8,0.0,0.0,1,,,,1000000.0,31,85864,2024
+2023-24,83314,Jeff Hendrick,Hendrick,Jeff,Hendrick,,MID,Newcastle,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,32,148262,2024
+2023-24,106618,Paul Dummett,Dummett,Paul,Dummett,,DEF,Newcastle,7,18,0.0,0,0,0.02,0.0,0,1,0,0,0,0,0,10,5.2,1.1,4.0,5,,,,900000.0,32,170321,2024
+2023-24,194799,Jamal Lewis,J.Lewis,Jamal,Lewis,1998-01-25,DEF,Newcastle,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3500000.0,26,346018,2024
+2023-24,101178,James Ward-Prowse,Ward-Prowse,James,Ward-Prowse,1994-11-01,MID,West Ham,9,3000,34.0,7,7,6.23,6.3,5,65,0,0,4,0,19,708,831.0,1023.5,324.0,146,,,,30000000.0,29,181579,2024
+2023-24,199170,Moussa Niakhaté,Niakhaté,Moussa,Niakhaté,,DEF,Nott'm Forest,17,1456,15.0,1,0,1.3,0.25,1,36,0,0,3,1,1,238,316.6,51.7,55.0,29,,,,16000000.0,28,291200,2024
+2023-24,208912,Joe Worrall,Worrall,Joe,Worrall,1997-01-10,DEF,Nott'm Forest,17,438,5.0,0,0,0.1,0.31,1,9,0,0,0,1,3,74,90.0,22.1,18.0,13,,,,7500000.0,27,415970,2024
+2023-24,89076,Remo Freuler,Freuler,Remo,Freuler,,MID,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6500000.0,32,148252,2024
+2023-24,168281,Scott McKenna,McKenna,Scott,McKenna,,DEF,Nott'm Forest,17,416,5.0,0,0,0.21,0.17,1,6,0,0,0,0,1,64,89.0,32.4,17.0,12,,,,9000000.0,27,255906,2024
+2023-24,48615,Harry Arter,Arter,Harry,Arter,,MID,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,400000.0,34,55742,2024
+2023-24,242885,Loïc Mbe Soh,Mbe Soh,Loïc,Mbe Soh,,DEF,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,23,463610,2024
+2023-24,243345,Lewis O'Brien,O'Brien,Lewis,O'Brien,1998-10-14,MID,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,25,560694,2024
+2023-24,201440,Hwang Ui-jo,Ui-jo,Hwang,Ui-jo,,FWD,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1800000.0,32,260166,2024
+2023-24,244930,Alex Mighten,Mighten,Alex,Mighten,,MID,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,22,503988,2024
+2023-24,461682,Brandon Aguilera Zamora,B.Aguilera,Brandon,Aguilera Zamora,,MID,Nott'm Forest,17,4,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,1.6,0.0,1,,,,300000.0,21,631996,2024
+2023-24,209035,Jonathan Panzo,Panzo,Jonathan,Panzo,,DEF,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,23,392777,2024
+2023-24,204822,Omar Richards,O.Richards,Omar,Richards,1998-02-15,DEF,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,26,424881,2024
+2023-24,245830,Josh Bowler,Bowler,Josh,Bowler,,MID,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,25,506470,2024
+2023-24,20066,Wayne Hennessey,Hennessey,Wayne,Hennessey,1987-01-24,GK,Nott'm Forest,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,37,45494,2024
+2023-24,116404,Felipe Augusto de Almeida Monteiro,Felipe,Felipe Augusto,de Almeida Monteiro,,DEF,Nott'm Forest,17,372,4.0,0,0,0.12,0.03,1,10,0,0,4,0,0,59,61.2,23.2,18.0,7,,,,1500000.0,35,156501,2024
+2023-24,551232,Rodrigo Duarte Ribeiro,Ribeiro,Rodrigo,Duarte Ribeiro,,FWD,Nott'm Forest,17,14,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,9,1.2,1.3,6.0,4,,,,3000000.0,19,726701,2024
+2023-24,427420,Giovanni Reyna,Reyna,Giovanni,Reyna,,MID,Nott'm Forest,17,228,2.0,0,1,0.36,0.36,0,3,0,0,0,0,0,44,55.0,102.7,55.0,13,,,,18000000.0,21,504215,2024
+2023-24,152760,Divock Origi,Origi,Divock,Origi,,FWD,Nott'm Forest,17,594,6.0,0,1,1.22,0.82,2,6,0,0,1,0,0,59,50.4,107.8,99.0,25,,,,5000000.0,29,148368,2024
+2023-24,218430,Gonzalo Montiel,G.Montiel,Gonzalo,Montiel,,DEF,Nott'm Forest,17,796,8.0,0,2,0.11,0.79,1,11,0,0,5,0,4,152,170.6,118.3,32.0,28,,,,10000000.0,27,402733,2024
+2023-24,220585,Flynn Downes,Downes,Flynn,Downes,1999-01-20,MID,West Ham,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,9000000.0,25,506189,2024
+2023-24,103914,Charlie Taylor,Taylor,Charlie,Taylor,1993-09-18,DEF,Burnley,19,2329,25.0,1,1,0.25,1.66,2,46,0,0,8,0,1,347,395.6,275.7,59.0,47,,,,3000000.0,30,195633,2024
+2023-24,149519,Maxwel Cornet,Cornet,Maxwel,Cornet,1996-09-27,MID,West Ham,9,109,1.0,1,0,0.4,0.02,0,3,0,0,0,0,0,40,44.0,48.4,54.0,13,,,,9000000.0,27,234781,2024
+2023-24,463210,Shea Charles,Charles,Shea,Charles,2003-11-05,MID,Man City,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,20,747951,2024
+2023-24,550839,Wilson Odobert,Odobert,Wilson,Odobert,2004-11-28,MID,Burnley,19,2095,25.0,3,4,2.75,3.32,2,48,0,0,3,0,3,303,331.0,435.4,445.0,82,,,,10000000.0,19,743498,2024
+2023-24,214225,Joe Rodon,Rodon,Joe,Rodon,1997-10-22,DEF,Spurs,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,26,297212,2024
+2023-24,200826,Giovani Lo Celso,Lo Celso,Giovani,Lo Celso,,MID,Spurs,5,491,4.0,2,2,0.54,1.79,1,12,0,0,2,0,6,189,225.8,262.8,110.0,47,,,,16000000.0,28,348795,2024
+2023-24,93264,Eric Dier,Dier,Eric,Dier,,DEF,Spurs,5,199,1.0,0,0,0.0,0.03,0,8,0,0,0,0,0,31,55.8,1.0,4.0,2,,,,12000000.0,30,175722,2024
+2023-24,231372,Tanguy Ndombélé Alvaro,Ndombele,Tanguy,Ndombélé Alvaro,,MID,Spurs,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,27,450936,2024
+2023-24,199584,Japhet Tanganga,Tanganga,Japhet,Tanganga,,DEF,Spurs,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1800000.0,25,346478,2024
+2023-24,45034,Ivan Perišić,Perišić,Ivan,Perišić,,DEF,Spurs,5,98,0.0,0,1,0.12,0.8,0,1,0,0,2,0,0,34,41.6,71.2,27.0,6,,,,2000000.0,35,42460,2024
+2023-24,235674,Manor Solomon,Solomon,Manor,Solomon,1999-07-24,MID,Spurs,5,196,2.0,0,2,0.41,0.75,0,2,0,0,1,0,2,53,73.4,144.3,61.0,14,,,,13000000.0,25,396638,2024
+2023-24,548308,Ashley Phillips,Phillips,Ashley,Phillips,2005-06-26,DEF,Spurs,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2200000.0,19,859951,2024
+2023-24,490145,Dane Scarlett,Scarlett,Dane,Scarlett,2004-03-24,FWD,Spurs,5,19,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,10,2.0,0.4,6.0,4,,,,1800000.0,20,670883,2024
+2023-24,536908,Alejo Véliz,Veliz,Alejo,Véliz,,FWD,Spurs,5,45,0.0,1,0,0.42,0.0,0,2,0,0,1,0,0,40,35.2,0.9,29.0,11,,,,9000000.0,20,888493,2024
+2023-24,436234,Bryan Gil Salvatierra,Bryan,Bryan,Gil Salvatierra,2001-02-11,MID,Spurs,5,200,2.0,0,0,0.67,0.24,0,11,0,0,0,0,0,41,28.6,70.1,59.0,12,,,,14000000.0,23,537382,2024
+2023-24,132015,Pierre-Emile Højbjerg,Højbjerg,Pierre-Emile,Højbjerg,,MID,Spurs,5,1289,8.0,0,0,0.68,1.57,1,28,0,0,4,0,0,239,282.2,205.8,108.0,39,,,,18000000.0,28,167799,2024
+2023-24,82143,Wes Foderingham,Foderingham,Wes,Foderingham,1991-01-14,GK,Sheffield Utd,20,2648,29.0,0,0,0.0,0.05,1,79,133,0,2,0,7,531,966.0,10.0,0.0,70,,,,900000.0,33,61697,2024
+2023-24,172841,Saïd Benrahma,Benrahma,Saïd,Benrahma,,MID,West Ham,9,611,5.0,0,1,1.91,0.77,2,8,0,0,1,0,0,64,85.4,164.9,196.0,20,,,,20000000.0,28,290532,2024
+2023-24,201057,Thilo Kehrer,Kehrer,Thilo,Kehrer,,DEF,West Ham,9,19,0.0,0,0,0.0,0.0,0,1,0,0,2,0,0,7,8.6,0.7,0.0,2,,,,10000000.0,27,228948,2024
+2023-24,487837,Divin Mubama,Mubama,Divin,Mubama,2004-10-25,FWD,West Ham,9,75,0.0,0,0,0.16,0.01,0,2,0,0,0,0,0,14,0.2,2.4,5.0,5,,,,1000000.0,19,670848,2024
+2023-24,447879,Joseph Anang,Anang,Joseph,Anang,,GK,West Ham,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,300000.0,24,576099,2024
+2023-24,40669,Angelo Ogbonna,Ogbonna,Angelo,Ogbonna,,DEF,West Ham,9,634,7.0,0,0,0.04,0.06,2,14,0,0,1,0,0,103,131.0,2.2,10.0,19,,,,700000.0,36,48002,2024
+2023-24,210494,Nayef Aguerd,N.Aguerd,Nayef,Aguerd,1996-03-30,DEF,West Ham,9,1857,21.0,1,0,1.37,0.41,2,44,0,0,1,1,0,282,439.4,58.1,145.0,36,,,,35000000.0,28,361914,2024
+2023-24,103192,Kurt Zouma,Zouma,Kurt,Zouma,,DEF,West Ham,9,2838,32.0,3,0,1.9,0.07,3,63,0,0,3,0,6,444,636.8,55.1,227.0,76,,,,25000000.0,29,157509,2024
+2023-24,200600,Daniel Castelo Podence,Podence,Daniel,Castelo Podence,,MID,Wolves,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,13000000.0,28,256977,2024
+2023-24,431960,Bendegúz Bolla,Bolla,Bendegúz,Bolla,,DEF,Wolves,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,24,439351,2024
+2023-24,531363,Nathan Fraser,Fraser,Nathan,Fraser,2005-02-22,FWD,Wolves,14,183,1.0,0,0,0.32,0.06,1,3,0,0,1,0,0,17,22.4,29.2,36.0,7,,,,1000000.0,19,863741,2024
+2023-24,441271,Ki-Jana Hoever,Hoever,Ki-Jana,Hoever,2002-01-18,DEF,Wolves,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4500000.0,22,485583,2024
+2023-24,497606,Tawanda Chirewa,Chirewa,Tawanda,Chirewa,2003-10-12,MID,Wolves,14,138,1.0,0,0,0.16,0.07,0,2,0,0,1,0,0,21,22.0,24.7,21.0,8,,,,500000.0,20,724783,2024
+2023-24,240299,Joe Hodge,Hodge,Joe,Hodge,,MID,Wolves,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,21,503975,2024
+2023-24,490721,Hugo Bueno López,H.Bueno,Hugo,Bueno López,2002-09-18,DEF,Wolves,14,727,7.0,0,0,0.31,0.68,2,16,0,0,1,0,0,136,139.4,122.1,30.0,29,,,,6000000.0,21,698678,2024
+2023-24,449988,Fábio Silva,Fábio Silva,Fábio,Silva,2002-07-19,FWD,Wolves,14,259,3.0,0,0,1.12,0.09,1,8,0,0,2,0,0,7,25.2,51.6,93.0,8,,,,11000000.0,22,505653,2024
+2023-24,550833,Noha Lemina,N.Lemina,Noha,Lemina,,MID,Wolves,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,19,816124,2024
+2024-25,457569,Đorđe Petrović,Petrović,Đorđe,Petrović,1999-10-08,GK,Chelsea,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,25,465555,2025
+2024-25,496208,Ben Doak,Doak,Ben,Doak,2005-11-11,MID,Liverpool,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,14000000.0,19,719673,2025
+2024-25,554605,Dean Huijsen,Huijsen,Dean,Huijsen,2005-04-14,DEF,Bournemouth,9,2422,26.0,3,2,1.82,1.57,7,31,0,0,10,0,14,449,826.4,217.6,193.0,104,,,,60000000.0,20,890290,2025
+2024-25,544877,Milos Kerkez,Kerkez,Milos,Kerkez,2003-11-07,DEF,Bournemouth,9,3336,38.0,2,6,0.6,2.57,9,45,0,0,4,0,10,550,694.0,642.0,238.0,134,,,,45000000.0,21,730861,2025
+2024-25,533463,Dango Ouattara,O.Dango,Dango,Ouattara,2002-02-11,MID,Bournemouth,9,1998,21.0,7,4,8.42,3.24,7,23,0,0,3,0,7,432,624.6,496.8,754.0,111,,,,28000000.0,23,823231,2025
+2024-25,444180,Jaidon Anthony,Anthony,Jaidon,Anthony,1999-12-01,MID,Bournemouth,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,9000000.0,25,684210,2025
+2024-25,168991,Philip Billing,Philip,Philip,Billing,1996-06-11,MID,Bournemouth,9,176,1.0,0,0,0.55,0.97,0,4,0,0,1,0,0,52,54.0,102.4,47.0,10,,,,10000000.0,29,320411,2025
+2024-25,229600,Mark Travers,Travers,Mark,Travers,1999-05-18,GK,Bournemouth,9,450,5.0,0,0,0.0,0.01,1,5,20,0,0,0,1,76,146.4,0.0,0.0,19,,,,4000000.0,26,357658,2025
+2024-25,224995,Luis Sinisterra,Sinisterra,Luis,Sinisterra,1999-06-17,MID,Bournemouth,9,229,1.0,1,1,1.18,1.29,0,4,0,0,0,0,2,90,112.0,115.3,195.0,23,,,,15000000.0,26,512385,2025
+2024-25,223911,Chris Mepham,Mepham,Chris,Mepham,1997-11-05,DEF,Bournemouth,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,27,480987,2025
+2024-25,69752,Norberto Murara Neto,Neto,Norberto,Murara Neto,1989-07-19,GK,Arsenal,2,180,2.0,0,0,0.0,0.0,0,2,11,0,0,0,0,30,77.8,0.0,0.0,7,,,,1500000.0,36,111819,2025
+2024-25,441240,Romain Faivre,Faivre,Romain,Faivre,1998-07-14,MID,Bournemouth,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,27,555076,2025
+2024-25,523700,Daniel Jebbison,Jebbison,Daniel,Jebbison,2003-08-13,FWD,Bournemouth,9,105,0.0,1,0,1.05,0.12,0,2,0,0,1,0,1,67,58.2,39.1,70.0,20,,,,4000000.0,21,746740,2025
+2024-25,424044,Hamed Traorè,H.Traorè,Hamed,Traorè,2000-02-16,MID,Bournemouth,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,25,391065,2025
+2024-25,495145,Alex Paulsen,Paulsen,Alex,Paulsen,2002-07-04,GK,Bournemouth,9,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,750000.0,23,617009,2025
+2024-25,232980,Max Aarons,Aarons,Max,Aarons,,DEF,Bournemouth,9,84,1.0,0,0,0.0,0.01,1,0,0,0,0,0,0,31,13.2,3.2,0.0,8,,,,6000000.0,25,471690,2025
+2024-25,606775,Ben Winterburn,Winterburn,Ben,Winterburn,2004-09-04,MID,Bournemouth,9,22,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,14,2.4,0.2,2.0,4,,,,500000.0,20,854721,2025
+2024-25,109745,Kepa Arrizabalaga,Arrizabalaga,Kepa,Arrizabalaga,1994-10-03,GK,Bournemouth,9,2790,31.0,0,0,0.06,0.03,8,39,97,0,3,0,7,406,744.4,10.4,4.0,106,,,,10000000.0,30,192279,2025
+2024-25,232413,Eberechi Eze,Eze,Eberechi,Eze,1998-06-29,MID,Crystal Palace,12,2588,31.0,8,8,10.39,4.67,10,34,0,0,1,0,15,605,685.0,849.2,691.0,148,,,,55000000.0,27,479999,2025
+2024-25,248857,Noni Madueke,Madueke,Noni,Madueke,2002-03-10,MID,Chelsea,4,2028,27.0,7,5,9.62,2.86,6,28,0,0,3,0,12,425,479.2,475.1,998.0,120,,,,40000000.0,23,503987,2025
+2024-25,128295,Christian Nørgaard,Nørgaard,Christian,Nørgaard,1994-03-10,MID,Brentford,10,2820,34.0,5,5,4.23,1.38,6,45,0,0,8,1,7,580,735.4,333.0,409.0,107,,,,11000000.0,31,148367,2025
+2024-25,440854,Jakub Kiwior,Kiwior,Jakub,Kiwior,2000-02-15,DEF,Arsenal,2,1117,10.0,1,0,0.17,0.29,3,15,0,0,1,0,2,178,267.2,91.3,32.0,43,,,,28000000.0,25,425918,2025
+2024-25,192895,Kieran Tierney,Tierney,Kieran,Tierney,1997-06-05,DEF,Arsenal,2,250,2.0,1,0,0.38,0.54,1,1,0,0,0,0,2,99,91.8,109.1,48.0,27,,,,9000000.0,28,300716,2025
+2024-25,167199,Thomas Partey,Thomas,Thomas,Partey,1993-06-13,MID,Arsenal,2,2793,31.0,4,3,2.27,2.64,9,30,0,0,4,0,8,567,626.6,377.9,223.0,108,,,,14000000.0,32,230784,2025
+2024-25,206325,Oleksandr Zinchenko,Zinchenko,Oleksandr,Zinchenko,1996-12-15,DEF,Arsenal,2,518,5.0,0,1,0.65,0.52,4,1,0,0,1,0,2,141,83.4,92.8,66.0,40,,,,20000000.0,28,203853,2025
+2024-25,200641,Reiss Nelson,Nelson,Reiss,Nelson,1999-12-10,MID,Fulham,11,483,5.0,1,1,1.07,0.96,1,9,0,0,1,0,2,143,131.6,223.9,195.0,27,,,,16000000.0,25,340325,2025
+2024-25,438098,Fábio Ferreira Vieira,Fábio Vieira,Fábio,Ferreira Vieira,2000-05-30,MID,Arsenal,2,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,22000000.0,25,537598,2025
+2024-25,463748,Karl Hein,Hein,Karl,Hein,2002-04-13,GK,Arsenal,2,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,23,493513,2025
+2024-25,223723,Tomiyasu Takehiro,Tomiyasu,Tomiyasu,Takehiro,1998-11-05,DEF,Arsenal,2,6,0.0,0,0,0.18,0.0,0,0,0,0,0,0,0,2,0.4,0.3,9.0,1,,,,18000000.0,26,331560,2025
+2024-25,103955,Raheem Sterling,Sterling,Raheem,Sterling,1994-12-08,MID,Arsenal,2,490,7.0,0,2,1.43,0.48,1,4,0,0,1,0,0,64,67.2,125.5,122.0,26,,,,10000000.0,30,134425,2025
+2024-25,184667,Victor Lindelöf,Lindelof,Victor,Lindelöf,1994-07-17,DEF,Man Utd,15,695,6.0,0,0,0.0,0.09,2,9,0,0,1,0,0,100,125.4,48.5,8.0,27,,,,8000000.0,31,184573,2025
+2024-25,444884,Harvey Elliott,Elliott,Harvey,Elliott,2003-04-04,MID,Liverpool,1,359,2.0,1,2,1.78,0.64,0,6,0,0,1,0,3,120,118.6,145.8,143.0,33,,,,30000000.0,22,565822,2025
+2024-25,209243,Jadon Sancho,Sancho,Jadon,Sancho,2000-03-25,MID,Chelsea,4,1754,19.0,3,5,2.13,3.1,7,24,0,0,2,0,3,367,340.0,523.2,414.0,86,,,,28000000.0,25,401173,2025
+2024-25,232653,Jacob Ramsey,Ramsey,Jacob,Ramsey,2001-05-28,MID,Aston Villa,6,1616,19.0,1,4,1.59,2.18,5,26,0,0,2,1,3,265,235.4,307.9,245.0,66,,,,32000000.0,24,503749,2025
+2024-25,465390,Kaine Kesler-Hayden,Kesler-Hayden,Kaine,Kesler-Hayden,2002-10-23,DEF,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,22,626888,2025
+2024-25,491287,Enzo Barrenechea,Barrenechea,Enzo,Barrenechea,,MID,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,24,671915,2025
+2024-25,215711,Leon Bailey,Bailey,Leon,Bailey,1997-08-09,MID,Aston Villa,6,1132,14.0,1,2,1.73,2.92,2,19,0,0,3,0,2,174,146.4,235.8,325.0,47,,,,28000000.0,28,387626,2025
+2024-25,111782,Robin Olsen,Olsen,Robin,Olsen,1990-01-08,GK,Aston Villa,6,225,1.0,0,0,0.0,0.0,1,6,8,0,0,0,0,23,59.2,0.0,0.0,9,,,,1000000.0,35,75458,2025
+2024-25,106468,Álex Moreno Lopera,Alex Moreno,Álex,Moreno Lopera,1993-06-08,DEF,Nott'm Forest,7,952,11.0,0,1,0.17,1.1,3,16,0,0,2,0,1,126,200.8,134.5,29.0,34,,,,7000000.0,32,193098,2025
+2024-25,151589,Leander Dendoncker,Dendoncker,Leander,Dendoncker,1995-04-15,MID,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4500000.0,30,168157,2025
+2024-25,461421,Lewis Dobbin,Dobbin,Lewis,Dobbin,2003-01-03,MID,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,22,627248,2025
+2024-25,462381,Filip Marschall,Marschall,Filip,Marschall,2003-04-24,GK,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,800000.0,22,610863,2025
+2024-25,469247,Samuel Iling-Junior,Iling Jr,Samuel,Iling-Junior,2003-10-04,MID,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,21,581672,2025
+2024-25,462492,Joe Gauci,Gauci,Joe,Gauci,2000-07-04,GK,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1500000.0,25,591844,2025
+2024-25,516159,Oliwier Zych,Zych,Oliwier,Zych,2004-06-28,GK,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,800000.0,21,555074,2025
+2024-25,123354,Kortney Hause,Hause,Kortney,Hause,1995-07-16,DEF,Aston Villa,6,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,29,233124,2025
+2024-25,220362,Axel Disasi,Disasi,Axel,Disasi,1998-03-11,DEF,Aston Villa,6,851,9.0,1,0,0.37,0.37,3,12,0,0,3,0,0,133,169.6,75.6,51.0,33,,,,22000000.0,27,386047,2025
+2024-25,174292,Marco Asensio,M.Asensio,Marco,Asensio,1996-01-21,MID,Aston Villa,6,740,9.0,3,2,4.43,1.16,3,8,0,0,2,0,6,158,200.6,232.5,242.0,44,,,,20000000.0,29,296622,2025
+2024-25,176297,Marcus Rashford,Rashford,Marcus,Rashford,1997-10-31,MID,Aston Villa,6,1414,16.0,6,4,4.67,3.43,7,15,0,0,2,0,9,333,398.4,451.1,369.0,95,,,,50000000.0,27,258923,2025
+2024-25,607464,Michael Kayode,Kayode,Michael,Kayode,2004-07-10,DEF,Brentford,10,523,6.0,0,1,0.19,0.7,2,5,0,0,2,0,0,115,105.2,105.2,30.0,27,,,,18000000.0,20,823486,2025
+2024-25,200720,Caoimhin Kelleher,Kelleher,Caoimhin,Kelleher,1998-11-23,GK,Liverpool,1,900,10.0,0,0,0.0,0.0,4,12,27,1,0,0,1,156,224.2,0.0,0.0,45,,,,20000000.0,26,340918,2025
+2024-25,446008,Bryan Mbeumo,Mbeumo,Bryan,Mbeumo,1999-08-07,MID,Brentford,10,3415,38.0,20,9,12.52,9.24,9,55,0,0,3,0,29,948,1236.8,1107.5,1060.0,236,,,,55000000.0,25,413039,2025
+2024-25,216646,Yoane Wissa,Wissa,Yoane,Wissa,1996-09-03,FWD,Brentford,10,2921,34.0,18,6,18.58,2.2,9,45,0,0,5,0,32,739,849.4,400.0,1181.0,185,,,,32000000.0,28,388165,2025
+2024-25,118342,Mark Flekken,Flekken,Mark,Flekken,1993-06-13,GK,Brentford,10,3275,37.0,0,2,0.0,0.11,7,55,153,0,1,0,12,584,1298.4,30.3,0.0,138,,,,10000000.0,32,125714,2025
+2024-25,51927,Ben Mee,Mee,Ben,Mee,1989-09-21,DEF,Brentford,10,180,2.0,0,0,0.0,0.02,1,4,0,0,2,0,0,30,36.8,3.0,6.0,9,,,,700000.0,35,74810,2025
+2024-25,226956,Mads Roerslev Rasmussen,Roerslev,Mads,Roerslev Rasmussen,1999-06-24,DEF,Brentford,10,1100,11.0,0,2,0.2,2.09,2,20,0,0,2,0,0,125,214.4,185.8,78.0,36,,,,6000000.0,26,391005,2025
+2024-25,570241,Kim Ji-soo,Ji-soo,Kim,Ji-soo,2004-12-24,DEF,Brentford,10,28,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,8,5.0,0.8,0.0,3,,,,600000.0,20,709767,2025
+2024-25,183656,Josh Dasilva,Dasilva,Josh,Dasilva,1998-10-23,MID,Brentford,10,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,26,340321,2025
+2024-25,591357,Ryan Trevitt,Trevitt,Ryan,Trevitt,2003-03-12,MID,Brentford,10,3,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,5,2.6,0.1,0.0,1,,,,275000.0,22,874538,2025
+2024-25,499717,Jayden Meghoma,Meghoma,Jayden,Meghoma,2006-06-28,DEF,Brentford,10,4,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,0.2,0.3,0.0,1,,,,500000.0,19,954104,2025
+2024-25,475168,João Pedro Junqueira de Jesus,João Pedro,João Pedro,Junqueira de Jesus,2001-09-26,FWD,Brighton,8,1946,23.0,10,6,8.96,3.1,6,28,0,0,4,1,26,516,567.0,456.0,644.0,126,,,,50000000.0,23,626724,2025
+2024-25,535818,Simon Adingra,Adingra,Simon,Adingra,2002-01-01,MID,Brighton,8,1081,12.0,2,3,2.47,2.73,2,23,0,0,0,0,0,207,212.4,261.9,337.0,60,,,,28000000.0,23,658536,2025
+2024-25,204214,Pervis Estupiñán,Estupiñan,Pervis,Estupiñán,1998-01-21,DEF,Brighton,8,2399,26.0,1,1,1.09,2.43,3,44,0,0,5,0,7,313,504.4,530.1,173.0,63,,,,30000000.0,27,349599,2025
+2024-25,543158,Valentín Barco,Barco,Valentín,Barco,2004-07-23,DEF,Brighton,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,20,849410,2025
+2024-25,474120,Julio Enciso,Enciso,Julio,Enciso,2004-01-23,MID,Ipswich,19,1155,14.0,2,3,2.82,1.32,2,22,0,0,3,0,5,224,250.8,268.9,362.0,59,,,,22000000.0,21,660867,2025
+2024-25,232792,Tariq Lamptey,Lamptey,Tariq,Lamptey,2000-09-30,DEF,Brighton,8,856,10.0,2,2,0.38,0.8,2,21,0,0,0,0,1,99,213.6,101.0,52.0,42,,,,11000000.0,24,504148,2025
+2024-25,487117,Evan Ferguson,Ferguson,Evan,Ferguson,2004-10-19,FWD,West Ham,14,385,3.0,1,0,1.13,0.66,1,9,0,0,0,0,2,97,80.0,68.5,104.0,28,,,,25000000.0,20,648046,2025
+2024-25,536916,Facundo Buonanotte,Buonanotte,Facundo,Buonanotte,2004-12-23,MID,Leicester,18,1508,14.0,5,2,4.01,2.29,2,33,0,0,8,0,6,299,415.8,415.8,318.0,75,,,,20000000.0,20,983989,2025
+2024-25,219249,Matt O'Riley,O'Riley,Matt,O'Riley,2000-11-21,MID,Brighton,8,929,11.0,2,3,2.76,2.04,2,20,0,0,1,0,2,209,211.4,322.5,219.0,50,,,,22000000.0,24,406634,2025
+2024-25,445548,Odeluga Offiah,Offiah,Odeluga,Offiah,,DEF,Brighton,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,22,567597,2025
+2024-25,612855,Ibrahim Osman,I.Osman,Ibrahim,Osman,2004-11-29,MID,Brighton,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,20,1110406,2025
+2024-25,472739,Carl Rushworth,Rushworth,Carl,Rushworth,2001-07-02,GK,Brighton,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3000000.0,24,646353,2025
+2024-25,439135,Eiran Cashin,Cashin,Eiran,Cashin,2001-11-09,DEF,Brighton,8,19,0.0,0,0,0.0,0.0,0,2,0,0,0,0,0,-2,7.0,0.6,0.0,1,,,,8000000.0,23,581330,2025
+2024-25,513834,Andrew Moran,Moran,Andrew,Moran,2003-10-15,MID,Brighton,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3500000.0,21,724537,2025
+2024-25,519324,Amario Cozier-Duberry,Cozier-Duberry,Amario,Cozier-Duberry,,MID,Brighton,8,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2000000.0,20,878150,2025
+2024-25,441192,Jeremy Sarmiento Morante,Sarmiento,Jeremy,Sarmiento Morante,2002-06-16,MID,Brighton,8,8,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,0.2,0.8,0.0,1,,,,7000000.0,23,568005,2025
+2024-25,223434,Igor Julio dos Santos de Paulo,Igor,Igor Julio,dos Santos de Paulo,1998-02-07,DEF,Brighton,8,959,10.0,0,0,0.05,0.25,1,17,0,0,4,0,0,113,189.6,54.7,4.0,18,,,,20000000.0,27,380350,2025
+2024-25,503714,Lesley Ugochukwu,Ugochukwu,Lesley,Ugochukwu,2004-03-26,MID,Southampton,20,1652,18.0,1,1,0.85,0.62,1,39,0,0,7,0,3,209,265.0,211.9,84.0,47,,,,18000000.0,21,711999,2025
+2024-25,440323,Armando Broja,Broja,Armando,Broja,2001-09-10,FWD,Everton,13,327,4.0,0,0,0.11,0.11,2,2,0,0,1,0,0,23,20.2,53.8,43.0,12,,,,12000000.0,23,571743,2025
+2024-25,180804,Axel Tuanzebe,Tuanzebe,Axel,Tuanzebe,1997-11-14,DEF,Ipswich,19,1710,20.0,0,1,0.21,0.26,1,38,0,0,3,1,0,80,284.4,93.4,25.0,27,,,,5000000.0,27,342046,2025
+2024-25,67089,Martin Dúbravka,Dúbravka,Martin,Dúbravka,1989-01-15,GK,Newcastle,5,900,10.0,0,0,0.0,0.0,5,12,29,0,0,0,2,160,220.2,0.0,0.0,44,,,,1000000.0,36,74960,2025
+2024-25,58621,Kyle Walker,Walker,Kyle,Walker,1990-05-28,DEF,Man City,3,966,9.0,0,0,0.12,1.34,0,21,0,0,3,0,0,63,157.4,147.7,29.0,13,,,,4000000.0,35,95424,2025
+2024-25,493105,Alejandro Garnacho,Garnacho,Alejandro,Garnacho,2004-07-01,MID,Man Utd,15,2188,23.0,6,4,7.4,2.76,5,36,0,0,3,0,7,370,454.0,532.2,904.0,106,,,,45000000.0,21,811779,2025
+2024-25,463034,Liam Delap,Delap,Liam,Delap,2003-02-08,FWD,Ipswich,19,2587,32.0,12,2,9.44,1.38,3,58,0,0,12,0,22,472,513.0,290.5,783.0,132,,,,40000000.0,22,610849,2025
+2024-25,213198,Christopher Nkunku,Nkunku,Christopher,Nkunku,1997-11-14,MID,Chelsea,4,904,9.0,3,2,5.11,1.01,2,16,0,0,2,0,5,190,230.2,204.9,339.0,60,,,,35000000.0,27,344381,2025
+2024-25,428399,João Félix Sequeira,João Félix,João,Félix Sequeira,,MID,Chelsea,4,362,3.0,1,2,2.3,0.45,1,4,0,0,2,0,0,90,88.0,95.4,141.0,24,,,,20000000.0,25,462250,2025
+2024-25,215413,Kiernan Dewsbury-Hall,Dewsbury-Hall,Kiernan,Dewsbury-Hall,1998-09-06,MID,Chelsea,4,257,2.0,0,1,0.22,0.22,0,3,0,0,0,0,1,71,57.4,47.4,21.0,18,,,,20000000.0,26,475188,2025
+2024-25,551230,Renato Palma Veiga,Renato Veiga,Renato,Palma Veiga,,MID,Chelsea,4,176,1.0,0,0,0.16,0.15,1,2,0,0,2,0,0,22,30.4,9.2,19.0,7,,,,25000000.0,22,805714,2025
+2024-25,478912,Carney Chukwuemeka,Chukwuemeka,Carney,Chukwuemeka,,MID,Chelsea,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,18000000.0,21,659459,2025
+2024-25,517052,Nicolas Jackson,N.Jackson,Nicolas,Jackson,2001-06-20,FWD,Chelsea,4,2220,28.0,10,6,11.68,1.9,11,24,0,0,7,1,17,417,546.4,368.3,976.0,121,,,,50000000.0,24,776890,2025
+2024-25,609640,Mathis Amougou,Amougou,Mathis,Amougou,2006-01-18,MID,Chelsea,4,7,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,2,1.0,0.9,0.0,1,,,,10000000.0,19,1010854,2025
+2024-25,122074,Marcus Bettinelli,Bettinelli,Marcus,Bettinelli,1992-05-24,GK,Chelsea,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,33,116648,2025
+2024-25,514280,Alfie Gilchrist,Gilchrist,Alfie,Gilchrist,,DEF,Chelsea,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,21,790992,2025
+2024-25,172850,Ben Chilwell,Chilwell,Ben,Chilwell,1996-12-21,DEF,Crystal Palace,12,254,1.0,1,0,0.25,0.88,0,4,0,0,1,0,0,54,99.6,69.2,37.0,13,,,,15000000.0,28,316125,2025
+2024-25,482158,Lucas Bergström,Bergström,Lucas,Bergström,2002-09-05,GK,Chelsea,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,700000.0,22,490606,2025
+2024-25,520295,David Datro Fofana,D.D.Fofana,David Datro,Fofana,2002-12-22,FWD,Chelsea,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,22,787232,2025
+2024-25,499309,Marc Guiu Paz,Marc Guiu,Marc,Guiu Paz,2006-01-04,FWD,Chelsea,4,71,0.0,0,0,0.0,0.02,0,2,0,0,0,0,0,11,4.4,11.8,6.0,3,,,,8000000.0,19,938158,2025
+2024-25,622758,Aaron Anselmino,Anselmino,Aaron,Anselmino,2005-04-29,DEF,Chelsea,4,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,20,1145504,2025
+2024-25,199670,Odsonne Edouard,Edouard,Odsonne,Edouard,1998-01-16,FWD,Leicester,18,141,1.0,0,0,0.39,0.07,0,3,0,0,0,0,0,14,5.0,25.0,50.0,7,,,,8000000.0,27,344152,2025
+2024-25,450535,Malcolm Ebiowei,Ebiowei,Malcolm,Ebiowei,2003-09-04,MID,Crystal Palace,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,21,512354,2025
+2024-25,86417,Jeffrey Schlupp,Schlupp,Jeffrey,Schlupp,,MID,Crystal Palace,12,95,0.0,0,0,0.17,0.14,0,3,0,0,0,0,0,43,22.8,42.9,46.0,12,,,,3000000.0,32,157506,2025
+2024-25,156074,Rob Holding,Holding,Rob,Holding,1995-09-20,DEF,Crystal Palace,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3500000.0,29,253341,2025
+2024-25,450542,Jesurun Rak-Sakyi,Rak-Sakyi,Jesurun,Rak-Sakyi,2002-10-05,MID,Crystal Palace,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,6000000.0,22,586834,2025
+2024-25,536694,Matheus França de Oliveira,M.França,Matheus,França de Oliveira,2004-04-01,MID,Crystal Palace,12,52,0.0,1,0,0.28,0.18,0,0,0,0,0,0,0,34,48.4,1.2,66.0,9,,,,10000000.0,21,743597,2025
+2024-25,531989,David Ozoh,Ozoh,David,Ozoh,2005-05-06,MID,Crystal Palace,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,700000.0,20,865993,2025
+2024-25,55494,Joel Ward,Ward,Joel,Ward,1989-10-29,DEF,Crystal Palace,12,71,1.0,0,0,0.0,0.01,0,2,0,0,1,0,0,-3,5.8,10.3,0.0,1,,,,500000.0,35,92572,2025
+2024-25,224068,Matt Turner,Turner,Matt,Turner,1994-06-24,GK,Crystal Palace,12,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,31,425306,2025
+2024-25,496661,Tyler Dibling,Dibling,Tyler,Dibling,2006-02-17,MID,Southampton,20,1863,20.0,2,2,2.6,1.47,3,50,0,0,6,0,4,247,261.0,344.5,264.0,68,,,,25000000.0,19,866655,2025
+2024-25,502697,Carlos Alcaraz Durán,Alcaraz,Carlos,Alcaraz Durán,2002-11-30,MID,Everton,13,766,7.0,2,3,1.78,0.68,1,9,0,0,4,0,5,191,219.4,205.7,227.0,44,,,,14000000.0,22,748319,2025
+2024-25,138001,Tom King,King,Tom,King,1995-03-09,GK,Wolves,16,1,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,0.0,0.0,0.0,1,,,,200000.0,30,215810,2025
+2024-25,114283,Jack Grealish,Grealish,Jack,Grealish,1995-09-10,MID,Man City,3,710,7.0,1,1,1.13,1.67,2,10,0,0,3,0,4,187,157.2,321.4,234.0,38,,,,28000000.0,29,203460,2025
+2024-25,491012,Youssef Ramalho Chermiti,Y. Chermiti,Youssef,Ramalho Chermiti,2004-05-24,FWD,Everton,13,42,0.0,0,0,0.11,0.0,0,0,0,0,1,0,0,9,2.4,0.6,27.0,3,,,,8000000.0,21,670688,2025
+2024-25,115382,Neal Maupay,Maupay,Neal,Maupay,,FWD,Everton,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,28,217115,2025
+2024-25,222627,João Neves Virgínia,J.Virginia,João,Neves Virgínia,1999-10-10,GK,Everton,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,800000.0,25,329813,2025
+2024-25,177815,Dominic Calvert-Lewin,Calvert-Lewin,Dominic,Calvert-Lewin,1997-03-16,FWD,Everton,13,1602,19.0,3,2,6.53,0.63,8,18,0,0,2,0,3,157,200.2,126.1,573.0,63,,,,16000000.0,28,306024,2025
+2024-25,40349,Asmir Begovic,Begovic,Asmir,Begovic,1987-06-20,GK,Everton,13,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,250000.0,38,33873,2025
+2024-25,194164,Mason Holgate,Holgate,Mason,Holgate,,DEF,Everton,13,5,0.0,0,0,0.0,0.0,0,1,0,0,0,0,0,-1,0.0,0.0,0.0,1,,,,4000000.0,28,348623,2025
+2024-25,121599,Abdoulaye Doucouré,A.Doucoure,Abdoulaye,Doucouré,1993-01-01,MID,Everton,13,2563,31.0,3,2,4.15,1.41,11,33,0,0,3,1,5,333,352.6,379.4,348.0,94,,,,7000000.0,32,127187,2025
+2024-25,18892,Ashley Young,Young,Ashley,Young,1985-07-09,DEF,Everton,13,1864,19.0,1,4,0.27,2.87,9,23,0,0,7,1,9,354,431.2,388.2,46.0,98,,,,500000.0,40,14086,2025
+2024-25,609873,Harrison Armstrong,Armstrong,Harrison,Armstrong,2007-01-19,MID,Everton,13,47,0.0,0,0,0.37,0.0,0,1,0,0,1,0,0,1,1.8,10.9,9.0,2,,,,800000.0,18,1107733,2025
+2024-25,221399,Jack Harrison,Harrison,Jack,Harrison,1996-11-20,MID,Everton,13,2068,24.0,1,3,3.54,3.12,7,27,0,0,0,0,4,291,277.0,527.7,288.0,81,,,,14000000.0,28,417346,2025
+2024-25,179519,Orel Mangala,Mangala,Orel,Mangala,1998-03-18,MID,Everton,13,1257,14.0,1,0,1.13,0.59,5,10,0,0,2,0,0,175,172.8,133.5,106.0,39,,,,18000000.0,27,289592,2025
+2024-25,463903,Jesper Lindstrøm,Lindstrøm,Jesper,Lindstrøm,2000-02-29,MID,Everton,13,1229,15.0,0,1,2.15,1.96,6,14,0,0,2,0,0,167,214.2,309.6,237.0,44,,,,18000000.0,25,513245,2025
+2024-25,120721,Kevin Mbabu,Mbabu,Kevin,Mbabu,,DEF,Fulham,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,12000000.0,22,900195,2025
+2024-25,156689,Andreas Hoelgebaum Pereira,Andreas,Andreas,Hoelgebaum Pereira,1996-01-01,MID,Fulham,11,2004,25.0,2,6,4.24,4.63,5,32,0,0,8,0,2,355,326.6,868.3,300.0,81,,,,18000000.0,29,203394,2025
+2024-25,573062,Martial Godo,Godo,Martial,Godo,2003-03-14,MID,Fulham,11,21,0.0,0,0,0.0,0.07,0,0,0,0,0,0,0,4,3.4,12.0,14.0,2,,,,600000.0,22,992686,2025
+2024-25,245824,Carlos Vinícius Alves Morais,Vinicius,Carlos Vinícius,Alves Morais,1995-03-25,FWD,Fulham,11,13,0.0,0,0,0.06,0.0,0,1,0,0,0,0,0,14,4.0,0.0,19.0,3,,,,3500000.0,30,525287,2025
+2024-25,428971,Steven Benda,Benda,Steven,Benda,1998-10-01,GK,Fulham,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,26,381469,2025
+2024-25,515024,Luke Harris,Harris,Luke,Harris,2005-03-04,MID,Fulham,11,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,20,817612,2025
+2024-25,47431,Willian Borges da Silva,Willian,Willian,Borges da Silva,1988-08-09,MID,Fulham,11,251,2.0,0,0,0.28,0.72,1,3,0,0,0,0,0,54,36.2,133.3,25.0,13,,,,750000.0,36,52769,2025
+2024-25,180135,Sean Longstaff,Longstaff,Sean,Longstaff,1997-10-30,MID,Newcastle,5,783,8.0,0,1,0.6,0.22,2,11,0,0,2,0,0,131,117.2,78.4,76.0,34,,,,20000000.0,27,346707,2025
+2024-25,220627,James Justin,Justin,James,Justin,1998-02-23,DEF,Leicester,18,2912,34.0,2,2,1.47,0.8,3,68,0,0,6,0,6,218,615.2,258.5,202.0,70,,,,13000000.0,27,413220,2025
+2024-25,235674,Manor Solomon,Solomon,Manor,Solomon,1999-07-24,MID,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,14000000.0,25,396638,2025
+2024-25,219168,Alexander Isak,Isak,Alexander,Isak,1999-09-21,FWD,Newcastle,5,2758,34.0,23,6,20.33,3.59,12,41,0,0,1,0,36,848,1043.0,573.1,1320.0,211,,,,120000000.0,25,349066,2025
+2024-25,244731,Luis Díaz,Luis Díaz,Luis,Díaz,1997-01-13,MID,Liverpool,1,2393,28.0,13,7,11.9,4.34,15,21,0,0,2,0,21,634,770.8,748.0,946.0,183,,,,70000000.0,28,480692,2025
+2024-25,447203,Darwin Núñez Ribeiro,Darwin,Darwin,Núñez Ribeiro,1999-06-24,FWD,Liverpool,1,1113,8.0,5,3,5.76,0.51,2,21,0,0,8,0,6,244,263.8,151.6,404.0,66,,,,45000000.0,26,546543,2025
+2024-25,441428,Jarell Quansah,Quansah,Jarell,Quansah,2003-01-29,DEF,Liverpool,1,488,4.0,0,0,0.1,0.18,0,12,0,0,2,0,0,38,119.4,29.1,15.0,9,,,,20000000.0,22,632349,2025
+2024-25,169187,Trent Alexander-Arnold,Alexander-Arnold,Trent,Alexander-Arnold,1998-10-07,DEF,Liverpool,1,2362,28.0,3,7,1.81,7.2,12,25,0,0,5,0,13,603,723.8,833.7,268.0,148,,,,75000000.0,26,314353,2025
+2024-25,440148,Tyler Morton,Morton,Tyler,Morton,2002-10-31,MID,Liverpool,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,7000000.0,22,618494,2025
+2024-25,464353,Harvey Davies,Davies,Harvey,Davies,2003-09-03,GK,Liverpool,1,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,21,706815,2025
+2024-25,432987,Vítezslav Jaros,Jaros,Vítezslav,Jaros,2001-07-23,GK,Liverpool,1,11,0.0,0,0,0.0,0.0,0,0,1,0,0,0,0,6,8.8,0.0,0.0,1,,,,4000000.0,23,486604,2025
+2024-25,214285,Konstantinos Tsimikas,Tsimikas,Konstantinos,Tsimikas,1996-05-12,DEF,Liverpool,1,829,9.0,0,1,0.39,2.32,4,8,0,0,2,0,3,217,202.0,260.7,60.0,43,,,,18000000.0,29,338070,2025
+2024-25,448514,Rayan Aït-Nouri,Aït-Nouri,Rayan,Aït-Nouri,2001-06-06,DEF,Wolves,16,3112,37.0,4,7,2.69,3.98,7,67,0,0,5,1,13,447,778.4,694.3,435.0,125,,,,35000000.0,24,578391,2025
+2024-25,432714,James McAtee,McAtee,James,McAtee,2002-10-18,MID,Man City,3,340,3.0,3,0,2.8,0.8,0,6,0,0,1,0,0,102,113.0,64.6,136.0,31,,,,20000000.0,22,583199,2025
+2024-25,121160,Ederson Santana de Moraes,Ederson M.,Ederson,Santana de Moraes,1993-08-17,GK,Man City,3,2320,26.0,0,4,0.0,0.16,10,26,54,0,4,0,9,400,567.0,43.0,0.0,111,,,,20000000.0,32,238223,2025
+2024-25,211975,Manuel Akanji,Akanji,Manuel,Akanji,1995-07-19,DEF,Man City,3,2012,23.0,0,0,1.57,1.3,6,28,0,0,3,0,1,307,339.8,249.8,100.0,61,,,,28000000.0,30,284730,2025
+2024-25,59859,Ilkay Gündogan,Gündogan,Ilkay,Gündogan,1990-10-24,MID,Man City,3,2218,25.0,1,7,3.21,4.43,10,28,0,0,1,0,5,460,387.0,781.3,273.0,97,,,,5000000.0,34,53622,2025
+2024-25,61366,Kevin De Bruyne,De Bruyne,Kevin,De Bruyne,1991-06-28,MID,Man City,3,1694,19.0,4,9,5.17,6.75,10,19,0,0,2,0,12,462,466.6,920.0,411.0,114,,,,20000000.0,34,88755,2025
+2024-25,476369,Issa Kaboré,Kaboré,Issa,Kaboré,,DEF,Man City,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,24,649452,2025
+2024-25,447880,Josh Wilson-Esbrand,Wilson-Esbrand,Josh,Wilson-Esbrand,,DEF,Man City,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,22,576121,2025
+2024-25,575204,Claudio Echeverri,Echeverri,Claudio,Echeverri,2006-01-02,MID,Man City,3,5,0.0,0,0,0.0,0.01,0,0,0,0,0,0,0,2,2.2,0.4,0.0,1,,,,18000000.0,19,994536,2025
+2024-25,616222,Vitor de Oliveira Nunes dos Reis,Vitor Reis,Vitor,de Oliveira Nunes dos Reis,2006-01-12,DEF,Man City,3,1,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,4,3.2,0.0,0.0,1,,,,30000000.0,19,1005575,2025
+2024-25,17601,Scott Carson,Carson,Scott,Carson,1985-09-03,GK,Man City,3,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,100000.0,39,14555,2025
+2024-25,430871,Matheus Santos Carneiro Da Cunha,Cunha,Matheus,Santos Carneiro Da Cunha,1999-05-27,FWD,Wolves,16,2596,29.0,15,7,8.73,5.29,7,54,0,0,4,0,41,838,936.2,847.8,940.0,178,,,,60000000.0,26,517894,2025
+2024-25,467169,Antony Matheus dos Santos,Antony,Antony Matheus,dos Santos,2000-02-24,MID,Man Utd,15,135,0.0,0,0,0.6,0.21,0,2,0,0,0,0,0,37,35.0,50.7,74.0,8,,,,35000000.0,25,602105,2025
+2024-25,497894,Rasmus Højlund,Højlund,Rasmus,Højlund,2003-02-04,FWD,Man Utd,15,1998,23.0,4,1,5.1,1.14,6,31,0,0,2,0,8,246,187.0,254.7,432.0,78,,,,35000000.0,22,610442,2025
+2024-25,202641,André Onana,Onana,André,Onana,1996-04-02,GK,Man Utd,15,3060,34.0,0,0,0.0,0.2,9,44,90,1,0,0,8,443,733.0,13.0,0.0,120,,,,25000000.0,29,234509,2025
+2024-25,490881,Toby Collyer,Collyer,Toby,Collyer,2004-01-03,MID,Man Utd,15,174,0.0,0,0,0.08,0.37,0,2,0,0,0,0,0,40,40.4,29.9,8.0,6,,,,5000000.0,21,654253,2025
+2024-25,577974,Harry Amass,Amass,Harry,Amass,2007-03-16,DEF,Man Utd,15,345,4.0,0,0,0.07,0.07,0,9,0,0,0,0,0,1,40.0,26.5,15.0,4,,,,5000000.0,18,1011738,2025
+2024-25,37642,Jonny Evans,Evans,Jonny,Evans,1988-01-03,DEF,Man Utd,15,312,3.0,0,0,0.11,0.02,1,2,0,0,1,0,3,71,66.6,5.3,23.0,15,,,,1000000.0,37,42412,2025
+2024-25,80607,Christian Eriksen,Eriksen,Christian,Eriksen,1992-02-14,MID,Man Utd,15,1052,11.0,1,2,1.31,2.6,4,16,0,0,4,0,0,228,235.8,474.3,79.0,45,,,,4000000.0,33,69633,2025
+2024-25,449434,Anthony Elanga,Elanga,Anthony,Elanga,2002-04-27,MID,Nott'm Forest,7,2496,31.0,6,11,4.81,5.12,12,35,0,0,1,0,15,535,627.0,785.4,582.0,153,,,,42000000.0,23,583189,2025
+2024-25,225321,Aaron Ramsdale,Ramsdale,Aaron,Ramsdale,1998-05-14,GK,Southampton,20,2700,30.0,0,0,0.0,0.04,3,66,125,2,2,0,11,315,980.6,0.1,0.0,97,,,,16000000.0,27,427568,2025
+2024-25,235530,Lloyd Kelly,Kelly,Lloyd,Kelly,,DEF,Newcastle,5,299,4.0,0,1,0.41,0.11,0,6,0,0,2,0,0,40,80.6,29.0,20.0,12,,,,16000000.0,26,480116,2025
+2024-25,153127,Isaac Hayden,Hayden,Isaac,Hayden,1995-03-22,MID,Newcastle,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,700000.0,30,206225,2025
+2024-25,75115,Callum Wilson,Wilson,Callum,Wilson,1992-02-27,FWD,Newcastle,5,355,2.0,0,0,0.36,0.09,0,7,0,0,1,0,0,42,13.0,42.2,71.0,19,,,,8000000.0,33,123682,2025
+2024-25,111452,Odysseas Vlachodimos,Odysseas,Odysseas,Vlachodimos,1994-04-26,GK,Newcastle,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,5000000.0,31,124419,2025
+2024-25,461484,Joe White,White,Joe,White,2002-10-01,MID,Newcastle,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,275000.0,22,614811,2025
+2024-25,194799,Jamal Lewis,Lewis,Jamal,Lewis,1998-01-25,DEF,Newcastle,5,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,27,346018,2025
+2024-25,169359,Matt Targett,Targett,Matt,Targett,1995-09-18,DEF,Newcastle,5,20,0.0,0,0,0.0,0.07,0,0,0,0,0,0,0,7,5.0,5.6,0.0,2,,,,5000000.0,29,250478,2025
+2024-25,503301,Omari Giraud-Hutchinson,Hutchinson,Omari,Giraud-Hutchinson,2003-10-30,MID,Ipswich,19,2585,30.0,3,3,2.93,2.46,3,61,0,0,5,0,6,352,383.2,487.5,443.0,88,,,,22000000.0,21,741238,2025
+2024-25,513046,Danilo dos Santos de Oliveira,Danilo,Danilo,dos Santos de Oliveira,2001-04-29,MID,Nott'm Forest,7,270,5.0,0,0,0.0,0.01,1,4,0,0,0,0,0,43,34.6,5.0,0.0,11,,,,28000000.0,24,808509,2025
+2024-25,502222,Ramón Sosa,Sosa,Ramón,Sosa,1999-08-31,MID,Nott'm Forest,7,280,1.0,1,0,1.11,0.36,1,5,0,0,1,0,0,101,87.4,103.0,104.0,25,,,,12000000.0,25,745191,2025
+2024-25,466404,Andrew Omobamidele,Omobamidele,Andrew,Omobamidele,,DEF,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,8000000.0,23,621993,2025
+2024-25,475123,Carlos Miguel dos Santos Pereira,C.Miguel,Carlos Miguel,dos Santos Pereira,1998-10-09,GK,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,26,641458,2025
+2024-25,243345,Lewis O'Brien,O'Brien,Lewis,O'Brien,1998-10-14,MID,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,26,560694,2025
+2024-25,114241,Harry Toffolo,Toffolo,Harry,Toffolo,1995-08-19,DEF,Nott'm Forest,7,135,1.0,0,0,0.02,0.01,0,2,0,0,1,0,0,18,40.2,4.1,6.0,4,,,,3000000.0,29,198516,2025
+2024-25,245830,Josh Bowler,Bowler,Josh,Bowler,,MID,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,26,506470,2025
+2024-25,209035,Jonathan Panzo,Panzo,Jonathan,Panzo,,DEF,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1200000.0,24,392777,2025
+2024-25,569014,Eric da Silva Moreira,Da Silva Moreira,Eric,da Silva Moreira,2006-05-03,MID,Nott'm Forest,7,28,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,9,5.2,0.3,0.0,2,,,,1000000.0,19,897481,2025
+2024-25,230251,Emmanuel Dennis,Dennis,Emmanuel,Dennis,,FWD,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,27,448854,2025
+2024-25,20066,Wayne Hennessey,Hennessey,Wayne,Hennessey,1987-01-24,GK,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,150000.0,38,45494,2025
+2024-25,204822,Omar Richards,O.Richards,Omar,Richards,1998-02-15,DEF,Nott'm Forest,7,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,27,424881,2025
+2024-25,460842,Mohammed Kudus,Kudus,Mohammed,Kudus,2000-08-02,MID,West Ham,14,2589,31.0,5,4,6.97,2.67,7,46,0,0,2,1,5,373,471.6,552.5,752.0,106,,,,45000000.0,24,543499,2025
+2024-25,511499,Mathys Tel,Tel,Mathys,Tel,2005-04-27,MID,Spurs,17,908,11.0,2,2,2.96,1.55,2,20,0,0,2,0,2,151,183.8,208.3,236.0,42,,,,35000000.0,20,801734,2025
+2024-25,135720,Kevin Danso,Danso,Kevin,Danso,1998-09-19,DEF,Spurs,17,842,9.0,0,0,0.4,0.12,1,18,0,0,0,0,0,104,242.0,34.4,72.0,16,,,,25000000.0,26,263236,2025
+2024-25,85971,Son Heung-min,Son,Son,Heung-min,1992-07-08,MID,Spurs,17,2106,24.0,7,10,7.25,4.97,4,35,0,0,1,0,12,543,629.6,734.9,707.0,129,,,,20000000.0,33,91845,2025
+2024-25,132015,Pierre-Emile Højbjerg,Højbjerg,Pierre-Emile,Højbjerg,,MID,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,29,167799,2025
+2024-25,436234,Bryan Gil Salvatierra,Bryan,Bryan,Gil Salvatierra,2001-02-11,MID,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,15000000.0,24,537382,2025
+2024-25,536908,Alejo Véliz,Veliz,Alejo,Véliz,,FWD,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,21,888493,2025
+2024-25,496179,Alfie Devine,Devine,Alfie,Devine,,MID,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3500000.0,21,728734,2025
+2024-25,623095,Min-Hyeok Yang,Yang,Min-Hyeok,Yang,2006-04-16,MID,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,3500000.0,19,1004327,2025
+2024-25,499721,Mikey Moore,Moore,Mikey,Moore,2007-08-11,MID,Spurs,17,359,3.0,0,2,0.2,0.56,0,5,0,0,0,0,0,51,33.2,45.2,34.0,19,,,,18000000.0,17,1011147,2025
+2024-25,175941,Alfie Whiteman,Whiteman,Alfie,Whiteman,1998-10-02,GK,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,500000.0,26,282823,2025
+2024-25,199249,Sergio Reguilón,Reguilón,Sergio,Reguilón,1996-12-16,DEF,Spurs,17,194,1.0,0,0,0.12,0.24,0,3,0,0,2,0,0,20,33.4,25.2,13.0,2,,,,6000000.0,28,282429,2025
+2024-25,40383,Fraser Forster,Forster,Fraser,Forster,1988-03-17,GK,Spurs,17,630,7.0,0,0,0.0,0.0,1,15,29,0,0,0,0,64,221.0,0.0,0.0,19,,,,1000000.0,37,52570,2025
+2024-25,165153,Timo Werner,Werner,Timo,Werner,1996-03-06,MID,Spurs,17,504,4.0,0,3,1.04,1.55,1,12,0,0,0,0,2,120,114.6,148.0,113.0,34,,,,7000000.0,29,170527,2025
+2024-25,551226,Mateus Gonçalo Espanha Fernandes,M.Fernandes,Mateus Gonçalo,Espanha Fernandes,2004-07-10,MID,Southampton,20,2911,34.0,2,4,4.12,3.62,5,66,0,0,8,0,8,513,553.4,649.5,372.0,95,,,,15000000.0,21,880245,2025
+2024-25,462116,Jean-Clair Todibo,Todibo,Jean-Clair,Todibo,1999-12-30,DEF,West Ham,14,1824,20.0,0,0,0.36,0.06,5,33,0,0,3,0,1,233,373.0,37.1,35.0,54,,,,25000000.0,25,605184,2025
+2024-25,467189,Mads Hermansen,Hermansen,Mads,Hermansen,2000-07-11,GK,Leicester,18,2385,27.0,0,0,0.0,0.02,1,58,103,1,1,0,1,231,827.0,0.2,0.0,63,,,,15000000.0,25,400536,2025
+2024-25,158534,Kyle Walker-Peters,Walker-Peters,Kyle,Walker-Peters,1997-04-13,DEF,Southampton,20,2918,33.0,0,3,0.85,2.3,2,77,0,0,5,0,3,240,503.8,406.8,237.0,54,,,,15000000.0,28,341051,2025
+2024-25,37096,Łukasz Fabiański,Fabianski,Łukasz,Fabiański,1985-04-18,GK,West Ham,14,1160,13.0,0,0,0.0,0.0,2,21,50,0,2,0,2,143,387.8,0.3,0.0,39,,,,500000.0,40,29692,2025
+2024-25,210494,Nayef Aguerd,N.Aguerd,Nayef,Aguerd,1996-03-30,DEF,West Ham,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,18000000.0,29,361914,2025
+2024-25,213999,Edson Álvarez Velázquez,Álvarez,Edson,Álvarez Velázquez,1997-10-24,MID,West Ham,14,1769,20.0,0,1,0.39,0.89,3,31,0,0,7,1,0,221,281.8,213.9,51.0,40,,,,25000000.0,27,401356,2025
+2024-25,241157,Emerson Leite de Souza Junior,E.Royal,Emerson,Leite de Souza Junior,,DEF,Spurs,17,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,31,181778,2025
+2024-25,82143,Wes Foderingham,Foderingham,Wes,Foderingham,1991-01-14,GK,West Ham,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,600000.0,34,61697,2025
+2024-25,84939,Danny Ings,Ings,Danny,Ings,1992-07-23,FWD,West Ham,14,270,1.0,1,3,2.25,0.06,0,4,0,0,0,0,4,110,97.0,76.5,159.0,32,,,,6000000.0,33,134294,2025
+2024-25,164555,Vladimír Coufal,Coufal,Vladimír,Coufal,1992-08-22,DEF,West Ham,14,1056,11.0,0,0,0.37,0.89,2,21,0,0,5,0,1,89,204.0,142.0,70.0,27,,,,5000000.0,32,157672,2025
+2024-25,55459,Aaron Cresswell,Cresswell,Aaron,Cresswell,1989-12-15,DEF,West Ham,14,818,10.0,0,0,0.23,1.89,3,8,0,0,3,0,3,159,148.4,152.3,14.0,36,,,,500000.0,35,92571,2025
+2024-25,103192,Kurt Zouma,Zouma,Kurt,Zouma,,DEF,West Ham,14,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,10000000.0,30,157509,2025
+2024-25,518438,Kaelan Casey,Casey,Kaelan,Casey,2004-10-28,DEF,West Ham,14,1,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,2.0,0.0,0.0,1,,,,1000000.0,20,845321,2025
+2024-25,149519,Maxwel Cornet,Cornet,Maxwel,Cornet,1996-09-27,MID,Southampton,20,71,1.0,0,0,0.16,0.0,0,4,0,0,1,0,0,12,11.6,3.5,7.0,1,,,,8000000.0,28,234781,2025
+2024-25,224860,Carlos Soler,C.Soler,Carlos,Soler,1997-01-02,MID,West Ham,14,1394,14.0,1,1,1.85,1.93,2,25,0,0,6,0,2,216,189.0,295.8,186.0,47,,,,18000000.0,28,372246,2025
+2024-25,247412,Jørgen Strand Larsen,Strand Larsen,Jørgen,Strand Larsen,2000-02-06,FWD,Wolves,16,2587,30.0,14,4,10.14,1.0,7,52,0,0,4,0,17,570,646.8,303.4,848.0,145,,,,30000000.0,25,429983,2025
+2024-25,449988,Fábio Silva,Fábio Silva,Fábio,Silva,2002-07-19,FWD,Wolves,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,20000000.0,23,505653,2025
+2024-25,181284,Gonçalo Manuel Ganchinho Guedes,Guedes,Gonçalo Manuel,Ganchinho Guedes,1996-11-29,MID,Wolves,16,979,10.0,2,4,3.28,0.92,3,25,0,0,1,0,2,187,215.8,213.9,217.0,62,,,,11000000.0,28,225122,2025
+2024-25,200402,Nélson Cabral Semedo,N.Semedo,Nélson,Cabral Semedo,1993-11-16,DEF,Wolves,16,2889,32.0,0,4,1.05,1.71,8,49,0,0,8,0,0,302,504.6,404.9,149.0,84,,,,9000000.0,31,231572,2025
+2024-25,88484,Pablo Sarabia,Sarabia,Pablo,Sarabia,1992-05-11,MID,Wolves,16,800,7.0,3,2,2.88,1.9,1,17,0,0,3,0,3,175,217.6,245.9,177.0,50,,,,5000000.0,33,74230,2025
+2024-25,240299,Joe Hodge,Hodge,Joe,Hodge,,MID,Wolves,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,1000000.0,22,503975,2025
+2024-25,560248,Bastien Meupiyou,Meupiyou,Bastien,Meupiyou,2006-03-19,DEF,Wolves,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,2500000.0,19,955253,2025
+2024-25,429414,Saša Kalajdžić,Kalajdžić,Saša,Kalajdžić,1997-07-07,FWD,Wolves,16,0,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,,,,4000000.0,28,369567,2025
+2024-25,476502,Boubacar Traoré,B.Traore,Boubacar,Traoré,2001-08-20,MID,Wolves,16,1,0.0,0,0,0.0,0.0,0,0,0,0,0,0,0,3,4.0,0.0,0.0,1,,,,5000000.0,23,649020,2025
+2024-25,220394,Tommy Doyle,Doyle,Tommy,Doyle,2001-10-17,MID,Wolves,16,474,3.0,0,1,0.55,0.35,0,10,0,0,1,0,0,128,114.6,101.7,34.0,28,,,,10000000.0,23,433183,2025
+2024-25,60232,Craig Dawson,Dawson,Craig,Dawson,1990-05-06,DEF,Wolves,16,969,10.0,0,1,0.5,0.07,1,25,0,0,2,0,1,57,204.2,31.3,55.0,17,,,,1500000.0,35,121477,2025
+2024-25,531170,Nasser Djiga,Djiga,Nasser,Djiga,2002-11-15,DEF,Wolves,16,65,1.0,0,0,0.0,0.01,0,2,0,0,0,0,0,11,5.6,2.1,0.0,4,,,,10000000.0,22,862297,2025
+2024-25,641221,Pedro Cardoso de Lima,Pedro Lima,Pedro,Cardoso de Lima,2006-07-01,DEF,Wolves,16,69,1.0,0,0,0.06,0.1,0,2,0,0,0,0,0,9,23.4,34.8,11.0,2,,,,5000000.0,19,1193867,2025
+2024-25,463212,Carlos Roberto Forbs Borges,Forbs,Carlos Roberto,Forbs Borges,2004-03-19,MID,Wolves,16,236,1.0,0,0,0.15,0.1,0,9,0,0,2,0,0,35,25.8,24.2,35.0,9,,,,8000000.0,21,742451,2025

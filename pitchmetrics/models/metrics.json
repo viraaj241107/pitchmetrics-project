@@ -1,0 +1,79 @@
+{
+  "cross_validation": {
+    "blend": {
+      "r2_log": 0.709,
+      "median_pct_error": 33.9,
+      "within_50pct": 69.7,
+      "n": 525
+    },
+    "xgboost": {
+      "r2_log": 0.701,
+      "median_pct_error": 35.0,
+      "within_50pct": 68.2,
+      "n": 525
+    },
+    "linear_baseline": {
+      "r2_log": 0.632,
+      "median_pct_error": 37.9,
+      "within_50pct": 64.0,
+      "n": 525
+    }
+  },
+  "time_test": {
+    "blend": {
+      "r2_log": 0.815,
+      "median_pct_error": 31.1,
+      "within_50pct": 78.6,
+      "n": 103
+    },
+    "xgboost": {
+      "r2_log": 0.802,
+      "median_pct_error": 30.9,
+      "within_50pct": 79.6,
+      "n": 103
+    },
+    "linear_baseline": {
+      "r2_log": 0.729,
+      "median_pct_error": 33.4,
+      "within_50pct": 70.9,
+      "n": 103
+    }
+  },
+  "time_test_season": "2024-25",
+  "range_low": -0.6693508539449269,
+  "range_high": 0.669246410562932,
+  "n_train": 525,
+  "seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25"
+  ],
+  "importance": {
+    "age": 0.1921,
+    "goals": 0.1565,
+    "big_club": 0.0817,
+    "assists": 0.0649,
+    "starts_share": 0.055,
+    "minutes_share": 0.0459,
+    "team_pos": 0.0421,
+    "xg_p90": 0.0392,
+    "prev_minutes_share": 0.0362,
+    "bonus_p90": 0.0331,
+    "goals_p90": 0.0304,
+    "xa_p90": 0.0291,
+    "conceded_p90": 0.0262,
+    "creativity_p90": 0.0232,
+    "threat_p90": 0.0218,
+    "clean_sheets_p90": 0.0183,
+    "points_p90": 0.0177,
+    "pos_code": 0.0172,
+    "influence_p90": 0.0164,
+    "year": 0.0162,
+    "bps_p90": 0.0134,
+    "assists_p90": 0.0128,
+    "saves_p90": 0.0106
+  }
+}

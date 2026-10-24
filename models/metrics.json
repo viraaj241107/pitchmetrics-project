@@ -1,15 +1,15 @@
 {
   "cross_validation": {
     "blend": {
-      "r2_log": 0.709,
-      "median_pct_error": 33.9,
-      "within_50pct": 69.7,
+      "r2_log": 0.71,
+      "median_pct_error": 33.7,
+      "within_50pct": 71.0,
       "n": 525
     },
     "xgboost": {
-      "r2_log": 0.701,
-      "median_pct_error": 35.0,
-      "within_50pct": 68.2,
+      "r2_log": 0.704,
+      "median_pct_error": 34.3,
+      "within_50pct": 69.7,
       "n": 525
     },
     "linear_baseline": {
@@ -21,15 +21,15 @@
   },
   "time_test": {
     "blend": {
-      "r2_log": 0.815,
-      "median_pct_error": 31.1,
-      "within_50pct": 78.6,
+      "r2_log": 0.817,
+      "median_pct_error": 29.6,
+      "within_50pct": 79.6,
       "n": 103
     },
     "xgboost": {
-      "r2_log": 0.802,
-      "median_pct_error": 30.9,
-      "within_50pct": 79.6,
+      "r2_log": 0.807,
+      "median_pct_error": 30.3,
+      "within_50pct": 77.7,
       "n": 103
     },
     "linear_baseline": {
@@ -40,8 +40,8 @@
     }
   },
   "time_test_season": "2024-25",
-  "range_low": -0.6693508539449269,
-  "range_high": 0.669246410562932,
+  "range_low": -0.6881158332360376,
+  "range_high": 0.6556097023375935,
   "n_train": 525,
   "seasons": [
     "2019-20",
@@ -52,28 +52,28 @@
     "2024-25"
   ],
   "importance": {
-    "age": 0.1921,
-    "goals": 0.1565,
-    "big_club": 0.0817,
-    "assists": 0.0649,
-    "starts_share": 0.055,
-    "minutes_share": 0.0459,
-    "team_pos": 0.0421,
-    "xg_p90": 0.0392,
-    "prev_minutes_share": 0.0362,
-    "bonus_p90": 0.0331,
-    "goals_p90": 0.0304,
-    "xa_p90": 0.0291,
-    "conceded_p90": 0.0262,
-    "creativity_p90": 0.0232,
-    "threat_p90": 0.0218,
-    "clean_sheets_p90": 0.0183,
-    "points_p90": 0.0177,
-    "pos_code": 0.0172,
-    "influence_p90": 0.0164,
-    "year": 0.0162,
-    "bps_p90": 0.0134,
-    "assists_p90": 0.0128,
-    "saves_p90": 0.0106
+    "goals": 0.1939,
+    "age": 0.1672,
+    "big_club": 0.0902,
+    "assists": 0.0814,
+    "starts_share": 0.0481,
+    "minutes_share": 0.0442,
+    "goals_p90": 0.0405,
+    "prev_minutes_share": 0.0392,
+    "team_pos": 0.0321,
+    "xg_p90": 0.0317,
+    "bonus_p90": 0.031,
+    "creativity_p90": 0.0249,
+    "xa_p90": 0.0214,
+    "conceded_p90": 0.0211,
+    "threat_p90": 0.0191,
+    "year": 0.0184,
+    "influence_p90": 0.0168,
+    "clean_sheets_p90": 0.0161,
+    "pos_code": 0.016,
+    "points_p90": 0.0141,
+    "bps_p90": 0.0141,
+    "assists_p90": 0.0102,
+    "saves_p90": 0.0083
   }
 }
